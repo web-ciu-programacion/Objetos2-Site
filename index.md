@@ -1,8 +1,12 @@
-## General Lamadrid
+## Bienvenidos al infierno...
 
-### Introducción a Wicket
-Bajense este tutorial y lean.
-<a href="introduccion-parcial-a-wicket.pdf">Download</a>
+### Introducción parcial a Wicket
+Autor: Carlos Lombardi<br/>
+En este documento vamos a describir algunos conceptos y facetas del desarrollo de aplicaciones
+Web usando Wicket.<br/>
+<a href="introduccion-parcial-a-wicket.pdf" target="_blank">Download</a>
+
+<hr/>
 
 You can use the [editor on GitHub](https://github.com/web-ciu-programacion/site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
