@@ -1,6 +1,4 @@
-## Welcome to GitHub Pages
-
-General Lamadrid
+## General Lamadrid
 
 You can use the [editor on GitHub](https://github.com/web-ciu-programacion/site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
