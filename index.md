@@ -3,7 +3,7 @@
 ### Introducción Wicket Models and Forms
 Autor: Ariel Celay<br/>
 Introducción a Models y Forms, conceptos teoricos y aplicación de introduccion.<br/>
-<a href="modelos-y-formularios.pdf" target="_blank">Download tutorial</a>
+<a href="modelos-y-formularios.pdf" target="_blank">Download tutorial</a><br/>
 <a href="wicket-model-form.zip" target="_blank">Download web application</a>
 
 <hr/>
