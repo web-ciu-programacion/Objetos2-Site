@@ -18,7 +18,7 @@ Web usando Wicket.<br/>
 ### "hola mundo" Wicket
 El tutorial permite realizar nuestra primera aplicación con wicket, utilizando eclipse, a su vez, explica paso a paso la configuración del ambiente.<br/>
 <a href="hola-mundo-wicket.pdf" target="_blank">Download tutorial</a><br/>
-<a href="basicas-necesarias-wicket.zip" target="_blank">Download librerias</a>
+<a href="material/projects/basicas-necesarias-wicket.zip" target="_blank">Download librerias</a>
 
 <hr/>
  
