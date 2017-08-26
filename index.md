@@ -1,3 +1,7 @@
+---
+layout: default
+title: documentation
+order: 0
 nav:
 - Home: blue-robotics-documentation
 - Product Manuals: product-manuals
