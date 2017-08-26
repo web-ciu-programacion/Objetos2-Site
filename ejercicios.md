@@ -1,4 +1,5 @@
-## ejercicios&nbsp;&nbsp;&nbsp;[voler](index.md)
+[voler](index.md)<br/>
+## ejercicios
 
 ### ejercicio 1
 <hr/>
