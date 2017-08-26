@@ -1,23 +1,4 @@
----
-layout: default
-title: documentation
-order: 0
-nav:
-- Home: blue-robotics-documentation
-- Product Manuals: product-manuals
-- - ROV: rov
-- - Thrusters and Motors: thrusters-and-motors
-- - Electronics: electronics
-- - Sensors: sensors
-- - Enclosures: enclosures
-- - Other: other
-- Tutorials: tutorials
-- Guides: guides
-- How to Contribute: how-to-contribute
-- License: license
----
-
-## Bienvenidos a objetos...
+### Bienvenidos a objetos...
 
 ### Introducción Wicket Models and Forms
 Introducción a Models y Forms, conceptos teoricos y aplicación de introduccion. Versión 1, ya sale la 2 más completa...<br/>
