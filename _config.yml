@@ -1,11 +1,2 @@
 theme: jekyll-theme-hacker
-title: Objetos 2
-navbar:
-  title: my web
-  left:
-    - Introduction: introduction
-    - - Sub Menu: sub-menu-example
-    - Examples: examples
-    - - Headings: headings
-    - - Tables: tables
-    - - Code: code
+title: objetos 2
