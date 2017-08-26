@@ -3,7 +3,7 @@
 ### Introducción Wicket Models and Forms
 Introducción a Models y Forms, conceptos teoricos y aplicación de introduccion. Versión 1, ya sale la 2 más completa...<br/>
 <a href="modelos-y-formularios.pdf" target="_blank">Download tutorial</a><br/>
-<a href="wicket-model-form.zip" target="_blank">Download web application</a>
+<a href="material/projects/wicket-model-form.zip" target="_blank">Download web application</a>
 
 <hr/>
 
@@ -18,7 +18,7 @@ Web usando Wicket.<br/>
 ### "hola mundo" Wicket
 El tutorial permite realizar nuestra primera aplicación con wicket, utilizando eclipse, a su vez, explica paso a paso la configuración del ambiente.<br/>
 <a href="hola-mundo-wicket.pdf" target="_blank">Download tutorial</a><br/>
-<a href="material/projects/basicas-necesarias-wicket.zip" target="_blank">Download librerias</a>
+<a href="basicas-necesarias-wicket.zip" target="_blank">Download librerias</a>
 
 <hr/>
  
