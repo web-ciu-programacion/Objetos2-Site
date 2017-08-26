@@ -1,3 +1,18 @@
+nav:
+- Home: blue-robotics-documentation
+- Product Manuals: product-manuals
+- - ROV: rov
+- - Thrusters and Motors: thrusters-and-motors
+- - Electronics: electronics
+- - Sensors: sensors
+- - Enclosures: enclosures
+- - Other: other
+- Tutorials: tutorials
+- Guides: guides
+- How to Contribute: how-to-contribute
+- License: license
+---
+
 ## Bienvenidos a objetos...
 
 ### Introducción Wicket Models and Forms
