@@ -7,7 +7,7 @@ Escribir algo copado como introducción...
 
 ### Objetos 1
 Link página web de la materia Objetos 1<br/>
-[voler](http://objetos1wollokunq.gitlab.io)<br/>
+[ir a web](http://objetos1wollokunq.gitlab.io)<br/>
 
 <hr/>
 
