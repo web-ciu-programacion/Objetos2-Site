@@ -1,7 +1,10 @@
 [ejercicios](ejercicios.md)&nbsp;-&nbsp;[apuntes](apuntes.md)
 
 ### Introducción
-Escribir algo copado como introducción...
+Escribir algo copado como introducción...<br/>
+diseño...<br/>
+diagrama de clases...<br/>
+patrones de diseño...<br/>
 
 <hr/>
 
