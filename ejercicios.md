@@ -18,12 +18,35 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 <hr/>
 
 ### ejercicio mercaderia
-
+<a href="material/documentos/ejercicios/mercaderia.pdf" target="_blank">descargar</a>
 
 <hr/>
 
-### ejercicio 2
+### ejercicio minions
+<a href="material/documentos/ejercicios/minions-modificado.pdf" target="_blank">descargar</a>
+
+<hr/>
+
+### ejercicio civilization
+<a href="material/documentos/ejercicios/civilization.pdf" target="_blank">descargar</a>
+
+<hr/>
+
+### ejercicio monster of rock
+<a href="material/documentos/ejercicios/monsters-of-rock.pdf" target="_blank">descargar</a><br/>
+<a href="material/documentos/ejercicios/monsters-of-rock-comentarios.pdf" target="_blank">descargar comentarios</a>
+
+<hr/>
+
+### ejercicio webserver
+<a href="material/documentos/ejercicios/webserver.pdf" target="_blank">descargar</a>
+
+<hr/>
+
+### ejercicio ventas aereas
+<a href="material/documentos/ejercicios/ventas-aereas.pdf" target="_blank">descargar</a>
 
 <hr/>
 
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
+
