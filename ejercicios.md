@@ -13,6 +13,9 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
      ejercicio 3 - datos de ciudades<br/>
      ejercicio 6 - búsqueda de aspirantes<br/>
      ejercicio 7 - pepero<br/>
+[ir a guías objetos 1](https://objetos1wollokunq.gitlab.io/material/#guides)<br/>
+
+<hr/>
 
 ### ejercicio 1
 
