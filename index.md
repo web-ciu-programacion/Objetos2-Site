@@ -22,4 +22,4 @@ El tutorial permite realizar nuestra primera aplicación con wicket, utilizando 
 
 <hr/>
  
-<center><img src="logo-java-1.png" />&nbsp;<img src="logo-linux-1.png" />&nbsp;<img src="logo-java-2.png" />&nbsp;<img src="logo-tomcat.png" />&nbsp;<img src="logo-lamadrid-1.png" /></center>
+<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
