@@ -17,7 +17,8 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 
 <hr/>
 
-### ejercicio 1
+### ejercicio mercaderia
+
 
 <hr/>
 
