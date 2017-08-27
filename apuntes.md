@@ -24,3 +24,5 @@ El tutorial permite realizar nuestra primera aplicación con wicket, utilizando 
 <a href="material/libs/basicas-necesarias-wicket.zip" target="_blank">Download librerias</a>
 
 <hr/>
+
+<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
