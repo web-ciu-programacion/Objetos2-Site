@@ -1,7 +1,7 @@
 [voler](apuntes.md)<br/>
 ## apuntes
 
-### git introducción
+### shortcuts eclipse
 
 ```markdown
 administrar archivos y proyectos
@@ -14,7 +14,6 @@ Ctrl+W 	        Cerrar archivo corriente
 Ctrl+Shift+W 	Cerrar todos los archivos
 F5 	        Refrescar el contenido del elemento seleccionado con el file system
 ```
-<br/>
 ```markdown
 ventana de edición
 F12 	                        Ir al editor de edición
