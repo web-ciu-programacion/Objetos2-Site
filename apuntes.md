@@ -53,4 +53,10 @@ Este resumen es un conjunto de recetas para “traducir” mensajes de coleccion
 
 <hr/>
 
+### shortcuts eclipse
+Combinación de teclas para accesos rápidos en eclipse.
+[ver](shortcuts.md)<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
