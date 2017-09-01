@@ -48,7 +48,7 @@ Conceptos sobre user interface.<br/>
 
 ### wollok a java
 Autor: Román G.<br/>
-Este resumen es un conjunto de recetas para “traducir” mensajes de colecciones de Wollok a Java.
+Este resumen es un conjunto de recetas para “traducir” mensajes de colecciones de Wollok a Java.<br/>
 <a href="material/documentos/apuntes/colecciones-de-wollok-a-java.pdf" target="_blank">descargar</a>
 
 <hr/>
