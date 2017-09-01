@@ -54,7 +54,7 @@ Este resumen es un conjunto de recetas para “traducir” mensajes de coleccion
 <hr/>
 
 ### shortcuts eclipse
-Combinación de teclas para accesos rápidos en eclipse.
+Combinación de teclas para accesos rápidos en eclipse.<br/>
 [ver](shortcuts.md)<br/>
 
 <hr/>
