@@ -19,6 +19,7 @@ Por eso hay algunos principios de diseño que conviene tener en cuenta al armar 
 El material de esta página habla de estos principios, y también va a cubrir varias variantes.
 Nos proponemos incluir dos plataformas para construir aplicaciones Web, una basada en Java, la otra en Javascript. Y también algo sobre aplicaciones para celulares.
 <br/>
+<br/>
 Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 <br/>
 
