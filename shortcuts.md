@@ -1,4 +1,4 @@
-[voler](apuntes.md)<br/>
+[volver](apuntes.md)<br/>
 ## apuntes
 
 ### shortcuts eclipse
@@ -20,6 +20,8 @@ F12 	                        Ir al editor de edición
 Ctrl+Page Down/Ctrl+Page Up 	Cambia al siguiene editor / Cambia al editor previo
 Ctrl+M 	                        Maximiza o no-maximiza el corriente editor
 Ctrl+E 	                        Muestra una lista de los editores abiertos
+Ctrl+O 	                        Muestra una lista de los miembros (métodos y atributos) 
+                                de la clase que se está editando.
 ```
 <hr/>
 
