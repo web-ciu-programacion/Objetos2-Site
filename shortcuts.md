@@ -23,9 +23,9 @@ Ctrl+E 	                        Muestra una lista de los editores abiertos
 Ctrl+O 	                        Muestra una lista de los miembros (métodos y atributos) 
                                 de la clase que se está editando.
                                 
-Ctrl+Shift-C 	                  Comenta las líneas que estén marcadas
+Ctrl+Shift-C 	                Comenta las líneas que estén marcadas
                                 Anda en cualquier lenguaje, incluso HTML.
-Ctrl+Shift-F 	                  Formatea el código (incluso HTML) - útil antes de entregar.
+Ctrl+Shift-F 	                Formatea el código (incluso HTML) - útil antes de entregar.
                                 
                                 
 ```
