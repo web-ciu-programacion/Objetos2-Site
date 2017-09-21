@@ -11,7 +11,7 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
  * guía 10:<br/>
      ejercicio 2 - fútbol virtual<br/>
      ejercicio 3 - datos de ciudades<br/>
-     ejercicio 6 - búsqueda de aspirantes<br/>
+     ejercicio 6 - búsqueda de aspirantes&nbsp;<a href="material/documentos/ejercicios/examen.zip" target="_blank">examen</a><br/>
      ejercicio 7 - pepero<br/>
 [ir a guías objetos 1](https://objetos1wollokunq.gitlab.io/material/#guides)<br/>
 
