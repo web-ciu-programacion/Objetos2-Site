@@ -25,6 +25,8 @@ Ctrl+O 	                        Muestra una lista de los miembros (métodos y at
                                 
 Ctrl+Shift-C 	              Comenta las líneas que estén marcadas
                                 Anda en cualquier lenguaje, incluso HTML.
+Ctrl+Shift-O                Acomoda los import, borra los que sobran, agrega los que faltan.
+                                Útil antes de entregar.
 Ctrl+Shift-F 	              Formatea el código (incluso HTML) - útil antes de entregar.
                                 
                                 
