@@ -53,6 +53,14 @@ Este resumen es un conjunto de recetas para “traducir” mensajes de coleccion
 
 <hr/>
 
+### notas sobre diseño con objetos
+Autor: Carlos Lombardi<br/>
+En este documento pasamos en limpio algunas de las cuestiones que hablamos en clase,
+describiéndolas a partir de ejemplos concretos tomados de ejercicios.<br/>
+<a href="material/documentos/apuntes/Diseño de software con objetos - estudio de casos.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 ### shortcuts eclipse
 Combinación de teclas para accesos rápidos en eclipse.<br/>
 [ver](shortcuts.md)<br/>
