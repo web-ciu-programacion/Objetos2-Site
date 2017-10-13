@@ -45,8 +45,11 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 
 ### ejercicio ventas aereas
 Hay dos versiones, con la misma base y requerimientos diferentes.
-  - Versión de junio 2017<a href="material/documentos/ejercicios/ventas-aereas.pdf" target="_blank">descargar</a>
-  - Versión de octubre 2017<a href="material/documentos/ejercicios/ventas-aereas-201710.pdf" target="_blank">descargar</a>
+  - Versión de junio 2017 
+    <a href="material/documentos/ejercicios/ventas-aereas.pdf" target="_blank">descargar</a>
+
+  - Versión de octubre 2017 
+    <a href="material/documentos/ejercicios/ventas-aereas-201710.pdf" target="_blank">descargar</a>
 
 <hr/>
 
