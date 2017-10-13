@@ -48,5 +48,10 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 
 <hr/>
 
+### ejercicio car service
+<a href="material/documentos/ejercicios/car-service.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
 
