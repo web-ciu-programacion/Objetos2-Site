@@ -1,4 +1,4 @@
-[voler](index.md)<br/>
+[volver](index.md)<br/>
 ## ejercicios
 
 ### ejercicios preliminares
@@ -44,12 +44,18 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 <hr/>
 
 ### ejercicio ventas aereas
-<a href="material/documentos/ejercicios/ventas-aereas.pdf" target="_blank">descargar</a>
+Hay dos versiones, con la misma base y requerimientos diferentes.
+  - Versión de junio 2017<a href="material/documentos/ejercicios/ventas-aereas.pdf" target="_blank">descargar</a>
+  - Versión de octubre 2017<a href="material/documentos/ejercicios/ventas-aereas-201710.pdf" target="_blank">descargar</a>
 
 <hr/>
 
 ### ejercicio car service
 <a href="material/documentos/ejercicios/car-service.pdf" target="_blank">descargar</a>
+
+### ejercicio venta masiva
+<a href="material/documentos/ejercicios/venta-masiva.pdf" target="_blank">descargar</a>
+
 
 <hr/>
 
