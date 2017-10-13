@@ -56,6 +56,8 @@ Hay dos versiones, con la misma base y requerimientos diferentes.
 ### ejercicio car service
 <a href="material/documentos/ejercicios/car-service.pdf" target="_blank">descargar</a>
 
+<hr/>
+
 ### ejercicio venta masiva
 <a href="material/documentos/ejercicios/venta-masiva.pdf" target="_blank">descargar</a>
 
