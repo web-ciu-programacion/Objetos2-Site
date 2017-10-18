@@ -23,7 +23,7 @@ describiéndolas a partir de ejemplos concretos tomados de ejercicios.<br/>
 <hr/>
 
 ### links externos sobre diseño con objetos
-<a href="https://sourcemaking.com/design_patterns/" target="_blank">Source Making -- Design Patterns</a>
+<a href="https://sourcemaking.com/design_patterns/" target="_blank">Source Making -- Design Patterns</a><br/>
 Material sobre los patrones de diseño que aparecen en el libro "Design Patterns" de Gamma, Helm, Johnson y Vlissides. Se describen bastante parecido al libro, e incluyen links a ejemplos en varios lenguajes. 
 
 
