@@ -26,6 +26,14 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 
 <hr/>
 
+### Notas sobre la cursada
+Algunos consejos para aprovechar mejor las cursadas. <br/>
+<a href="material/documentos/otros/Ideas-para-una-cursada-feliz.pdf" target="_blank">descargar</a>
+
+
+
+<hr/>
+
 ### Objetos 1
 Link página web de la materia Objetos 1<br/>
 [ir a web](http://objetos1wollokunq.gitlab.io)<br/>
