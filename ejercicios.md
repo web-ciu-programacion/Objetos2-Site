@@ -53,6 +53,17 @@ Hay dos versiones, con la misma base y requerimientos diferentes.
 
 <hr/>
 
+### ejercicio toxi-taxi
+<a href="material/documentos/ejercicios/toxitaxi.pdf" target="_blank">descargar</a>
+
+Aspectos para trabajar en este ejercicio
+  - Modelar un dominio un poco más grande.
+  - Aplicar varias acciones sobre un mismo objeto.
+  - Dos patrones de diseño: *State* y *Observer*.
+  - Conectar partes construidas por separado.
+
+<hr/>
+
 ### ejercicio car service
 <a href="material/documentos/ejercicios/car-service.pdf" target="_blank">descargar</a>
 
