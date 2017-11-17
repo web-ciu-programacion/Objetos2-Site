@@ -26,6 +26,23 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 
 <hr/>
 
+### Sitio github con ejemplos
+Algunos de los ejemplos con los que trabajamos en clase están subidos en un repo público GitHub. <br/>
+El link es: 
+<a href="https://github.com/obj2-material" target="_blank">https://github.com/obj2-material</a> <br/> <br/>
+
+Al 17/11/2017 tenemos:
+  - Un proyecto de nivel inicial en Java usando las ideas de la Programación Orientada a Objetos. <br/>
+    remiseria-inicial.
+  - Tres proyectos que muestran el uso de patrones e ideas de diseño para construir un modelo de objetos. </br>
+    examenes-tradicional, examenes-generics, carService.
+  - Un proyecto con UI construida usando Apache Wicket. <br/>
+    monsters-wicket-to-see
+  - Un proyecto de una aplicación Android <br/>
+    geography_android.
+
+<hr/>
+
 ### Notas sobre la cursada
 Algunos consejos para aprovechar mejor las cursadas. <br/>
 <a href="material/documentos/otros/Ideas-para-una-cursada-feliz.pdf" target="_blank">descargar</a>
