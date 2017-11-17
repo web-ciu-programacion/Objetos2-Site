@@ -34,13 +34,13 @@ El link es:
 
 Al 17/11/2017 tenemos:
   - Un proyecto de nivel inicial en Java usando las ideas de la Programación Orientada a Objetos. <br/>
-    remiseria-inicial.
+    ``remiseria-inicial``.
   - Tres proyectos que muestran el uso de patrones e ideas de diseño para construir un modelo de objetos. </br>
-    examenes-tradicional, examenes-generics, carService.
+    ``examenes-tradicional``, ``examenes-generics``, ``carService``.
   - Un proyecto con UI construida usando Apache Wicket. <br/>
-    monsters-wicket-to-see
+    ``monsters-wicket-to-see``.
   - Un proyecto de una aplicación Android <br/>
-    geography_android.
+    ``geography_android``.
 
 <hr/>
 
