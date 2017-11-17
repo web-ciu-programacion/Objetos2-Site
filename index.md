@@ -27,7 +27,8 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 <hr/>
 
 ### Sitio github con ejemplos
-Algunos de los ejemplos con los que trabajamos en clase están subidos en un repo público GitHub. <br/>
+Algunos de los ejemplos con los que trabajamos en clase están subidos en repos públicos GitHub,
+de un grupo creado para esto. <br/>
 El link es: 
 <a href="https://github.com/obj2-material" target="_blank">https://github.com/obj2-material</a> <br/> <br/>
 
