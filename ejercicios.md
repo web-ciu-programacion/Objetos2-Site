@@ -51,6 +51,9 @@ Hay dos versiones, con la misma base y requerimientos diferentes.
   - Versión de octubre 2017 
     <a href="material/documentos/ejercicios/ventas-aereas-201710.pdf" target="_blank">descargar</a>
 
+Esta es una propuesta de construcción de UI en Arena, sobre la versión de octubre.
+<a href="material/documentos/ejercicios/ventas-aereas-ui-arena.pdf" target="_blank">descargar</a>
+
 <hr/>
 
 ### ejercicio toxi-taxi
