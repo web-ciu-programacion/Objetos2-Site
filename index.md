@@ -37,10 +37,12 @@ Al 17/11/2017 tenemos:
     ``remiseria-inicial``.
   - Tres proyectos que muestran el uso de patrones e ideas de diseño para construir un modelo de objetos. </br>
     ``examenes-tradicional``, ``examenes-generics``, ``carService``.
-  - Un proyecto con UI construida usando Apache Wicket. <br/>
+  - Un proyecto con UI construida usando Apache Wicket. Incluye una pequeña interfaz API REST. <br/>
     ``monsters-wicket-to-see``.
-  - Un proyecto de una aplicación Android <br/>
+  - Un proyecto de una aplicación Android que muestra información accesible en Internet<br/>
     ``geography_android``.
+  - Una aplicación Android que muestra la información que publica la API REST del proyecto ``monsters-wicket-to-see``.<br/>
+    ``monsters_android``.
 
 <hr/>
 
