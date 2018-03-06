@@ -24,20 +24,20 @@ Se utiliza una variable para recordar cuál es el color actual.
 ## Ejercicios
 
 1.  
-    Armar una página con un contador que muestre un valor y tres botones, que suman uno, restan uno, y multiplican por dos respectivamente, el valor que se muestra. Puede ser algo así  
-    ![contador](images/contador.jpg "Contador")  
-    Consejos
-
-    - Usar una variable para mantener el valor actual, ver cómo está hecho en el ejemplo `cambiaColor`.
-    - Definir una función para cada botón.  
+  Armar una página con un contador que muestre un valor y tres botones, que suman uno, restan uno, y multiplican por dos respectivamente, el valor que se muestra. Puede ser algo así  
+  ![contador](images/contador.jpg "Contador")  
+  
+  Consejos
+  - Usar una variable para mantener el valor actual, ver cómo está hecho en el ejemplo `cambiaColor`.
+  - Definir una función para cada botón.  
         
-    De lujo:
+  De lujo:
 
-    - Definir una función *aparte* que *solamente* actualice el valor del elemento. Las funciones de cada botón llaman a esta. Usar el `onLoad` que se puede poner en el `body` para mostrar el valor inicial.
+  - Definir una función *aparte* que *solamente* actualice el valor del elemento. Las funciones de cada botón llaman a esta. Usar el `onLoad` que se puede poner en el `body` para mostrar el valor inicial.
         
 2.  
-    Armar una página con un mensaje y botones que permitan cambiarle el tamaño de letra y el color. Puede ser algo así  
-    ![cambia estilo](images/cambia-estilo.jpg "Cambia estilo")  
+  Armar una página con un mensaje y botones que permitan cambiarle el tamaño de letra y el color. Puede ser algo así  
+  ![cambia estilo](images/cambia-estilo.jpg "Cambia estilo")  
 
 <!---
 - Mensaje con botones para cambiar el tamaño de letra y el color (ponele 10,12,14 puntos, rojo, verde, azul).
