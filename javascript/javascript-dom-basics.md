@@ -111,11 +111,51 @@ De paso, dos detalles sobre el código en esta página
 [https://phpsblog.wordpress.com/2013/03/09/javascript-diferencia-entre-null-y-undefined/](https://phpsblog.wordpress.com/2013/03/09/javascript-diferencia-entre-null-y-undefined/)    
 este es un tema para profundizar más adelante.  
 
+<br/>
+
+## Algunas cuestiones básicas
+
+Los comentarios en JavaScript son como en Java: 
+```
+/* este es un
+   largo 
+   comentario
+ */
+```
+comentarios multilínea de la forma `/* ... */`, o 
+```
+a = 3   // asigno la variable a
+```
+comentario desde `//` hasta el fin de la línea.
+
+<br/>
+
+JavaScript incluye las estructuras de control que uno espera: condicional con la misma sintaxis que Java o C, estructuras de repetición indexada (el `for`) o condicional (`while` en dos sabores). P.ej. este código
+```
+let mult = 1;
+for (let i = 0; i < 10; i++) {
+  mult = mult * i
+}
+mult
+```
+calcularía el factorial de 10 ... si no fuera porque el `for` está mal armado (desafío: corregirlo. Se puede probar en [la página de prueba de JavaScript](http://demo.borland.com/testsite/JavaScriptTestbed.htm)).
+
+Para más información, se pueden ver algunas páginas en [https://www.w3schools.com](https://www.w3schools.com):
+- [condicional](https://www.w3schools.com/js/js_if_else.asp)
+- [for](https://www.w3schools.com/js/js_loop_for.asp), ver la variante
+```
+  for ... in ...
+```
+- [while](https://www.w3schools.com/js/js_loop_while.asp)
+
+<br/>
 
 ## JavaScript y programación con objetos
 El lenguaje JavaScript incluye las características principales de la **programación con objetos**.  
 Como ya dijimos, el *DOM* es un modelo de objetos. Mediante `document` accedemos a una referencia a un objeto. A ese objeto le enviamos el mensaje `getElementById`, con la misma notación que p.ej. Java o C++:  
-`document.getElementById("apellido")`.  
+```
+document.getElementById("apellido")  
+```
 Esto nos devuelve otro objeto, que representa a un tag dentro de la página. Accedimos a atributos de este objeto, p.ej.  
 ```
 document.getElementById("apellido").innerHTML
@@ -126,6 +166,7 @@ En la comunidad JavaScript se acostumbra acceder, e incluso modificar, atributos
 Esto puede resultar chocante respecto de lo que viste en el primer curso de objetos. 
 Con los objetos de la librería de JavaScript y el DOM, en principio conviene usarlos como vienen, para no salirse mucho de las prácticas de la comunidad. Con los objetos que defina cada uno, se puede elegir manejarse "como indica la teoría".
 
+<br/>
 
 ## Para lectores curiosos y/o ansiosos
 Van dos comentarios rápidos de cosas que vamos a profundizar más adelante.
@@ -219,7 +260,7 @@ Estos son los objetos, atributos y métodos del DOM que se usan en el código JS
   P.ej. `let nuevaFila = document.createElement("tr")`.
 
 - `element.appendChild(innerElement)`  
-- agrega un hijo al elemento que recibe el mensaje. El parámetro es otro elemento, que pudo haber sido creado usando `document.createElement`.  
+  agrega un hijo al elemento que recibe el mensaje. El parámetro es otro elemento, que pudo haber sido creado usando `document.createElement`.  
   P.ej. 
   ```
     let equipo = document.createElement("tr")
