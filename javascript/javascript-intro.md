@@ -1,8 +1,14 @@
 # Javascript
 
+volver al [inicio](../index.md)
+
+<br/>
+
 Algo de material sobre JavaScript. 
 
 [Introducción a JavsScript y DOM](./javascript-dom-basics.md)
+- [ejemplos](./javascript-dom-basics-ejemplos.md)
+- [ejercicios](./javascript-dom-basics-ejercicios.md)
 
 <br/>
 
