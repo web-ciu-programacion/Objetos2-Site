@@ -40,8 +40,9 @@ Se utiliza una variable para recordar cuál es el color actual.
   Definir, en lugar de una función para cada botón, una sola que cambie tamaño y una sola que cambie color, pasando *como parámetro* el tamaño o el color que corresponde a cada botón.  
   <br/>
 3. 
-  Hay dos personas que pueden, o no, estar en un salón. Digamos Ana y Beto. Armar una página que muestre quiénes están, con un botón para registar la entrada y otro la salida, de cada persona. Puede ser algo así  
+  Hay dos personas que pueden, o no, estar en un salón. Digamos Ana y Beto. Armar una página que muestre quiénes están, con un botón para registar la entrada y otro la salida, de cada persona. Suponiendo que de arranque Beto está y Ana no, podría ser algo así:  
   ![dos personas](images/ana-beto.jpg "Entrada y salida de dos personas")  
+  Si se pulsa el botón "Entra Ana", el texto de arriba cambia a "Ana Beto" (porque están los dos). Si después se pulsa el botón "Sale Beto", arriba cambia a "Ana" (porque quedó solamente Ana).
   <br/>
 4. 
   Ahora son tres personas que pueden, o no, estar. Digamos Ana, Beto y Clara. Ahora la página debería verse así: 
