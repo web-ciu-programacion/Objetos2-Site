@@ -1,8 +1,6 @@
 [volver](index.md)<br/>
 ## apuntes
 
-hola 
-
 ### shortcuts eclipse
 Combinación de teclas para accesos rápidos en eclipse.<br/>
 [ver](shortcuts.md)<br/>
