@@ -48,7 +48,7 @@ Se utiliza una variable para recordar cuál es el color actual.
   Ahora son tres personas que pueden, o no, estar. Digamos Ana, Beto y Clara. Ahora la página debería verse así: 
   ![tres personas](images/ana-beto-clara.jpg "Entrada y salida de tres personas")  
   **<span style="color: blue">De lujo</span>**  
-  que solamente estén habilitados los botones que tienen sentido. Como se muestra en la imagen: al estar solamente Beto, los botones habilitados son para que salga Beto, y para que entren Ana o Clara.  
+  que solamente estén habilitados los botones que tienen sentido. Como se muestra en la imagen: al estar Ana Beto, los botones habilitados son para que salga uno de ellos, y para que entre Clara.  
   Para esto, hay que manejar el atributo `disabled` de los botones, poniéndole un id a cada botón. Para p.ej. desabilitar el botón llamado `entraAnaButton`, se pone
   ```
   document.getElementById("entraAnaButton").disabled = true
