@@ -150,6 +150,12 @@ Para más información, se pueden ver algunas páginas en [https://www.w3schools
 
 <br/>
 
+Otra cosa: en el ejemplo anterior se usó `let` en lugar de `var`. La diferencia está en el *scope* o *alcance* de la variable que se define. Por lo general, vamos a usar `var` para variables que querramos que sean globales a la página, y `let` para el resto. 
+
+Una aproximación a la diferencia se puede ver [en este artículo](https://victorroblesweb.es/2016/08/27/diferencia-let-var-es6-typescript/). La definición más completa (y más compleja) está en [la documentación de Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let).
+
+<br/>
+
 ## JavaScript y programación con objetos
 El lenguaje JavaScript incluye las características principales de la **programación con objetos**.  
 Como ya dijimos, el *DOM* es un modelo de objetos. Mediante `document` accedemos a una referencia a un objeto. A ese objeto le enviamos el mensaje `getElementById`, con la misma notación que p.ej. Java o C++:  
