@@ -29,8 +29,9 @@ Se utiliza una variable para recordar cuál es el color actual.
   Consejos
   - Usar una variable para mantener el valor actual, ver cómo está hecho en el ejemplo `cambiaColor`.
   - Definir una función para cada botón.  
-  De lujo:
-  - Definir una función *aparte* que *solamente* actualice el valor del elemento. Las funciones de cada botón llaman a esta. Usar el `onLoad` que se puede poner en el `body` para mostrar el valor inicial.  
+  - **De lujo**  
+    Definir una función *aparte* que *solamente* actualice el valor del elemento. Las funciones de cada botón llaman a esta. Usar el `onLoad` que se puede poner en el `body` para mostrar el valor inicial.  
+  <br/>
 2.  
   Armar una página con un mensaje y botones que permitan cambiarle el tamaño de letra y el color. Puede ser algo así  
   ![cambia estilo](images/cambia-estilo.jpg "Cambia estilo")  
