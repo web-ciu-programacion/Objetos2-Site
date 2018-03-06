@@ -36,7 +36,8 @@ Se utiliza una variable para recordar cuál es el color actual.
   Armar una página con un mensaje y botones que permitan cambiarle el tamaño de letra y el color. Puede ser algo así  
   ![cambia estilo](images/cambia-estilo.jpg "Cambia estilo")  
   Ver en los ejemplos cómo cambiar el color o el tamaño de un texto.  
-  Sobre esta un desafío: definir, en lugar de una función para cada botón, una sola que cambie tamaño y una sola que cambie color, pasando *como parámetro* el tamaño o el color que corresponde a cada botón.
+  **<span style="color: blue">De lujo</span>**  
+  Definir, en lugar de una función para cada botón, una sola que cambie tamaño y una sola que cambie color, pasando *como parámetro* el tamaño o el color que corresponde a cada botón.  
   <br/>
 3. 
   Hay dos personas que pueden, o no, estar en un salón. Digamos Ana y Beto. Armar una página que muestre quiénes están, con un botón para registar la entrada y otro la salida, de cada persona. Puede ser algo así  
