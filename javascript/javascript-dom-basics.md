@@ -12,9 +12,11 @@ El **DOM** es un *modelo de objetos*.
 Se parte de una referencia global a la página, que se llama `document`. El `document` tiene atributos y métodos. Algunos devuelven otros objetos del dominio de la página (p.ej. elementos), que también son objetos con sus atributos y métodos.
 
 En  
-https://www.w3schools.com/js/js_htmldom.asp  
+[https://www.w3schools.com/js/js_htmldom.asp](https://www.w3schools.com/js/js_htmldom.asp)  
 está explicado qué es el DOM. En las páginas siguientes del mismo sitio (ver la sección _JS HTML DOM_) se describe cómo acceder y manipular el DOM desde código JS. Algo vamos a ver en las secciones siguientes
 
+
+<br/>
 
 ## Cómo incluir código JS que accede y modifica una página
 Para incluir código JS en una página, se usa el tag `script` de HTML. Dentro de este tag se puede p.ej. definir una función e invocarla. 
@@ -42,7 +44,9 @@ En esta página
 
 se está usando `script` dos veces: dentro del `head` se define una función, dentro del `body` se la invoca. El browser ejecuta la función mientras está procesando el `body` de la página.   
 La asignación  
-`document.getElementById("demo").innerHTML = "Hello JavaScript"`  
+```
+document.getElementById("demo").innerHTML = "Hello JavaScript"
+```
 modifica el contenido del `span`, que es el elemento de la página al que se le puso `"demo"` como `id`. Este es un ejemplo de uso del DOM: accedemos a un elemento y lo podemos modificar. Más sobre el DOM en el link que pusimos arriba, y también en el anexo más abajo.
 
 Veamos esta variante
@@ -100,11 +104,11 @@ En una página también podemos manejar **variables**. Veamos este ejemplo en el
 </html>
 ```
 De paso, dos detalles sobre el código en esta página
-- Se usa el operador ternario, para conocerlo (o refrescar la memoria) puede verse  
-https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator
-- JavaScript maneja el valor `null`. Hay otra cosa parecida, pero no igual, que es `undefined`. Por ahora dejo dos links para los curiosos  
-https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/null  
-https://phpsblog.wordpress.com/2013/03/09/javascript-diferencia-entre-null-y-undefined/  
+- Se usa el operador ternario, para conocerlo (o refrescar la memoria) puede verse
+[https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator)  
+- JavaScript maneja el valor `null`. Hay otra cosa parecida, pero no igual, que es `undefined`. Por ahora dejo dos links para los curiosos
+[https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/null](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/null)    
+[https://phpsblog.wordpress.com/2013/03/09/javascript-diferencia-entre-null-y-undefined/](https://phpsblog.wordpress.com/2013/03/09/javascript-diferencia-entre-null-y-undefined/)    
 este es un tema para profundizar más adelante.  
 
 
@@ -113,7 +117,9 @@ El lenguaje JavaScript incluye las características principales de la **programa
 Como ya dijimos, el *DOM* es un modelo de objetos. Mediante `document` accedemos a una referencia a un objeto. A ese objeto le enviamos el mensaje `getElementById`, con la misma notación que p.ej. Java o C++:  
 `document.getElementById("apellido")`.  
 Esto nos devuelve otro objeto, que representa a un tag dentro de la página. Accedimos a atributos de este objeto, p.ej.  
-`document.getElementById("apellido").innerHTML`.
+```
+document.getElementById("apellido").innerHTML
+```
 
 *Comentario importante*:  
 En la comunidad JavaScript se acostumbra acceder, e incluso modificar, atributos de un objeto sin necesidad de pasar por un método. Esto lo vimos p.ej. con los usos del atributo `innerHTML`.
@@ -125,19 +131,26 @@ Con los objetos de la librería de JavaScript y el DOM, en principio conviene us
 Van dos comentarios rápidos de cosas que vamos a profundizar más adelante.
 
 1. La librería JavaScript incluye una clase Array muy poderosa, que se usa como array y también como lista. Ver la documentación en  
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 2. JavaScript no hace chequeos de tipos antes de la ejecución, y no se declaran los tipos de los identificadores (variables, atributos, parámetros).  
 Hay un "primito" llamado TypeScript, que sí incorpora chequeos de tipos.
 Los curiosos pueden buscar en la red.
 
 Va también un comentario de algo que es interesante, pero que no vamos a trabajar en esta introducción.
-Es muy fácil definir funciones que esperen *una función* como parámetro. P.ej.  
-`function aplicarDosVeces(fn,n) { return fn(fn(n)) }`  
+Es muy fácil definir funciones que esperen *una función* como parámetro. P.ej  
+```
+function aplicarDosVeces(fn,n) { return fn(fn(n)) }
+```
+
 Si tengo la función  
-`function triple(n) { return n * 3 }`  
+```
+function triple(n) { return n * 3 }  
+```
 entonces al evaluar  
-`aplicarDosVeces(triple,5)`  
+```
+aplicarDosVeces(triple,5)  
+```
 devuelve 45, que es el resultado de aplicar dos veces la función `triple` a partir del valor inicial `5`.
 
 
