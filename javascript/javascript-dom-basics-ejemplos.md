@@ -29,7 +29,7 @@ Se utiliza una variable para recordar cuál es el color actual.
   Consejos
   - Usar una variable para mantener el valor actual, ver cómo está hecho en el ejemplo `cambiaColor`.
   - Definir una función para cada botón.  
-  - **De lujo**  
+  - **<span style="color: lightBlue">De lujo</span>**  
     Definir una función *aparte* que *solamente* actualice el valor del elemento. Las funciones de cada botón llaman a esta. Usar el `onLoad` que se puede poner en el `body` para mostrar el valor inicial.  
   <br/>
 2.  
