@@ -32,7 +32,6 @@ Se utiliza una variable para recordar cuál es el color actual.
   - Definir una función para cada botón.  
         
   De lujo:
-
   - Definir una función *aparte* que *solamente* actualice el valor del elemento. Las funciones de cada botón llaman a esta. Usar el `onLoad` que se puede poner en el `body` para mostrar el valor inicial.
         
 2.  
