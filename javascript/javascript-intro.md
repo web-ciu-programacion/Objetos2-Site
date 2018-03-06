@@ -9,8 +9,8 @@ Algo de material sobre JavaScript.
 De cada tema se proponen algunos ejemplos, que están en este repositorio:  
 [https://github.com/obj2-material/javascript-dom](https://github.com/obj2-material/javascript-dom).  
 Dentro de la carpeta correspondiente a cada tema, van a aparecer dos subcarpetas. 
-- En `plain-js` hay código JavaScript que no está embebido dentro de una página HTML. Este código está pensado para ser ejecutado en entornos de prueba como [el sitio de prueba JavaScript mencionado en la página inicial]().  
-- En `browser` hay páginas HTML que incluyen código JavaScript. Estas páginas se pueden probar abriéndolas desde un browser.
+- En <span style="color: orange">`plain-js`</span> hay código JavaScript que no está embebido dentro de una página HTML. Este código está pensado para ser ejecutado en entornos de prueba como [el sitio de prueba JavaScript mencionado más abajo](http://demo.borland.com/testsite/JavaScriptTestbed.htm).  
+- En <span style="color: orange">`browser`</span> hay páginas HTML que incluyen código JavaScript. Estas páginas se pueden probar abriéndolas desde un browser.
 
 También se sugieren algunos ejercicios.
 
@@ -42,7 +42,7 @@ Explicación de diferencias entre Ecmascript 5 y Ecmascript 6 = 2015
 [http://www.ecma-international.org/ecma-262/6.0](http://www.ecma-international.org/ecma-262/6.0)  
 Especificación de Ecmascript 6 = 2015
 
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
+[https://code.visualstudio.com/](https://code.visualstudio.com/)  
 **Visual Studio Code**, un IDE que puede resultar bastante cómodo para editar código JavaScript.
 
 <br/>

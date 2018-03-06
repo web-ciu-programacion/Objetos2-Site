@@ -172,7 +172,7 @@ Esto nos devuelve otro objeto, que representa a un tag dentro de la página. Acc
 document.getElementById("apellido").innerHTML
 ```
 
-*Comentario importante*:  
+<span style="color: blue">*Comentario importante*</span>:  
 En la comunidad JavaScript se acostumbra acceder, e incluso modificar, atributos de un objeto sin necesidad de pasar por un método. Esto lo vimos p.ej. con los usos del atributo `innerHTML`.
 Esto puede resultar chocante respecto de lo que viste en el primer curso de objetos. 
 Con los objetos de la librería de JavaScript y el DOM, en principio conviene usarlos como vienen, para no salirse mucho de las prácticas de la comunidad. Con los objetos que defina cada uno, se puede elegir manejarse "como indica la teoría".
