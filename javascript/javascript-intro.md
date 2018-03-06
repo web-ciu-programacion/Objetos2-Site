@@ -18,8 +18,7 @@ También se sugieren algunos ejercicios.
 
 ## Contenidos
 [Introducción a JavsScript y DOM](./javascript-dom-basics.md)
-- [ejemplos](./javascript-dom-basics-ejemplos.md)
-- [ejercicios](./javascript-dom-basics-ejercicios.md)
+- [ejemplos y ejercicios](./javascript-dom-basics-ejemplos.md)
 
 <br/>
 
@@ -42,6 +41,9 @@ Explicación de diferencias entre Ecmascript 5 y Ecmascript 6 = 2015
 
 [http://www.ecma-international.org/ecma-262/6.0](http://www.ecma-international.org/ecma-262/6.0)  
 Especificación de Ecmascript 6 = 2015
+
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+**Visual Studio Code**, un IDE que puede resultar bastante cómodo para editar código JavaScript.
 
 <br/>
 
