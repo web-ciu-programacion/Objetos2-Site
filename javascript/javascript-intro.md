@@ -6,6 +6,17 @@ volver al [inicio](../index.md)
 
 Algo de material sobre JavaScript. 
 
+De cada tema se proponen algunos ejemplos, que están en este repositorio:  
+[https://github.com/obj2-material/javascript-dom](https://github.com/obj2-material/javascript-dom).  
+Dentro de la carpeta correspondiente a cada tema, van a aparecer dos subcarpetas. 
+- En `plain-js` hay código JavaScript que no está embebido dentro de una página HTML. Este código está pensado para ser ejecutado en entornos de prueba como [el sitio de prueba JavaScript mencionado en la página inicial]().  
+- En `browser` hay páginas HTML que incluyen código JavaScript. Estas páginas se pueden probar abriéndolas desde un browser.
+
+También se sugieren algunos ejercicios.
+
+<br/>
+
+## Contenidos
 [Introducción a JavsScript y DOM](./javascript-dom-basics.md)
 - [ejemplos](./javascript-dom-basics-ejemplos.md)
 - [ejercicios](./javascript-dom-basics-ejercicios.md)
