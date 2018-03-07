@@ -20,6 +20,8 @@ También se sugieren algunos ejercicios.
 [Introducción a JavsScript y DOM](./javascript-dom-basics.md)
 - [ejemplos y ejercicios](./javascript-dom-basics-ejemplos.md)
 
+[Array, String, object literals](./javascript-arrays-strings-object-literals.md)
+
 <br/>
 
 ## Recursos en general
@@ -27,8 +29,9 @@ También se sugieren algunos ejercicios.
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)  
 Tutorial de JS de w3schools, el sitio que me suele sacar de apuro con dudas de HTML y Javascript.
 
+[https://es6console.com/](https://es6console.com/)  
 [http://demo.borland.com/testsite/JavaScriptTestbed.htm](http://demo.borland.com/testsite/JavaScriptTestbed.htm)  
-Una página muy sencilla para probar código JS y ver lo que da.
+Dos alternativas para probar código JS y ver lo que da.
 
 [https://developer.mozilla.org](https://developer.mozilla.org)  
 Sitio de Mozilla con mucha info sobre herramientas que se usan para desarrollar sitios y aplicaciones Web.
