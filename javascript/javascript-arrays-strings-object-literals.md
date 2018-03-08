@@ -77,7 +77,7 @@ Observar que la *única* diferencia la definición de la función con nombre `tr
 La última versión usa una <span style="color: slateblue">*arrow function*</span>. Es así de fácil: los parámetros entre paréntesis, flecha, lo que devuelve sin necesidad de poner `return`.
 Ver la [documentación de Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), otras referencias en Internet, y los ejemplos.
 
-En la documentación de Array, ver estos métodos: `map`, `filter`, `forEach`, `some`, `every`, `find`, `reduce`'.
+En la documentación de Array, ver estos métodos: `map`, `filter`, `forEach`, `some`, `every`, `find`, `reduce`.
 
 <br/>
 
@@ -85,7 +85,7 @@ En la documentación de Array, ver estos métodos: `map`, `filter`, `forEach`, `
 JavaScript incluye también una clase **`String`** con bastantes vitaminas. Los atributos y métodos se pueden consultar en la [documentación de Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 En JavaScript, un String <span style="color: indianred">**no**</span> está definido como un Array. En otras palabras: String no es subclase de Array, ni tienen ninguna superclase común (salvo alguna general tipo `Object`). Sí tienen polimorfismo para algunos métodos y atributos, p.ej. `includes`, `slice` y `length`. 
-Los String <span style="color: indianred">**no**</span> soportan los métodos que reciben funciones como `map` o `filter`.
+Los String <span style="color: indianred">**no**</span> soportan los métodos que reciben funciones, como `map` o `filter`.
 
 En los ejemplos se muestran algunos de los mensajes que entienden los Strings.
 
