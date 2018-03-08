@@ -51,6 +51,8 @@ Para agregar y quitar elementos hay tres formas. Sólo las mencionamos, ver cóm
 - `push` y `pop`: pone / saca al final.
 - `splice`: saca y/o pone en cualquier lugar.
 
+Otro método de Array que conviene aprender es `join`.
+
 <br/>
 
 ### Métodos que trabajan con funciones.
@@ -74,6 +76,8 @@ function(n) { return n * 3 }
 Observar que la *única* diferencia la definición de la función con nombre `triple`, es que no está el nombre.  
 La última versión usa una <span style="color: slateblue">*arrow function*</span>. Es así de fácil: los parámetros entre paréntesis, flecha, lo que devuelve sin necesidad de poner `return`.
 Ver la [documentación de Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), otras referencias en Internet, y los ejemplos.
+
+En la documentación de Array, ver estos métodos: `map`, `filter`, `forEach`, `some`, `every`, `find`, `reduce`'.
 
 <br/>
 
