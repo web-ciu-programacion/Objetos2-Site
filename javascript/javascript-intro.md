@@ -9,7 +9,7 @@ Algo de material sobre JavaScript.
 De cada tema se proponen algunos ejemplos, que están en este repositorio:  
 [https://github.com/obj2-material/javascript-dom](https://github.com/obj2-material/javascript-dom).  
 Dentro de la carpeta correspondiente a cada tema, van a aparecer dos subcarpetas. 
-- En <span style="color: orange">`plain-js`</span> hay código JavaScript que no está embebido dentro de una página HTML. Este código está pensado para ser ejecutado en entornos de prueba como [el sitio de prueba JavaScript mencionado más abajo](http://demo.borland.com/testsite/JavaScriptTestbed.htm).  
+- En <span style="color: orange">`plain-js`</span> hay código JavaScript que no está embebido dentro de una página HTML. Este código está pensado para ser ejecutado en entornos de prueba como los mencionados más abajo, [este](https://es6console.com/) o [este otro](http://demo.borland.com/testsite/JavaScriptTestbed.htm).  
 - En <span style="color: orange">`browser`</span> hay páginas HTML que incluyen código JavaScript. Estas páginas se pueden probar abriéndolas desde un browser.
 
 También se sugieren algunos ejercicios.
