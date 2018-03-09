@@ -94,7 +94,11 @@ En los ejemplos se muestran algunos de los mensajes que entienden los Strings.
 ## Object Literals
 JavaScript incluye una notación muy sencilla para definir registros. P.ej. esta línea
 ```
-let notaJuanaMate = { alumno: "Juana", materia: "Matemática", notasTrimestrales: [8,6,9] }
+let notaJuanaMate = { 
+    alumno: "Juana", 
+    materia: "Matemática", 
+    notasTrimestrales: [8,6,9] 
+}
 ```
 define un registro con tres campos: `alumno`, `materia` y `notasTrimestrales`.
 
@@ -104,14 +108,18 @@ notaJuanaMate.materia
 ```
 es el String `"Matemática"`. La notación de puntos se puede combinar con la de Array, o con ella misma. Si definimos
 ```
-let eventosDelDia = { nota: notaJuanaMate, almuerzo: { plato: "Milanesa", bebida: "Vino tinto"} }
+let eventosDelDia = { 
+    nota: notaJuanaMate, 
+    almuerzo: { plato: "Milanesa", bebida: "Vino tinto"} 
+}
 ```
 entonces estas expresiones
 ```
 notaJuanaMate.notasTrimestrales[1]
 eventosDelDia.nota.alumno
+eventosDelDia.almuerzo.plato
 ```
-tienen como valor `6` y `"Juana"` respectivamente.
+tienen como valor `6`, `"Juana"` y `"Milanesa"` respectivamente.
 
 <br/>
 
@@ -143,7 +151,7 @@ notaJuanaMate.aprobo()
 notaJuanaMate.mejorNota()
 notaJuanaMate.alumnoEnMayuscula()
 ```
-obteniendo como resultado `true`, `9` y `"Juana"` respectivamente.
+obteniendo como resultado `true`, `9` y `"JUANA"` respectivamente.
 
 Un detalle a notar: `notaJuanaMate` es un objeto que <span style="color: indianred">**no**</span> es instancia de ninguna clase.  
 Moraleja: en JavaScript podemos mezclar (y de hecho se usa) objetos que son instancias de una clase, con objetos que contienen su propia definición (como el de este ejemplo).
@@ -165,6 +173,46 @@ notaJuanaMate.anio
 notaJuanaMate.notasConAyudita()
 ```
 vamos a obtener `2017` y `[9,7,10]` respectivamente.
+
+<br/>
+
+### El acceso a atributos no definidos es `undefined` -- **no** da error
+El objeto al que llamamos `notaJuanaMate` no tiene un atributo llamado `curso`.
+*A pesar de esto*, si evaluamos
+```
+notaJuanaMate.curso
+```
+<span style="color: indianred">**no**</span> se genera un error, sino que se obtiene 
+```
+undefined
+```
+como respuesta. 
+
+JavaScript define un valor `undefined` que indica que lo que se está pidiendo no está definido. Este valor es distinto a `null`.   
+Esto no está considerado como un error, sino como una característica. P.ej. con esta expresión
+```
+let elCurso = (notaJuanaMate.curso === undefined) 
+                    ? "Curso por defecto" : notaJuanaMate.curso
+```
+estamos verificando si el objeto tiene definido un curso. Si está definido lo usamos, si no, usamos un valor por defecto.
+
+Para funciones o métodos, hay que tener en cuenta lo siguiente. 
+El objeto `notaJuanaMate` no define el método `promedio`.
+El resultado de
+```
+notaJuanaMate.promedio
+```
+<span style="color: orange">**sin**</span> los paréntesis, es `undefined`. Si evaluamos
+```
+notaJuanaMate.promedio()
+```
+sí va a generarse un error, porque `undefined` no es una función (un método es una función), y solamente las funciones pueden evaluarse.  
+El truco de evaluar el método sólo si está definido queda así:
+```
+let elPromedio = (notaJuanaMate.promedio === undefined) 
+                    ? 7 : notaJuanaMate.promedio()
+```
+notar que la comparación se hace sin paréntesis, y la evaluación con.
 
 
 
