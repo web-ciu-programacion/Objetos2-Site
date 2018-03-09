@@ -214,5 +214,21 @@ let elPromedio = (notaJuanaMate.promedio === undefined)
 ```
 notar que la comparación se hace sin paréntesis, y la evaluación con.
 
+<br/>
+
+### Postdata - == vs ===, valores falsy y truthy
+Estas notas terminan comentando dos cuestiones que son bastante usadas en el ambiente JavaScript, que surgen a partir del truco que comentamos para ver si un valor está o no definido.
+
+1.
+  En la comparación se usa `===`, no `==`. Los tres iguales, `===`, es la comparación por identidad. Los dos iguales, `==`, es la comparación por igualdad.
+
+2.
+  Hay una verificación más general para dar valores por defecto, que comprende `undefined`, también `null`, y también otros casos. Se aprovecha que para JavaScript todo valor tiene una correspondencia booleana, o sea que en una condición, cada valor "juega" como `true` o como `false`. 
+  Esto es lo que en la jerga se conoce como *valores falsy y truthy*.
+
+  Dejo un par de referencias para leer.  
+  [artículo sobre comparaciones](https://www.sitepoint.com/javascript-truthy-falsy/)  
+  [artículo sobre truco para valores default](http://adripofjavascript.com/blog/drips/truthy-and-falsy-values-in-javascript.html)
+
 
 
