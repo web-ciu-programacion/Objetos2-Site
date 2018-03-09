@@ -97,3 +97,74 @@ JavaScript incluye una notación muy sencilla para definir registros. P.ej. esta
 let notaJuanaMate = { alumno: "Juana", materia: "Matemática", notasTrimestrales: [8,6,9] }
 ```
 define un registro con tres campos: `alumno`, `materia` y `notasTrimestrales`.
+
+Se accede a un campo usando la notación de puntos, p.ej. el valor de
+```
+notaJuanaMate.materia
+```
+es el String `"Matemática"`. La notación de puntos se puede combinar con la de Array, o con ella misma. Si definimos
+```
+let eventosDelDia = { nota: notaJuanaMate, almuerzo: { plato: "Milanesa", bebida: "Vino tinto"} }
+```
+entonces estas expresiones
+```
+notaJuanaMate.notasTrimestrales[1]
+eventosDelDia.nota.alumno
+```
+tienen como valor `6` y `"Juana"` respectivamente.
+
+<br/>
+
+### Objetos con atributos y métodos
+Esta notación permite incluir *métodos* además de valores. O sea, esta notación nos permite definir **objetos**. Por eso el nombre de <span style="color: slateblue">*object literal*</span>.
+Definamos una versión de `notaMateJuana` como objeto, incluyendo métodos
+```
+let notaJuanaMate = { 
+    alumno: "Juana", 
+    materia: "Matemática", 
+    notasTrimestrales: [8,6,9],
+    leFaltanNotas: function() { return this.notasTrimestrales.length < 3},
+    aprobo: function() { 
+        return !this.leFaltanNotas() 
+            && this.notasTrimestrales.every(nota => nota >= 6)
+            && (this.notasTrimestrales.filter(nota => nota == 6).length <= 1
+    },
+    mejorNota() { return this.notasTrimestrales.reduce(
+        (maxi,nota) => Math.max(maxi,nota)
+    ), 0},
+    alumnoEnMayuscula() { return this.alumno.toUpperCase() }
+}
+```
+La condición de aprobación es tener todas las notas, que todas sean 6 o más, y no tener más de un 6.
+
+Con esta definición, podemos evaluar
+```
+notaJuanaMate.aprobo()
+notaJuanaMate.mejorNota()
+notaJuanaMate.alumnoEnMayuscula()
+```
+obteniendo como resultado `true`, `9` y `"Juana"` respectivamente.
+
+Un detalle a notar: `notaJuanaMate` es un objeto que <span style="color: indianred">**no**</span> es instancia de ninguna clase.  
+Moraleja: en JavaScript podemos mezclar (y de hecho se usa) objetos que son instancias de una clase, con objetos que contienen su propia definición (como el de este ejemplo).
+
+<br/>
+
+### Los registros y objetos son dinámicos
+Si `notaJuanaMate` está definida, podemos evaluar esta asignación
+```
+notaJuanaMate.anio = 2017
+notaJuanaMate.notasConAyudita() = function() { 
+    return this.notasTrimestrales.map(n => (n == 10) : n ? n + 1)
+}
+```
+
+Esto <span style="color: slateblue">*agrega*</span> un atributo y un método a `notaJuanaMate`. Si evaluamos ahora
+```
+notaJuanaMate.anio
+notaJuanaMate.notasConAyudita()
+```
+vamos a obtener `2017` y `[9,7,10]` respectivamente.
+
+
+
