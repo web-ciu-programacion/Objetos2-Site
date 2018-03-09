@@ -6,6 +6,17 @@ volver al [inicio](../index.md)
 
 Algo de material sobre JavaScript. 
 
+## Contenidos
+[Introducción a JavsScript y DOM](./javascript-dom-basics.md)
+- [ejemplos y ejercicios](./javascript-dom-basics-ejemplos.md)
+
+[Array, String, object literals](./javascript-arrays-strings-object-literals.md)
+- [ejemplos y ejercicios](./javascript-arrays-strings-object-literals-ejemplos.md)
+
+<br/>
+
+## Estructura de ejemplos y ejercicios
+
 De cada tema se proponen algunos ejemplos, que están en este repositorio:  
 [https://github.com/obj2-material/javascript-dom](https://github.com/obj2-material/javascript-dom).  
 Dentro de la carpeta correspondiente a cada tema, van a aparecer dos subcarpetas. 
@@ -13,14 +24,6 @@ Dentro de la carpeta correspondiente a cada tema, van a aparecer dos subcarpetas
 - En <span style="color: orange">`browser`</span> hay páginas HTML que incluyen código JavaScript. Estas páginas se pueden probar abriéndolas desde un browser.
 
 También se sugieren algunos ejercicios.
-
-<br/>
-
-## Contenidos
-[Introducción a JavsScript y DOM](./javascript-dom-basics.md)
-- [ejemplos y ejercicios](./javascript-dom-basics-ejemplos.md)
-
-[Array, String, object literals](./javascript-arrays-strings-object-literals.md)
 
 <br/>
 
