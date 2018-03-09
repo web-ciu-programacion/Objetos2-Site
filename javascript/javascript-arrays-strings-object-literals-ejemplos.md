@@ -33,7 +33,7 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
   En estas funciones se usan métodos de las clases `Array` y `String`.
   La función `mostrarEstadisticas`, que es la que actualiza la página, usa estas funciones de cálculo.
 
-3. `monsters.js`
+3. `monsters.js`  
   Se trabaja con arrays de registros, donde cada registro está definido como un object literal.  
   Tiene funciones de cálculo, en la que se analizan los arrays usando métodos de `Array` que miran cada registro.  
   En este ejemplo también mostramos la **integración** con 
