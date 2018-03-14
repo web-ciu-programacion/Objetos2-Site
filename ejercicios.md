@@ -65,6 +65,15 @@ Aspectos para trabajar en este ejercicio
   - Dos patrones de diseño: *State* y *Observer*.
   - Conectar partes construidas por separado.
 
+<br/>
+
+Sobre este dominio, también se propone una secuencia de actividades para trabajar sobre la interfaz Web a partir de la implementación que está en el repositorio GitHub 
+<a href="https://github.com/obj2-material/toxitaxi-modelo-ui.git" target="_blank">https://github.com/obj2-material/toxitaxi-modelo-ui.git</a> <br/> <br/>
+
+El enunciado de estas actividades se puede
+<a href="material/documentos/ejercicios/Toxi-taxi Wicket - ejercicios.pdf" target="_blank">descargar usando este link</a>.
+
+
 <hr/>
 
 ### ejercicio car service

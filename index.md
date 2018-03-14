@@ -28,7 +28,8 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 
 ### Sitio github con ejemplos
 Algunos de los ejemplos con los que trabajamos en clase están subidos en repos públicos GitHub,
-de un grupo creado para esto. <br/>
+de un grupo creado para esto.  
+Cada repositorio incluye un repositorio Eclipse (en algún caso varios).
 El link es: 
 <a href="https://github.com/obj2-material" target="_blank">https://github.com/obj2-material</a> <br/> <br/>
 
@@ -37,8 +38,11 @@ Al 17/11/2017 tenemos:
     ``remiseria-inicial``.
   - Tres proyectos que muestran el uso de patrones e ideas de diseño para construir un modelo de objetos. </br>
     ``examenes-tradicional``, ``examenes-generics``, ``carService``.
-  - Un proyecto con UI construida usando Apache Wicket. Incluye una pequeña interfaz API REST. <br/>
+  - Un proyecto con UI Web construida usando Apache Wicket. Incluye una pequeña interfaz API REST. <br/>
     ``monsters-wicket-to-see``.
+  - Un proyecto compuesto que incluye un modelo extensible de objetos, y una UI Web construida usando Apache Wicket.   
+    ``toxitaxi``.  
+    <b>Atención</b>: este repositorio incluye tres proyectos Eclipse, que se corresponden con las tres carpetas principales, ``toxitaxi``, ``toxitaxi-interface`` y ``toxitaxi-wicket``. Hay que importar los tres proyectos, que tienen referencias entre ellos.
   - Un proyecto de una aplicación Android que muestra información accesible en Internet<br/>
     ``geography_android``.
   - Una aplicación Android que muestra la información que publica la API REST del proyecto ``monsters-wicket-to-see``.<br/>
