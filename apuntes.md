@@ -36,6 +36,13 @@ Apunte que desarrolla una pequeña introducción práctica sobre git.<br/>
 
 <hr/>
 
+### git resolución de conflictos con Meld
+Autor: Federico Aloi<br/>
+Pequeño tutorial de cómo resolver conflictos de Git con la ayuda de una interfaz gráfica.<br/>
+<a href="material/documentos/apuntes/Git - resolver conflictos usando Meld.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 ### arena
 Autor: Carlos Lombardi<br/>
 Documento sobre la edición de una pantalla en arena framework.<br/>
