@@ -71,3 +71,23 @@ Armar una página que incluya la siguente información
     * cantidad total de jarras vendidas.
 
 Para esta versión básica, se recomienda armar cinco recuadros, uno para la información general, y uno para cada carpa.
+
+
+## Mostrar datos de una sola carpa
+
+Modificar la página para que, en lugar de un recuadro por cada carpa, haya una barra con cuatro botones, uno por cada carpa, y debajo de esta barra, el recuadro con la información de la carpa elegida.
+
+En esta versión, se acepta una barra con cuatro botones fijos, uno por cada una de las cuatro carpas conocidas.
+
+Se admiten dos variantes sobre qué mostrar al cargarse la página, antes de pulsar cualquiera de estos botones:  
+- que muestre la información de la carpa roja
+- que el recuadro con la información de la carpa no aparezca (`display: none`), activándolo (`display: block`) al elegirse cualquiera de las carpas.
+
+
+## Incluir datos sobre Grolsch
+
+Agregar a la página la siguiente información sobre la marca de cerveza *Grolsch*: 
+
+
+
+
