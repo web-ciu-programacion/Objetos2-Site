@@ -49,23 +49,23 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
 ### Listas y Strings
 1. 
   Consideremos una lista de palabras, p.ej.
-  ```
-  const martin = [
-      "Aquí", "me", "pongo", "a", "cantar", 
-      "al", "compás", "de", "la", "vigüela", 
-      "que", "al", "hombre", "que", "lo", "desvela", 
-      "una", "pena", "extraordinaria", 
-      "como", "el", "ave", "solitaria", 
-      "sólo", "al", "cantar", "se", "consuela"]
-  const canterville = [
-      "Yo", "era", "un", "hombre", "bueno", 
-      "si", "hay", "alguien", "bueno", "en", "este", "lugar", 
-      "pagué", "todas", "mis", "deudas", 
-      "perdí", "mi", "oportunidad", "de", "amar"]
+```
+const martin = [
+    "Aquí", "me", "pongo", "a", "cantar", 
+    "al", "compás", "de", "la", "vigüela", 
+    "que", "al", "hombre", "que", "lo", "desvela", 
+    "una", "pena", "extraordinaria", 
+    "como", "el", "ave", "solitaria", 
+    "sólo", "al", "cantar", "se", "consuela"]
+const canterville = [
+    "Yo", "era", "un", "hombre", "bueno", 
+    "si", "hay", "alguien", "bueno", "en", "este", "lugar", 
+    "pagué", "todas", "mis", "deudas", 
+    "perdí", "mi", "oportunidad", "de", "amar"]
 
-  const comidas = ["puré", "milanesa", "empanada", "arroz", "fideos", "mayonesa"]
-  const generos = ["rock", "pop", "disco", "rap"]
-  ```
+const comidas = ["puré", "milanesa", "empanada", "arroz", "fideos", "mayonesa"]
+const generos = ["rock", "pop", "disco", "rap"]
+```
   Construir funciones que permitan obtener, para una lista de palabras:
     - los que empiecen con "a" o con "A"
     - los que tengan, al menos, una "a" o "A"
@@ -74,15 +74,15 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
     - la lista con las mismas palabras, todas al revés (p.ej. )
     - la primer palabra de más de 7 letras
   P.ej. el resultado de cada una de estas expresiones
-  ```
-  empiezanConA(comidas)
-  tienenA(comidas)
-  tienenAlMenosDosA(comidas)
-  hayCoincidenciaPrimeraUltima(comidas)
-  hayCoincidenciaPrimeraUltima(generos)
-  alReves(generos)
-  primerPalabraDeMasDe7Letras(comidas)
-  ```
+```
+empiezanConA(comidas)
+tienenA(comidas)
+tienenAlMenosDosA(comidas)
+hayCoincidenciaPrimeraUltima(comidas)
+hayCoincidenciaPrimeraUltima(generos)
+alReves(generos)
+primerPalabraDeMasDe7Letras(comidas)
+```
   debe ser, respectivamente,
   `["arroz"]`,
   `["milanesa", "empanada", "arroz", mayonesa"]`,
@@ -149,3 +149,4 @@ Armar funciones que permitan, para una lista de registros de lluvia
 ### Página Web
 Se describe en una página aparte: [Jarras de cerveza](./jarras-de-cerveza.md)
 
+  
