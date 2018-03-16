@@ -144,3 +144,8 @@ Armar funciones que permitan, para una lista de registros de lluvia
     Ver cantidad variable de argumentos.  
     Una variante más fácil es  
     `agregarRegistros(centroBuenosAires, "Ranchos", [1902, 1041, 1903, 1054])`.
+
+
+### Página Web
+Se describe en una página aparte: [Jarras de cerveza](./jarras-de-cerveza.md)
+
