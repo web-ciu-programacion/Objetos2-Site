@@ -89,7 +89,7 @@ alReves(generos)
 primerPalabraDeMasDe7Letras(comidas)
 ```
   
-  debe ser, respectivamente,
+  debe ser, respectivamente,  
   `["arroz"]`,  
   `["milanesa", "empanada", "arroz", mayonesa"]`,  
   `["milanesa", "empanada", mayonesa"]`,  
@@ -100,10 +100,11 @@ primerPalabraDeMasDe7Letras(comidas)
 
   <br/>
 
-<!--  
 2. Construir una función que, dados una lista de números `ln` y un número `x`, devuelva una lista con dos listas, la primera con los elementos de `ln` que sean números menores o iguales a `x`, la segunda con los que sean mayores a `x`.  
   P.ej. `separarSegun([3,8,21,2,19,6,1,22,4],10)` debe devolver `[[3,8,2,6,1,4],[21,19,22]]`.
   <br/>
+
+<!--  
 3. Construir una función que, dados una lista `lln` donde cada elemento es, a su vez, una lista de números, y un número `x`, devuelva una lista con las listas en `lln` donde está `x`.
   P.ej. `listasDondeEsta([[1,2,3],[4,8,13],[71,4,5,9],[2,5,6,1]],4)` debe devolver `[[4,8,13],[71,4,5,9]]`.
   <br/>
