@@ -49,6 +49,7 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
 ### Listas y Strings
 1. 
   Consideremos una lista de palabras, p.ej.  
+
 ```
 const martin = [
     "Aquí", "me", "pongo", "a", "cantar", 
@@ -67,9 +68,7 @@ const comidas = ["puré", "milanesa", "empanada", "arroz", "fideos", "mayonesa"]
 const generos = ["rock", "pop", "disco", "rap"]
 ```
 
-<!--  
   Construir funciones que permitan obtener, para una lista de palabras:
-
 
     - los que empiecen con "a" o con "A"
     - los que tengan, al menos, una "a" o "A"
@@ -77,7 +76,9 @@ const generos = ["rock", "pop", "disco", "rap"]
     - si hay al menos una palabra, de más de una letra, que empieza y termina con la misma letra
     - la lista con las mismas palabras, todas al revés (p.ej. )
     - la primer palabra de más de 7 letras
-  P.ej. el resultado de cada una de estas expresiones
+
+  P.ej. el resultado de cada una de estas expresiones  
+
 ```
 empiezanConA(comidas)
 tienenA(comidas)
@@ -87,6 +88,7 @@ hayCoincidenciaPrimeraUltima(generos)
 alReves(generos)
 primerPalabraDeMasDe7Letras(comidas)
 ```
+  
   debe ser, respectivamente,
   `["arroz"]`,
   `["milanesa", "empanada", "arroz", mayonesa"]`,
@@ -94,7 +96,10 @@ primerPalabraDeMasDe7Letras(comidas)
   `false`,
   `true`,
   `["kcor", "pop", "ocsid", "par"]`
+
   <br/>
+  
+<!--  
 2. Construir una función que, dados una lista de números `ln` y un número `x`, devuelva una lista con dos listas, la primera con los elementos de `ln` que sean números menores o iguales a `x`, la segunda con los que sean mayores a `x`.  
   P.ej. `separarSegun([3,8,21,2,19,6,1,22,4],10)` debe devolver `[[3,8,2,6,1,4],[21,19,22]]`.
   <br/>
