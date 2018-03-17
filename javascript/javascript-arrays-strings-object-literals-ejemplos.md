@@ -70,12 +70,12 @@ const generos = ["rock", "pop", "disco", "rap"]
 
   Construir funciones que permitan obtener, para una lista de palabras:
 
-    - los que empiecen con "a" o con "A"
-    - los que tengan, al menos, una "a" o "A"
-    - los que tengan, al menos, dos "a" o "A"
-    - si hay al menos una palabra, de más de una letra, que empieza y termina con la misma letra
-    - la lista con las mismas palabras, todas al revés (p.ej. )
-    - la primer palabra de más de 7 letras
+  - los que empiecen con "a" o con "A"
+  - los que tengan, al menos, una "a" o "A"
+  - los que tengan, al menos, dos "a" o "A"
+  - si hay al menos una palabra, de más de una letra, que empieza y termina con la misma letra
+  - la lista con las mismas palabras, todas al revés (p.ej. )
+  - la primer palabra de más de 7 letras
 
   P.ej. el resultado de cada una de estas expresiones  
 
@@ -90,15 +90,16 @@ primerPalabraDeMasDe7Letras(comidas)
 ```
   
   debe ser, respectivamente,
-  `["arroz"]`,
-  `["milanesa", "empanada", "arroz", mayonesa"]`,
-  `["milanesa", "empanada", mayonesa"]`,
-  `false`,
-  `true`,
-  `["kcor", "pop", "ocsid", "par"]`
+  `["arroz"]`,  
+  `["milanesa", "empanada", "arroz", mayonesa"]`,  
+  `["milanesa", "empanada", mayonesa"]`,  
+  `false`,  
+  `true`,  
+  `["kcor", "pop", "ocsid", "par"]`,
+  `"milanesa"`  
 
   <br/>
-  
+
 <!--  
 2. Construir una función que, dados una lista de números `ln` y un número `x`, devuelva una lista con dos listas, la primera con los elementos de `ln` que sean números menores o iguales a `x`, la segunda con los que sean mayores a `x`.  
   P.ej. `separarSegun([3,8,21,2,19,6,1,22,4],10)` debe devolver `[[3,8,2,6,1,4],[21,19,22]]`.
