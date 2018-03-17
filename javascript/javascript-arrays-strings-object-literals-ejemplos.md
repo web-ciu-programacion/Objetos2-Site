@@ -48,7 +48,7 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
 
 ### Listas y Strings
 1. 
-  Consideremos una lista de palabras, p.ej.
+  Consideremos una lista de palabras, p.ej.  
 ```
 const martin = [
     "Aquí", "me", "pongo", "a", "cantar", 

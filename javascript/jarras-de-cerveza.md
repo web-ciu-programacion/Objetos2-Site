@@ -86,7 +86,12 @@ Se admiten dos variantes sobre qué mostrar al cargarse la página, antes de pul
 
 ## Incluir datos sobre Grolsch
 
-Agregar a la página la siguiente información sobre la marca de cerveza *Grolsch*: 
+Agregar a la página un panel con la siguiente información sobre la marca de cerveza *Grolsch*: nombres de las carpas donde se vende, nombres de las carpas donde no se vende.
+
+
+## Incluir datos sobre todas las marcas de cerveza
+
+Modificar el panel con información sobre una marca de cerveza, para que muestre la información sobre cualquiera de las marcas de cerveza que se venden en (al menos una carpa que participa de) la fiesta.
 
 
 
