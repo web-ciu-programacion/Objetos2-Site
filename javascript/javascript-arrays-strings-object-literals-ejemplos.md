@@ -47,8 +47,10 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
 <br/>
 
 ### Listas y Strings
-1. 
-  Consideremos una lista de palabras, p.ej.  
+
+#### Ejercicio 1. 
+  
+Consideremos una lista de palabras, p.ej.  
 
 ```
 const martin = [
@@ -68,7 +70,7 @@ const comidas = ["puré", "milanesa", "empanada", "arroz", "fideos", "mayonesa"]
 const generos = ["rock", "pop", "disco", "rap"]
 ```
 
-  Construir funciones que permitan obtener, para una lista de palabras:
+Construir funciones que permitan obtener, para una lista de palabras:
 
   - los que empiecen con "a" o con "A"
   - los que tengan, al menos, una "a" o "A"
@@ -77,7 +79,7 @@ const generos = ["rock", "pop", "disco", "rap"]
   - la lista con las mismas palabras, todas al revés (p.ej. )
   - la primer palabra de más de 7 letras
 
-  P.ej. el resultado de cada una de estas expresiones  
+P.ej. el resultado de cada una de estas expresiones  
 
 ```
 empiezanConA(comidas)
@@ -89,7 +91,7 @@ alReves(generos)
 primerPalabraDeMasDe7Letras(comidas)
 ```
   
-  debe ser, respectivamente,  
+debe ser, respectivamente,  
   `["arroz"]`,  
   `["milanesa", "empanada", "arroz", mayonesa"]`,  
   `["milanesa", "empanada", mayonesa"]`,  
@@ -100,12 +102,16 @@ primerPalabraDeMasDe7Letras(comidas)
 
   <br/>
 
-2. Construir una función que, dados una lista de números `ln` y un número `x`, devuelva una lista con dos listas, la primera con los elementos de `ln` que sean números menores o iguales a `x`, la segunda con los que sean mayores a `x`.  
+#### Ejercicio 2
+
+Construir una función que, dados una lista de números `ln` y un número `x`, devuelva una lista con dos listas, la primera con los elementos de `ln` que sean números menores o iguales a `x`, la segunda con los que sean mayores a `x`.  
   P.ej. `separarSegun([3,8,21,2,19,6,1,22,4],10)` debe devolver `[[3,8,2,6,1,4],[21,19,22]]`.
+
   <br/>
 
-<!--  
-3. Construir una función que, dados una lista `lln` donde cada elemento es, a su vez, una lista de números, y un número `x`, devuelva una lista con las listas en `lln` donde está `x`.
+#### Ejercicio 3
+
+Construir una función que, dados una lista `lln` donde cada elemento es, a su vez, una lista de números, y un número `x`, devuelva una lista con las listas en `lln` donde está `x`.
   P.ej. `listasDondeEsta([[1,2,3],[4,8,13],[71,4,5,9],[2,5,6,1]],4)` debe devolver `[[4,8,13],[71,4,5,9]]`.
   <br/>
 4. Construir la función `repetir(str,n)` que devuelve un String consistente en `n` copias del String `str`.
@@ -115,6 +121,7 @@ primerPalabraDeMasDe7Letras(comidas)
 
 ### Object literals
 Considerar listas de registros de lluvia, con año, ciudad y milímetros caídos. P.ej.
+
 ```
 let centroBuenosAires = [
     {year: 1902, city: 'Chas', mm: 822}, {year: 1903, city: 'Chas', mm: 901},
@@ -128,6 +135,7 @@ let misiones = [
     {year: 1902, city: 'Andresito', mm: 1504}
 ]
 ```
+
 Armar funciones que permitan, para una lista de registros de lluvia
 
   - cuánto llovió en un año en una ciudad.
@@ -155,7 +163,8 @@ Armar funciones que permitan, para una lista de registros de lluvia
     Ver cantidad variable de argumentos.  
     Una variante más fácil es  
     `agregarRegistros(centroBuenosAires, "Ranchos", [1902, 1041, 1903, 1054])`.
--->
+
+<br/>
 
 ### Página Web
 Se describe en una página aparte: [Jarras de cerveza](./jarras-de-cerveza.md)
