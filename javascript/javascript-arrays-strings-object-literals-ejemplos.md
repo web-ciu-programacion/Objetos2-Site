@@ -49,6 +49,7 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
 ### Listas y Strings
 1. 
   Consideremos una lista de palabras, p.ej.  
+
 ```
 const martin = [
     "Aquí", "me", "pongo", "a", "cantar", 
@@ -66,7 +67,11 @@ const canterville = [
 const comidas = ["puré", "milanesa", "empanada", "arroz", "fideos", "mayonesa"]
 const generos = ["rock", "pop", "disco", "rap"]
 ```
+
+<!--  
   Construir funciones que permitan obtener, para una lista de palabras:
+
+
     - los que empiecen con "a" o con "A"
     - los que tengan, al menos, una "a" o "A"
     - los que tengan, al menos, dos "a" o "A"
@@ -144,7 +149,7 @@ Armar funciones que permitan, para una lista de registros de lluvia
     Ver cantidad variable de argumentos.  
     Una variante más fácil es  
     `agregarRegistros(centroBuenosAires, "Ranchos", [1902, 1041, 1903, 1054])`.
-
+-->
 
 ### Página Web
 Se describe en una página aparte: [Jarras de cerveza](./jarras-de-cerveza.md)
