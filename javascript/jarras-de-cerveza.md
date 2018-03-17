@@ -52,6 +52,8 @@ Se parte de la siguiente información.
 
 Como se observa: cada carpa se identifica por su color, en cada carpa se pueden vender varias marcas de cerveza, y se registra por cada carpa, cada una de las personas que la visitó indicando cuántas jarras de cerveza compró. No se cuenta con la información.
 
+<br/>
+
 ## Requerimiento básico
 
 Armar una página que incluya la siguente información
@@ -72,6 +74,7 @@ Armar una página que incluya la siguente información
 
 Para esta versión básica, se recomienda armar cinco recuadros, uno para la información general, y uno para cada carpa.
 
+<br/>
 
 ## Mostrar datos de una sola carpa
 
@@ -83,16 +86,21 @@ Se admiten dos variantes sobre qué mostrar al cargarse la página, antes de pul
 - que muestre la información de la carpa roja
 - que el recuadro con la información de la carpa no aparezca (`display: none`), activándolo (`display: block`) al elegirse cualquiera de las carpas.
 
+<br/>
 
 ## Incluir datos sobre Grolsch
 
 Agregar a la página un panel con la siguiente información sobre la marca de cerveza *Grolsch*: nombres de las carpas donde se vende, nombres de las carpas donde no se vende.
 
+<br/>
 
 ## Incluir datos sobre todas las marcas de cerveza
 
 Modificar el panel con información sobre una marca de cerveza, para que muestre la información sobre cualquiera de las marcas de cerveza que se venden en (al menos una carpa que participa de) la fiesta.
 
+En este estadío, la página debe permitir que el usuario elija una cualquiera de las marcas, y mostrar la información de la marca elegida.  
+Esto se puede hacer generando un link, o un botón, para cada marca. Otra forma es teneer un campo *select*.  
+Le queda a cada uno decidir la organización de esta parte de la pantalla.
 
 
 
