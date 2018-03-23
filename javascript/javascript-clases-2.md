@@ -50,6 +50,7 @@ Notar que
 - en una subclase se pueden definir métodos que no tiene la superclase, p.ej. `nivelDeConcentracion()` en `GolondrinaPensativa`.
 - en una subclase se puede redefinir un método heredado, en este caso `comer(gramos)` en ambas subclases, y acceder a la implementación de la superclase poniendo `super`.
 
+<br/>
 
 ## Consecuencias de la falta de chequeo de tipos
 Ya vimos que al no haber chequeo de tipos antes de la ejecución, en JavaScript no se ponen, al definir un método, ni el tipo de retorno ni los tipos de los parámetros. Tampoco se definen los tipos de los atributos.

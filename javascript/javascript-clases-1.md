@@ -13,7 +13,7 @@ En lo que sigue, vamos a mencionar algunas características que se pueden apreci
 
 <br/> 
 
-<span style="font-size: 125%">**Atención**</span>  
+<span style="font-size: 125%; color: palegreen">**Atención**</span>  
 La notación que vamos a ver se introdujo en la versión 2015 de JavaScript, también llamada "ES6" o "EcmaScript 6".  
 Por eso hay en la Web varias explicaciones de cómo definir clases en JavaScript con una notación distinta, bastante más oscura. Así es como había que hacer en las versiones anteriores de JavaScript, en particular en ES5.
 
