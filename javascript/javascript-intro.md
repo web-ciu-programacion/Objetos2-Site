@@ -13,6 +13,9 @@ Algo de material sobre JavaScript.
 [Array, String, object literals](./javascript-arrays-strings-object-literals.md)
 - [ejemplos y ejercicios](./javascript-arrays-strings-object-literals-ejemplos.md)
 
+[Clases - lo básico](./javascript-clases-1.md)  
+[Clases - herencia y otras cuestiones](./javascript-clases-2.md)
+
 <br/>
 
 ## Estructura de ejemplos y ejercicios
