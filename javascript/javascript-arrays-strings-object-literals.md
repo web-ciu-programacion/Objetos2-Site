@@ -137,13 +137,17 @@ let notaJuanaMate = {
             && this.notasTrimestrales.every(nota => nota >= 6)
             && (this.notasTrimestrales.filter(nota => nota == 6).length <= 1
     },
-    mejorNota() { return this.notasTrimestrales.reduce(
+    mejorNota: function() { return this.notasTrimestrales.reduce(
         (maxi,nota) => Math.max(maxi,nota)
     ), 0},
-    alumnoEnMayuscula() { return this.alumno.toUpperCase() }
+    alumnoEnMayuscula: function() { return this.alumno.toUpperCase() }
 }
 ```
 La condición de aprobación es tener todas las notas, que todas sean 6 o más, y no tener más de un 6.
+
+En esta notación, un método se define como un atributo, al que se asigna *una función* como valor. 
+
+<br/>
 
 Con esta definición, podemos evaluar
 ```
