@@ -137,3 +137,52 @@ poner un comentario en la clase abstracta. P.ej.
 ```
   // estaFeliz()   -- metodo abstracto, hay que definirlo en cada subclase
 ```
+
+<br/>
+
+## Constructores
+El constructor de una clase se escribe como un método de nombre `constructor`. Copiamos de nuevo parte de la definición de la clase `Golondrina`:
+```
+class Golondrina {
+  constructor() { this._energia = 0 }
+  // ... etc ...
+}
+```
+
+Este constructor tiene una sola línea, puede haber constructores más largos.
+
+Los constructores pueden tener parámetros, como cualquier método. P.ej. podemos tener una clase así:
+```
+class Avion { 
+  constructor(cantidadAsientos, alturaCabina, nombre) {
+    this._cantidadAsientos = cantidadAsientos
+    this._alturaCabina = alturaCabina
+    this._nombre = nombre
+  }
+  // ... etc ...
+}
+```
+
+Dos cuestiones que es **importante** tener en cuenta.
+
+- Se puede tener <span style="color: dodgerblue">**un solo constructor por clase**</span>. No vale tener dos constructores en la misma clase, aunque tengan distinta cantidad de parámetros. 
+P.ej. una definición de clase que empiece así
+```
+class Golondrina {
+  constructor() { this._energia = 0 }
+  constructor(energia) { this._energia = energia }
+  // ... etc ...
+}
+```
+es errónea porque no puede haber dos constructores en la misma clase.
+- Los constructores se heredan, no hace falta poner un constructor en una subclase si no agrega nada al de la superclase. P.ej. una subclase de `Golondrina` con esta pinta
+```
+class GolondrinaQueNoSabeComerPoco extends Golondrina {
+  comer(gramos) {
+    if (gramos > 10) { super.comer(gramos) }
+  }
+}
+```
+no necesita definir un constructor, usa el definido en `Golondrina`.
+
+Obviamente que se puede usar el constructor de la superclase, poniendo `super(... parámetros ...)`.

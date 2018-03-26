@@ -14,7 +14,7 @@ Algo de material sobre JavaScript.
 - [ejemplos y ejercicios](./javascript-arrays-strings-object-literals-ejemplos.md)
 
 [Clases - lo básico](./javascript-clases-1.md)  
-[Clases - herencia y otras cuestiones](./javascript-clases-2.md)
+[Clases - herencia, polimorfismo sin tipos, constructores](./javascript-clases-2.md)
 
 <br/>
 
