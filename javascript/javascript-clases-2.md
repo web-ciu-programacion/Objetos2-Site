@@ -169,18 +169,18 @@ Dos cuestiones que es **importante** tener en cuenta.
 P.ej. una definición de clase que empiece así
 ```
 class Golondrina {
-  constructor() { this._energia = 0 }
-  constructor(energia) { this._energia = energia }
-  // ... etc ...
+    constructor() { this._energia = 0 }
+    constructor(energia) { this._energia = energia }
+    // ... etc ...
 }
 ```
 es errónea porque no puede haber dos constructores en la misma clase.
 - Los constructores se heredan, no hace falta poner un constructor en una subclase si no agrega nada al de la superclase. P.ej. una subclase de `Golondrina` con esta pinta
 ```
 class GolondrinaQueNoSabeComerPoco extends Golondrina {
-  comer(gramos) {
-    if (gramos > 10) { super.comer(gramos) }
-  }
+    comer(gramos) {
+        if (gramos > 10) { super.comer(gramos) }
+    }
 }
 ```
 no necesita definir un constructor, usa el definido en `Golondrina`.
