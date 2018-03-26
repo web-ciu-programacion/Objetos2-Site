@@ -101,3 +101,39 @@ entonces podemos hacer `roque.entrenar(pepita)` y también `roque.entrenar(tomi)
 <br/>
 
 ### No es necesario poner los métodos abstractos
+Volvamos a las subclases de Golondrina que definimos más arriba, agregando este método
+```
+  estaFeliz() { 
+    return this.nivelDeConcentracion() >= 30 && this.nivelDeConcentracion() <= 50 
+  }
+```
+en la clase `GolondrinaPensativa`. Ahora las dos subclases de `Golondrina` definen un método `estaFeliz()`.
+
+Así las cosas, podemos agregar esta definición en la clase `Golondrina`:
+```
+  tieneGanasDeCantar() { 
+    return this.estaFeliz() && (this.energia() > 100) 
+  }
+```
+
+Este método va a funcionar, tanto para instancias de `GolondrinaPensativa` como para las de `GolondrinaGolosa`.
+
+<span style="color: orange">**No**</span> hace falta definir un método abstracto `estaFeliz` en `Golondrina`. 
+De hecho, no hay una notación para definir un método como abstracto.
+
+<span style="font-size: 125%; color: palegreen">**Atención**</span>  
+Aunque el lenguaje no obliga, recomendamos incluir alguna indicación para los métodos abstractos, que deben ser definidos en cada subclase. Indicamos dos formas posibles para hacer esto.
+
+**Primera forma**  
+definir el método en la clase abstracta, en este caso `Golondrina`, y hacer que lance un error usando `throw`. P.ej. 
+```
+  estaFeliz() { 
+    throw "Hay que definir el método estaFeliz, abstracto en Golondrina" \
+  }
+```
+
+**Segunda forma**  
+poner un comentario en la clase abstracta. P.ej. 
+```
+  // estaFeliz()   -- metodo abstracto, hay que definirlo en cada subclase
+```
