@@ -1,4 +1,4 @@
-# Array, String, object literals - ejemplos y ejercicios
+# Clases en JavaScript - ejemplos y ejercicios
 
 volver a [JavaScript](./javascript-intro.md)
 
@@ -57,127 +57,30 @@ En <span style="color: orange">`browser`</span> tenemos.
 
 <br/>
 
-### Listas y Strings
+### Ejercicio 1. 
+Implementar las clases necesarias para resolver los ejercicios que se indican de las [guías de Objetos 1](https://objetos1wollokunq.gitlab.io/material/#guides)  
+- Guía 5 ejercicio 4: atención de animales.
+- Guía 7 ejercicio 1: agregados a atención de animales.
 
-#### Ejercicio 1. 
-  
-Consideremos una lista de palabras, p.ej.  
-
-```
-const martin = [
-    "Aquí", "me", "pongo", "a", "cantar", 
-    "al", "compás", "de", "la", "vigüela", 
-    "que", "al", "hombre", "que", "lo", "desvela", 
-    "una", "pena", "extraordinaria", 
-    "como", "el", "ave", "solitaria", 
-    "sólo", "al", "cantar", "se", "consuela"]
-const canterville = [
-    "Yo", "era", "un", "hombre", "bueno", 
-    "si", "hay", "alguien", "bueno", "en", "este", "lugar", 
-    "pagué", "todas", "mis", "deudas", 
-    "perdí", "mi", "oportunidad", "de", "amar"]
-
-const comidas = ["puré", "milanesa", "empanada", "arroz", "fideos", "mayonesa"]
-const generos = ["rock", "pop", "disco", "rap"]
-```
-
-Construir funciones que permitan obtener, para una lista de palabras:
-
-  - los que empiecen con "a" o con "A"
-  - los que tengan, al menos, una "a" o "A"
-  - los que tengan, al menos, dos "a" o "A"
-  - si hay al menos una palabra, de más de una letra, que empieza y termina con la misma letra
-  - la lista con las mismas palabras, todas al revés (p.ej. )
-  - la primer palabra de más de 7 letras
-
-P.ej. el resultado de cada una de estas expresiones  
-
-```
-empiezanConA(comidas)
-tienenA(comidas)
-tienenAlMenosDosA(comidas)
-hayCoincidenciaPrimeraUltima(comidas)
-hayCoincidenciaPrimeraUltima(generos)
-alReves(generos)
-primerPalabraDeMasDe7Letras(comidas)
-```
-  
-debe ser, respectivamente,  
-  `["arroz"]`,  
-  `["milanesa", "empanada", "arroz", mayonesa"]`,  
-  `["milanesa", "empanada", mayonesa"]`,  
-  `false`,  
-  `true`,  
-  `["kcor", "pop", "ocsid", "par"]`,
-  `"milanesa"`  
-
-  <br/>
-
-#### Ejercicio 2
-
-Construir una función que, dados una lista de números `ln` y un número `x`, devuelva una lista con dos listas, la primera con los elementos de `ln` que sean números menores o iguales a `x`, la segunda con los que sean mayores a `x`.  
-  P.ej. `separarSegun([3,8,21,2,19,6,1,22,4],10)` debe devolver `[[3,8,2,6,1,4],[21,19,22]]`.
-
-  <br/>
-
-#### Ejercicio 3
-
-Construir una función que, dados una lista `lln` donde cada elemento es, a su vez, una lista de números, y un número `x`, devuelva una lista con las listas en `lln` donde está `x`.
-  P.ej. `listasDondeEsta([[1,2,3],[4,8,13],[71,4,5,9],[2,5,6,1]],4)` debe devolver `[[4,8,13],[71,4,5,9]]`.
-  <br/>
-4. Construir la función `repetir(str,n)` que devuelve un String consistente en `n` copias del String `str`.
-  P.ej. `repetir("pepo", 4)` debe devolver `"pepopepopepopepo"`.
-
+Hacerlo en archivos .js, después probar en es6console.  
+**Importante**  
+si se hacen correcciones, después volcarlas a los .js que se guardan.
 <br/>
 
-### Object literals
-Considerar listas de registros de lluvia, con año, ciudad y milímetros caídos. P.ej.
+### Ejercicio 2.
+Implementar las siguientes extensiones al modelo de ventas aéreas
 
-```
-let centroBuenosAires = [
-    {year: 1902, city: 'Chas', mm: 822}, {year: 1903, city: 'Chas', mm: 901},
-    {year: 1904, city: 'Chas', mm: 940}, 
-    {year: 1902, city: 'Newton', mm: 749}, {year: 1903, city: 'Newton', mm: 748}, 
-    {year: 1903, city: 'Villanueva', mm: 951}, {year: 1905, city: 'Villanueva', mm: 922},
-    {year: 1902, city: 'Gral. Belgrano', mm: 883}
-    ]
-let misiones = [
-    {year: 1902, city: 'Oberá', mm: 2304}, {year: 1903, city: 'Oberá', mm: 1891},
-    {year: 1902, city: 'Andresito', mm: 1504}
-]
-```
+1. Poder decir si *un vuelo es relajado o no*. Se considera que un vuelo es relajado si la cabina del avión tiene más de 4 metros de alto, y tiene menos de 100 asientos disponibles para pasajeros.  
+2. Saber el *peso máximo de un vuelo*, que es la suma de estos factores.
+  - Peso del avión, dato que hay que agregar en el modelo de avión.
+  - Peso de los pasajeros, que es el resultado de multiplicar la cantidad de pasajeros (o sea, de asientos ocupados) del vuelo por un peso standard definido por la IATA (Asociación Internacional de Transporte Aéreo).
+  - Peso de la carga, que depende del tipo de vuelo.  
+    Para vuelos normales, es la cantidad de pasajeros * 23 kg.  
+    Para vuelos de carga, el peso de la carga (que debe indicarse para cada vuelo de carga) más 700 kg de equipamiento de seguridad.  
+    Para vuelos charter, 5000 kg fijo.
+  - Peso de la nafta, que es distancia a recorrer en kilómetros (que debe indicarse para cada vuelo) por el consumo en litros de nafta por kilómetro, que depende del avión.
+  - Peso del equipamiento reglamentario, esto lo define la IATA siendo este valor igual para todos los vuelos.
+3. Conocer el total de asientos libres para un destino, considerando todos los vuelos registrados en el `VueloStore`.
 
-Armar funciones que permitan, para una lista de registros de lluvia
-
-  - cuánto llovió en un año en una ciudad.
-    P.ej. `cuantoLlovioEn(centroBuenosAires, "Newton", 1903)` debe devolver `748`.
-  - si hay al menos un registro de una ciudad.
-    P.ej. `hayDatosDe(centroBuenosAires, "Jeppener")` y `hayDatosDe(centroBuenosAires, "Villanueva")` deben devolver `false` y `true` respectivamente.
-  - los registros, con todos los datos, que correspondan a una cantidad de milímetros llovidos mayor a un número dado.  
-    P.ej. `registrosQueExceden(centroBuenosAires, 930)` debe devolver  
-    `[{year: 1904, city: 'Chas', mm: 940}, {year: 1903, city: 'Villanueva', mm: 951}]`.
-  - cuánto llovió en total en una ciudad, sumando todos los años para los que hay registro.
-    P.ej. `totalLluvias(centroBuenosAires,"Newton")` debe devolver `1497`.
-  - si una ciudad está bien regada, o sea, tiene al menos dos registros, y en cada uno llovió al menos 900 mm. En `centroBuenosAires`, la única ciudad bien regada es Villanueva.
-  - el registro (con todos los datos) con la mayor cantidad de lluvia. Para `centroBuenosAires`, es `{year: 1903, city: 'Villanueva', mm: 951}`.
-  - para qué años hay registro en una ciudad. 
-    P.ej. para `centroBuenosAires` debe devolver `[1902, 1903, 1904, 1905]` (en cualquier orden).
-  - los registros de un año con ciudad y mm.
-    P.ej., `registrosDelAnio(centroBuenosAires,1902)` tiene que devolver
-  `[{city: 'Chas', mm: 822}, {city: 'Newton', mm: 749}, {city: 'Villanueva', mm: 951}]`.
-  - (difícil) el resultado de agregar registros de una ciudad con este formato  
-    `agregarRegistros(centroBuenosAires, "Ranchos", [{year: 1902, mm: 1041}, {year: 1903, mm: 1054}])`.  
-    Tip: ver `Object.assign`.
-  - (aún más difícil) lo mismo pero con este formato  
-    `agregarRegistros(centroBuenosAires, "Ranchos", 1902, 1041, 1903, 1054)`  
-    (alterna año y mm).
-    Ver cantidad variable de argumentos.  
-    Una variante más fácil es  
-    `agregarRegistros(centroBuenosAires, "Ranchos", [1902, 1041, 1903, 1054])`.
-
-<br/>
-
-### Página Web
-Se describe en una página aparte: [Jarras de cerveza](./jarras-de-cerveza.md)
-
-  
+**Sugerencia**  
+Definir un objeto `iata`, que puede no ser instancia de ninguna clase, que maneja los valores de peso standard de pasajero y de peso de equipamiento reglamentario de cada vuelo.
