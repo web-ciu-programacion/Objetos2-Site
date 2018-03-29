@@ -63,6 +63,7 @@ Implementar las clases necesarias para resolver los ejercicios que se indican de
 - Guía 7 ejercicio 1: agregados a atención de animales.
 
 Hacerlo en archivos .js, después probar en es6console.  
+
 **Importante**  
 si se hacen correcciones, después volcarlas a los .js que se guardan.
 
@@ -95,7 +96,9 @@ Realizar las siguientes extensiones a `golondrina-simple.html`
 
 1. cambiar la clase `Golondrina` por la herencia incluyendo `GolondrinaGolosa` y `GolondrinaPensativa`. Que Pepita sea golosa y Juanita pensativa.
 2. agregar a lo que se muestra para cada ave, si tiene ganas de cantar o no. Sugerencia: usar el operador ternario con esta estructura:  
-` ...tieneGanasDeCantar... ? "Sí" : "No"`
+```
+ ...tieneGanasDeCantar... ? "Sí" : "No"
+```
 
 <br/>
 
