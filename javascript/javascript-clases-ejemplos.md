@@ -15,7 +15,6 @@ En <span style="color: orange">`plain-js`</span> tenemos
 1. `golondrina-basica.js`   
   Definición y uso de una clase sencilla en JavaScript.
 
-<p>
 2. `golondrina.js`  
   Extensión del ejemplo anterior. 
   - se definen varias subclases de Golondrina.
@@ -23,7 +22,7 @@ En <span style="color: orange">`plain-js`</span> tenemos
   - se define una clase `Entrenador` que puede interactuar con instancias de (subclases de la clase) `Golondrina`.
   - se define una clase `TamagotchiVolador`, cuyas instancias son polimórficas con las de `Golondrina` para los entrenadores.
   - se define un objeto `contadorComerVolar`, que también es polimórfico con tamagotchis voladores y golondrinas para los entrenadores.  
-</p>
+  <p></p>
 
 3. `ventasAereas.js`  
   Implementación parcial del enunciado "Ventas aéreas", versión octubre 2017, que puede verse en la página de ejercicios.  
