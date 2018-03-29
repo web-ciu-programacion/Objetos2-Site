@@ -15,6 +15,7 @@ Algo de material sobre JavaScript.
 
 [Clases - lo básico](./javascript-clases-1.md)  
 [Clases - herencia, polimorfismo sin tipos, constructores](./javascript-clases-2.md)
+- [Clases - ejemplos y ejercicios](./javascript-clases-ejemplos.md)
 
 <br/>
 
