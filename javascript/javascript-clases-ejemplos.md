@@ -65,6 +65,7 @@ Implementar las clases necesarias para resolver los ejercicios que se indican de
 Hacerlo en archivos .js, después probar en es6console.  
 **Importante**  
 si se hacen correcciones, después volcarlas a los .js que se guardan.
+
 <br/>
 
 ### Ejercicio 2.
@@ -84,3 +85,23 @@ Implementar las siguientes extensiones al modelo de ventas aéreas
 
 **Sugerencia**  
 Definir un objeto `iata`, que puede no ser instancia de ninguna clase, que maneja los valores de peso standard de pasajero y de peso de equipamiento reglamentario de cada vuelo.
+
+Este ejercicio también es para probar en es6console.com.
+
+<br/>
+
+### Ejercicio 3.
+Realizar las siguientes extensiones a `golondrina-simple.html`
+
+1. cambiar la clase `Golondrina` por la herencia incluyendo `GolondrinaGolosa` y `GolondrinaPensativa`. Que Pepita sea golosa y Juanita pensativa.
+2. agregar a lo que se muestra para cada ave, si tiene ganas de cantar o no. Sugerencia: usar el operador ternario con esta estructura:  
+` ...tieneGanasDeCantar... ? "Sí" : "No"`
+
+<br/>
+
+### Ejercicio 4.
+Realizar las siguientes extensiones a `ventas-aereas.html`
+
+1. agregar en la tabla de vuelos, una columna donde se muestre el nombre del avión de cada vuelo.
+2. hacer que solamente muestre los vuelos del avión elegido.
+3. (de lujo) agregar alguna forma que "limpie" el avión elegido, mostrándose un cuadro vacío (o nada) arriba, y los vuelos de todos los aviones abajo.
