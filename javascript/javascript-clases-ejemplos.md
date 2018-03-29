@@ -21,35 +21,35 @@ En <span style="color: orange">`plain-js`</span> tenemos
   - se incluye el template method `tieneGanasDeCantar()`, que usa al método abstracto `estaFeliz()`.
   - se define una clase `Entrenador` que puede interactuar con instancias de (subclases de la clase) `Golondrina`.
   - se define una clase `TamagotchiVolador`, cuyas instancias son polimórficas con las de `Golondrina` para los entrenadores.
-  - se define un objeto `contadorComerVolar`, que también es polimórfico con tamagotchis voladores y golondrinas para los entrenadores.
+  - se define un objeto `contadorComerVolar`, que también es polimórfico con tamagotchis voladores y golondrinas para los entrenadores.  
 
 3. `ventasAereas.js`  
-  Implementación parcial del enunciado "Ventas aéreas", versión octubre 2017, que puede verse en la página de ejercicios.
-
-  Incluye el agregado de vuelos y aviones al VueloStore.
-
+  Implementación parcial del enunciado "Ventas aéreas", versión octubre 2017, que puede verse en la página de ejercicios.  
+  Incluye el agregado de vuelos y aviones al VueloStore.  
   Se destaca el uso de objetos "sueltos" (que no son instancias de clase) para implementar las políticas de precio de pasaje, y la definición del registro `politicasDePrecio` para acceder a estas políticas.
 
 <br/>
 
 En <span style="color: orange">`browser`</span> tenemos.
-1. `traverseNames.js`  
-  Caso sencillo de uso de arrays: se definen dos arrays, y se accede a sus elementos por índice.  
-  Es un ejemplo muy conciso en el que se usa la idea de definir funciones (`nextPerson` y `previousPerson`) que reaccionan a los eventos, y otra función (`showCurrentPerson`) que actualiza los elementos de la página.
+1. `golondrina-simple.html`  
+  Una página para interactuar con dos instancias de la clase `Golondrina`.  
+  Primer ejemplo de definición de clases JavaScript en una página Web.
 
-2. `palabras.js`  
-  Se trabaja con arrays de Strings.  
-  Se define una nueva serie de funciones, que analizan la información para calcular lo que hay que mostrar en la página. 
-  En estas funciones se usan métodos de las clases `Array` y `String`.
-  La función `mostrarEstadisticas`, que es la que actualiza la página, usa estas funciones de cálculo.
+2. `golondrina-intermedio.html` y `golondrina-sofisticado.html`  
+  Refinamientos de `golondrina-simple.html` que buscan evitar la repetición de código en las funciones que responden a los eventos.
 
-3. `monsters.js`  
-  Se trabaja con arrays de registros, donde cada registro está definido como un object literal.  
-  Tiene funciones de cálculo, en la que se analizan los arrays usando métodos de `Array` que miran cada registro.  
-  En este ejemplo también mostramos la **integración** con 
-  - `bootstrap`, una librería CSS
-  - `lodash`, una librería básica de funciones JavaScript
-  
+3. `ventas-aereas.html` y `ventas-aereas-dominio.js`  
+  Página que muestra información a partir del modelo de objetos de ventas aéreas.  
+  Se separa la definición de las clases y objetos en un archivo aparte de extensión `.js`, que se incluye usando `<script src ...>` en el archivo HTML.
+
+4. `monsters-objetos.html` y `monsters-dominio.js`  
+  Reimplementación de la página que muestra información de bandas y discos, incluida como ejemplo de arrays y object literals, donde la base de información se define usando clases.  
+  Incluye una forma interesante de agregar fácilmente las ventas de un disco en distintos países. Ver la inicialización de los discos.
+
+5. `monsters-objetos-2.html`  
+  Extensión del ejemplo anterior, incluyendo información sobre bandas, con el armado de recuadros complejos incluyendo información de cada disco de una banda, y una lista de bandas generada dinámicamente.  
+  Sirve como ejemplo de los límites de la utilización de JavaScript "puro" para armar páginas con complejidad de visualización y/o interacción.
+
 <br/>
 
 ## Ejercicios
