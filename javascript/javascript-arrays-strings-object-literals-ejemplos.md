@@ -167,6 +167,7 @@ Armar funciones que permitan, para una lista de registros de lluvia
 <br/>
 
 ### Página Web
+Se describe en una página aparte: [Partido de fútbol](./partido-de-futbol.md)
 Se describe en una página aparte: [Jarras de cerveza](./jarras-de-cerveza.md)
 
   
