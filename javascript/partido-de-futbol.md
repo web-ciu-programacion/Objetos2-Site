@@ -128,7 +128,7 @@ Mostrar un boton debajo de cada formación que nos permita visualizar y ocultar 
 - cantidad de jugadores del equipo que disputaron el partido, es decir titulares y suplentes que ingresaron.
 - promedio de ambos equipos, calculado por el puntaje de los jugadores que disputaron el partido.
 - el nombre de los jugadores amonestados del equipo.
-- jugadores que jugaron menos de 20 minutos, sabiendo que la duración del partido fue de 90 minutos.
+- jugadores suplentes que al ingresaron jugaron menos de 20 minutos, sabiendo que la duración del partido fue de 90 minutos.
 
 <br/>
 
