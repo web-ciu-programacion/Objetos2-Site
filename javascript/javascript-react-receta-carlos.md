@@ -1,3 +1,9 @@
+volver a [JavaScript](./javascript-intro.md)
+
+volver a [React](./javascript-react-indice.md)
+
+<br>
+
 # Receta para tener una página con React andando (de Carlos)
 
 Va una receta para armar un entorno donde se pueda trabajar con React.  
