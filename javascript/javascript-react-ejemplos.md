@@ -50,9 +50,9 @@ En <span style="color: orange">`ventas-aereas`</span> tenemos.
   Se incluye el dominio en un archivo fuente separado, `ventas-aereas-dominio.js`.
   <p></p>
 
-2. `aviones-vuelos-design`
-   Hola.
-
+2. `aviones-vuelos-design`  
+   La misma página que `aviones-vuelos`, con dos métodos agregados en el componente para evitar repetir secciones muy parecidas en la definición del `render()`.  
+   Se muestra que es sencillo generar elementos en forma dinámica. En este caso, en lugar de botones fijos para tres aviones bien conocidos, se arma un botón para cada avión que tenga el Store.
 
 <br/>
 
