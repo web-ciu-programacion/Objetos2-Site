@@ -6,3 +6,4 @@ volver a [JavaScript](./javascript-intro.md)
 
 [Receta de Carlos](./javascript-react-receta-carlos.md)
 
+[Ejemplos y ejercicios](./javascript-react-ejemplos.md)
