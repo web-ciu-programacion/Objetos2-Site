@@ -61,53 +61,22 @@ En <span style="color: orange">`ventas-aereas`</span> tenemos.
 <br/>
 
 ### Ejercicio 1. 
-Implementar las clases necesarias para resolver los ejercicios que se indican de las [guías de Objetos 1](https://objetos1wollokunq.gitlab.io/material/#guides)  
-- Guía 5 ejercicio 4: atención de animales.
-- Guía 7 ejercicio 1: agregados a atención de animales.
-
-Hacerlo en archivos .js, después probar en es6console.  
-
-**Importante**  
-si se hacen correcciones, después volcarlas a los .js que se guardan.
+Implementar los siguientes agregados sobre el ejemplo `iniciales/first-example`. 
+- que el texto del botón cambie a `"Ya está"` después de que se pulsa.
+- agregar un segundo botón, que cambie el color (atributo `color` del style) a rojo.
+- que el botón agregado en realidad vaya alternando el color entre negro y rojo. O sea, si el texto está en negro lo pase a rojo, y si está rojo que lo pase a negro.  
+**Desafío**: alternar entre más de dos colores, p.ej. negro / rojo / azul / verde / marrón.
+- que el texto del botón que cambia de color indique a qué color va a cambiar. P.ej. `"Cambiar a color rojo"`.
 
 <br/>
 
 ### Ejercicio 2.
-Implementar las siguientes extensiones al modelo de ventas aéreas
+Implementar las siguientes variantes a la página de ventas aéreas
 
-1. Poder decir si *un vuelo es relajado o no*. Se considera que un vuelo es relajado si la cabina del avión tiene más de 4 metros de alto, y tiene menos de 100 asientos disponibles para pasajeros.  
-2. Saber el *peso máximo de un vuelo*, que es la suma de estos factores.
-  - Peso del avión, dato que hay que agregar en el modelo de avión.
-  - Peso de los pasajeros, que es el resultado de multiplicar la cantidad de pasajeros (o sea, de asientos ocupados) del vuelo por un peso standard definido por la IATA (Asociación Internacional de Transporte Aéreo).
-  - Peso de la carga, que depende del tipo de vuelo.  
-    Para vuelos normales, es la cantidad de pasajeros * 23 kg.  
-    Para vuelos de carga, el peso de la carga (que debe indicarse para cada vuelo de carga) más 700 kg de equipamiento de seguridad.  
-    Para vuelos charter, 5000 kg fijo.
-  - Peso de la nafta, que es distancia a recorrer en kilómetros (que debe indicarse para cada vuelo) por el consumo en litros de nafta por kilómetro, que depende del avión.
-  - Peso del equipamiento reglamentario, esto lo define la IATA siendo este valor igual para todos los vuelos.
-3. Conocer el total de asientos libres para un destino, considerando todos los vuelos registrados en el `VueloStore`.
+1. En la tabla de vuelos, agregar el nombre del avión en cada vuelo.  
+1. En la información del avión elegido, agregar la altura de la cabina. Para esto hay que agregar, en la clase `Avion`, un método que devuelva este dato (el atributo está, falta el método).  
+1. En la tabla de vuelos, agregar la política de venta de cada vuelo, "estricta", "anticipada" o "remate".  
+Para esto, hay que agregar un método `nombreParaMostrar` a cada uno de los objetos que representan las políticas. También hay que agregar un método en `Vuelo` que devuelva la política.  
+1. Invertir el orden en que se muestra la información, poniendo los vuelos arriba y el avión elegido abajo.  
+1. Reemplazar el nombre del avión por un link o botón, y que elija el avión correspondiente al clickear en el nombre. Sacar los botones para elegir avión, ahora se eligen desde la tabla de vuelos.
 
-**Sugerencia**  
-Definir un objeto `iata`, que puede no ser instancia de ninguna clase, que maneja los valores de peso standard de pasajero y de peso de equipamiento reglamentario de cada vuelo.
-
-Este ejercicio también es para probar en es6console.com.
-
-<br/>
-
-### Ejercicio 3.
-Realizar las siguientes extensiones a `golondrina-simple.html`
-
-1. cambiar la clase `Golondrina` por la herencia incluyendo `GolondrinaGolosa` y `GolondrinaPensativa`. Que Pepita sea golosa y Juanita pensativa.
-2. agregar a lo que se muestra para cada ave, si tiene ganas de cantar o no. Sugerencia: usar el operador ternario con esta estructura:  
-```
- ...tieneGanasDeCantar... ? "Sí" : "No"
-```
-
-<br/>
-
-### Ejercicio 4.
-Realizar las siguientes extensiones a `ventas-aereas.html`
-
-1. agregar en la tabla de vuelos, una columna donde se muestre el nombre del avión de cada vuelo.
-2. hacer que solamente muestre los vuelos del avión elegido.
-3. (de lujo) agregar alguna forma que "limpie" el avión elegido, mostrándose un cuadro vacío (o nada) arriba, y los vuelos de todos los aviones abajo.
