@@ -20,7 +20,9 @@ Para editor recomiendo [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Hacer una vez por cada carpeta donde se quiera trabajar con React
 
-Copiar los dos archivos que están en el repo de ejemplos, carpeta `react/base`.
+- Copiar los tres archivos que están en el repo de ejemplos, carpeta `react/base`.
+- Ejecutar `npm install`. Se va a crear una subcarpeta `node_modules`. Perfecto.  
+**OJO** este paso requiere de conexión a Internet. No mucha, pero algo mínimamente estable tiene que haber.
 
 <br>
 
@@ -92,7 +94,7 @@ El método `render` de `ReactDOM` es el que interviene sobre la página. Tiene d
 
 <br>
 
-### ¿Cómo hago para probar?
+## ¿Cómo hago para probar?
 Hay que hacer un paso previo a mandar el HTML a un browser. Desde una consola de línea de comandos, usar `jspack` con el nombre del archivo `.js`. En nuestro caso.
 ```
 jspack pirulito
@@ -105,4 +107,8 @@ Si hay errores de sintaxis en el JS, el jspack va a terminar con error, indicand
 **ATENTI**  
 El `jspack` es, claramente, para Windows. Algún alma caritativa lo "traducirá" a Linux.
 
- 
+<br>
+
+## El ejemplo andando
+
+Lo tienen en el repo de ejemplo, carpeta `react/iniciales`. Se llama `zeroth-example`, están el HTML y el JS.
