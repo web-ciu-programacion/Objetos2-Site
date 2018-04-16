@@ -72,6 +72,7 @@ Implementar los siguientes agregados sobre el ejemplo `iniciales/first-example`.
 - que el botón agregado en realidad vaya alternando el color entre negro y rojo. O sea, si el texto está en negro lo pase a rojo, y si está rojo que lo pase a negro.  
 **Desafío**: alternar entre más de dos colores, p.ej. negro / rojo / azul / verde / marrón.
 - que el texto del botón que cambia de color indique a qué color va a cambiar. P.ej. `"Cambiar a color rojo"`.
+- agregar un tercer botón, que haga desaparecer los otros dos. Mejora: que el tercer botón alterne entre incluir los otros dos o no.
 
 <br/>
 
