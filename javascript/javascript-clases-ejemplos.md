@@ -51,6 +51,9 @@ En <span style="color: orange">`browser`</span> tenemos.
   Extensión del ejemplo anterior, incluyendo información sobre bandas, con el armado de recuadros complejos incluyendo información de cada disco de una banda, y una lista de bandas generada dinámicamente.  
   Sirve como ejemplo de los límites de la utilización de JavaScript "puro" para armar páginas con complejidad de visualización y/o interacción.
 
+6. `monsters-objetos-3.html` y `micro-modelo-html.js`  
+  Variante del ejemplo anterior, en la que se define un modelo de alto nivel de una página HTML, que genera los elementos correspondientes del DOM, para simplificar la definición de las partes de la página que se generan dinámicamente.  
+
 <br/>
 
 ## Ejercicios

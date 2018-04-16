@@ -53,6 +53,11 @@ En <span style="color: orange">`ventas-aereas`</span> tenemos.
 2. `aviones-vuelos-design`  
    La misma página que `aviones-vuelos`, con dos métodos agregados en el componente para evitar repetir secciones muy parecidas en la definición del `render()`.  
    Se muestra que es sencillo generar elementos en forma dinámica. En este caso, en lugar de botones fijos para tres aviones bien conocidos, se arma un botón para cada avión que tenga el Store.
+  <p></p>
+
+3. `aviones-vuelos-design-2`  
+   La misma página que `aviones-vuelos`, separando dos de las secciones de la página en clases aparte.  
+   Se muestra la concentración de estado en el componente principal, y el acceso al mismo desde los otros componentes mediante los `props`. También que la definición de componentes propios lleva a una variante "potenciada" de HTML.
 
 <br/>
 
@@ -79,4 +84,5 @@ Implementar las siguientes variantes a la página de ventas aéreas
 Para esto, hay que agregar un método `nombreParaMostrar` a cada uno de los objetos que representan las políticas. También hay que agregar un método en `Vuelo` que devuelva la política.  
 1. Invertir el orden en que se muestra la información, poniendo los vuelos arriba y el avión elegido abajo.  
 1. Reemplazar el nombre del avión por un link o botón, y que elija el avión correspondiente al clickear en el nombre. Sacar los botones para elegir avión, ahora se eligen desde la tabla de vuelos.
+1. Separar la generación de la tabla de vuelos en un componente aparte, como está hecho en `aviones-vuelos-design-2.js` para la información del avión.
 
