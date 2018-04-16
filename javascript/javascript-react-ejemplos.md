@@ -28,13 +28,11 @@ En <span style="color: orange">`iniciales`</span> encontramos ejemplos muy senci
 1. `zeroth-example`   
   Un ejemplo trivial, no tiene nada dinámico. Sirve solamente para mostrar qué elementos se necesitan para tener una página andando sobre React.  
   El nombre es un homenaje a Isaac Asimov, respecto de su [zeroth law](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics#Zeroth_Law_added), en castellano [Ley Cero](https://es.wikipedia.org/wiki/Ley_Cero).
-  <p></p>
 2. `first-example`  
   Un botón que modifica el contenido y estilo de un paragraph.  
   Se ve 
   - cómo se manejan los aspectos dinámicos usando el atributo `state` y el método `setState`, y
   - la definición de un método que responde a un evento.
-  <p></p>
 3. `second-example`  
   Variante del anterior en la que cambia un elemento entero, se cambia un botón por un paragraph.  
   Este ejemplo muestra que no es necesario manejarnos con p.ej. `none` y `block`. Directamente se decide qué elementos incluir, o no, en una página.  
@@ -46,11 +44,9 @@ En <span style="color: orange">`ventas-aereas`</span> tenemos.
 1. `aviones-vuelos`  
   La página que muestra información sobre aviones y vuelos, con la misma funcionalidad que la incluida en [el módulo sobre clases en JS](./javascript-clases-ejemplos.md), implementada sobre React.  
   Se incluye el dominio en un archivo fuente separado, `ventas-aereas-dominio.js`.
-  <p></p>
 2. `aviones-vuelos-design`  
    La misma página que `aviones-vuelos`, con dos métodos agregados en el componente para evitar repetir secciones muy parecidas en la definición del `render()`.  
    Se muestra que es sencillo generar elementos en forma dinámica. En este caso, en lugar de botones fijos para tres aviones bien conocidos, se arma un botón para cada avión que tenga el Store.
-  <p></p>
 3. `aviones-vuelos-design-2`  
    La misma página que `aviones-vuelos`, separando dos de las secciones de la página en clases aparte.  
    Se muestra la concentración de estado en el componente principal, y el acceso al mismo desde los otros componentes mediante los `props`. También que la definición de componentes propios lleva a una variante "potenciada" de HTML.
