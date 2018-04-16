@@ -83,6 +83,7 @@ Implementar las siguientes variantes a la página de ventas aéreas
 1. En la tabla de vuelos, agregar la política de venta de cada vuelo, "estricta", "anticipada" o "remate".  
 Para esto, hay que agregar un método `nombreParaMostrar` a cada uno de los objetos que representan las políticas. También hay que agregar un método en `Vuelo` que devuelva la política.  
 1. Invertir el orden en que se muestra la información, poniendo los vuelos arriba y el avión elegido abajo.  
+1. Agregar una tabla abajo que muestre información sobre las ciudades. Para cada una, la cantidad de pasajeros que salieron de la ciudad, y la cantidad que llegaron. La información ya está en el Store, ver la clase `Ciudad` y el método `ciudades()` en el VueloStore.
 1. Reemplazar el nombre del avión por un link o botón, y que elija el avión correspondiente al clickear en el nombre. Sacar los botones para elegir avión, ahora se eligen desde la tabla de vuelos.
 1. Separar la generación de la tabla de vuelos en un componente aparte, como está hecho en `aviones-vuelos-design-2.js` para la información del avión.
 
