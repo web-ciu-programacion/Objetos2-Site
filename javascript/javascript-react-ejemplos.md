@@ -1,4 +1,4 @@
-# Clases en JavaScript - ejemplos y ejercicios
+# React - ejemplos y ejercicios
 
 volver a [JavaScript](./javascript-intro.md)
 
