@@ -20,7 +20,9 @@ Para editor recomiendo [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Hacer una vez por cada carpeta donde se quiera trabajar con React
 
-- Copiar los tres archivos que están en el repo de ejemplos, carpeta `react/base`.
+- Copiar tres archivos que están en el repo de ejemplos, carpeta `react/base`.  
+  Dos son fijos: `.gitignore` y `package.json`.  
+  El tercero depende de tu sistema operativo: para Linux es `jspack.sh`, para Windows es `jspack.bat`.  
 - Ejecutar `npm install`. Se va a crear una subcarpeta `node_modules`. Perfecto.  
 **OJO** este paso requiere de conexión a Internet. No mucha, pero algo mínimamente estable tiene que haber.
 
