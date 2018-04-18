@@ -6,6 +6,6 @@ volver a [JavaScript](./javascript-intro.md)
 
 [Receta de Carlos](./javascript-react-receta-carlos.md)
 
-[Receta de Román](../material/documentos/ejercicios/car-service.pdf) (es un .PDF que se abre aparte)
+<a href="../material/documentos/apuntes/React-en-Windows-y-Linux.pdf" target="_blank">Receta de Román</a> (es un .PDF que se abre aparte)
 
 [Ejemplos y ejercicios](./javascript-react-ejemplos.md)
