@@ -19,6 +19,8 @@ Algo de material sobre JavaScript.
 
 [React](./javascript-react-indice.md)  
 
+[Cuestiones técnicas del lenguaje](./javascript-tecnicidades.md)  
+
 <br/>
 
 ## Estructura de ejemplos y ejercicios
