@@ -178,7 +178,9 @@ En una primera versión, podemos decir que React funciona así: cada vez que se 
 
 Acá hay que tener en cuenta que React **corre en el browser**, todo esto pasa sin ir a ningún servidor. 
 
-Comparando con cómo se actualiza una página manipulando directamente el DOM, hay dos cosas que en React no hace falta hacer: definir un id para cada elemento que tenga algo dinámico, y modificar los elementos usando `document.getElementById` cuando se reacciona a un evento.  
+Comparando con cómo se actualiza una página manipulando directamente el DOM, hay dos cosas que en React no hace falta hacer: 
+* no definimos el `id` para cada elemento que tenga algo dinámico, y 
+* no modificamos  elementos usando `document.getElementById` cuando se reacciona a un evento. Lo que hacemos es modificar el `state`, y React se encarga del resto.  
 Trato de contarlo con una tabla
 
 | Manipulando directamente el DOM | Usando React |
@@ -198,6 +200,12 @@ changeTextAndFont() {
 }
 ```
 el atributo `state` va a cambiar, pero React no va a detectar el cambio, y por lo tanto la página no se va a modificar.
+
+<br/>
+ 
+## El constructor
+Es común redefinir el constructor de un componente React, típicamente para inicializar el `state`. 
+Para eso, hay que acordarse que el constructor lleva un parámetro, que usualmente se llama `props`. Y es **muy importante** llamar al constructor heredado poniendo `super(props)` como primer línea del constructor de nuestro componente.
 
 <br/>
  
