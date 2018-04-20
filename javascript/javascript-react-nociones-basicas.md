@@ -171,6 +171,9 @@ changeTextAndFont() {
 ```
 Esto **alcanza** para que cambien el texto y el tamaño cuando se pulsa el botón.
 
+<br/>
+
+### Cómo maneja React las actualizaciones
 En una primera versión, podemos decir que React funciona así: cada vez que se modifica el atributo `state` **mediante el método `setState`**, React recalcula todo el HTML evaluando el método `render`. Después vuelca el HTML calculado al DOM de la página, haciendo los cambios necesarios (3).
 
 Acá hay que tener en cuenta que React **corre en el browser**, todo esto pasa sin ir a ningún servidor. 
@@ -183,6 +186,10 @@ Trato de contarlo con una tabla
 | se definen `id` para los elementos dinámicos | se definen los aspectos dinámicos en JavaScript dentro del JSX, relacionándolos con el `state` |
 | se modifican los elementos accediéndolos mediante `document.getElementById` | se usa `setState` , React se encarga de modificar el DOM |
 
+
+<br/>
+
+### OJO - usar `setState`
 Volvemos a destacar que para que React reaccione, es necesario **usar `setState`** para modificar el atributo `state` del componente. Si p.ej. codificamos el método `changeTextAndFont` así
 ```
 changeTextAndFont() { 
