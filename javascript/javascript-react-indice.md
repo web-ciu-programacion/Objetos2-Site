@@ -10,4 +10,6 @@ volver a [JavaScript](./javascript-intro.md)
 
 [Primeras nociones](./javascript-react-nociones-basicas.md)
 
+[Punteo de temas posteriores a los básicos](./javascript-react-despues-de-lo-basico.md)
+
 [Ejemplos y ejercicios](./javascript-react-ejemplos.md)

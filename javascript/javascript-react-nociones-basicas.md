@@ -181,6 +181,7 @@ Acá hay que tener en cuenta que React **corre en el browser**, todo esto pasa s
 Comparando con cómo se actualiza una página manipulando directamente el DOM, hay dos cosas que en React no hace falta hacer: 
 * no definimos el `id` para cada elemento que tenga algo dinámico, y 
 * no modificamos  elementos usando `document.getElementById` cuando se reacciona a un evento. Lo que hacemos es modificar el `state`, y React se encarga del resto.  
+
 Trato de contarlo con una tabla
 
 | Manipulando directamente el DOM | Usando React |
