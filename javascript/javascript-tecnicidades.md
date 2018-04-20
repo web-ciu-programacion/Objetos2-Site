@@ -21,7 +21,7 @@ const ReactDOM = require('react-dom')
 
 Esta forma de hacer import tiene dos características que no resultan simpáticas.
 
-**La primera**:  
+### No se puede elegir qué se importa
 se está importando todo lo que exporta la librería, no se puede elegir qué cosas se importan. En cambio, en el import de Java, p.ej. 
 ```
 import java.util.List;
@@ -29,7 +29,7 @@ import java.util.List;
 se está indicando de que todo lo que exporta el package `java.util`, se está eligiendo importar solamente la clase `List`.  
 Hay formas alternativas de incorporar librerías que permiten indicar qué componentes se importan. Buscar en la documentación.
 
-**La segunda**:  
+### Hay que poner el nombre de la librería al usar un elemento importado
 El import no incluye el alias sobre los elementos importados. Por lo tanto, para crear una subclase de la clase `Component` que exporta la librería `React`, hay que hacer
 ```
 class FirstExample extends React.Component { 

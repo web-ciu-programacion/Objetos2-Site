@@ -35,8 +35,6 @@ class FirstExample extends React.Component {
         return (
             <div>
                 <p><span style={ theStyle }>
-                    {/*  Los elementos dinámicos no necesitan id, 
-                         lo dinámico se expresa en JavaScript entre llaves */}
                     { this.state.texto }
                 </span></p>
                 <button onClick={() => this.changeTextAndFont()}>React magic</button>
@@ -46,8 +44,6 @@ class FirstExample extends React.Component {
 
     // función que reacciona al evento de apretar el botón
     changeTextAndFont() { 
-        // al cambiar el state *usando setState*,
-        // React se encarga solito de actualizar la pantalla
         this.setState({ texto: "Hello React", tamanioFuente: "25px" }) 
     }
 }
@@ -84,8 +80,6 @@ const theStyle = { fontSize: this.state.tamanioFuente }
 return (
     <div>
         <p><span style={ theStyle }>
-            {/*  Los elementos dinámicos no necesitan id, 
-                 lo dinámico se expresa en JavaScript entre llaves */}
             { this.state.texto }
         </span></p>
         <button onClick={() => this.changeTextAndFont()}>React magic</button>
@@ -161,6 +155,45 @@ return (
 
 <br/>
 
+## Actualización mediante el atributo `state`
+En el `render`, el tamaño de fuente y el contenido del `span` están definidos en base al atributo `state` del componente, son `this.state.tamanioFuente` y `this.state.texto` respectivamente.  
+Este atributo se inicializa en el constructor, donde dice (recordemos)
+```
+this.state = { texto: "Miren lo que va a pasar acá", tamanioFuente: "medium"}
+```
+
+El método que reacciona al evento modifica los componentes del `state`, usando el método `setState` que está definido en la clase `React.Component`. Recordemos
+```
+// función que reacciona al evento de apretar el botón
+changeTextAndFont() { 
+    this.setState({ texto: "Hello React", tamanioFuente: "25px" }) 
+}
+```
+Esto **alcanza** para que cambien el texto y el tamaño cuando se pulsa el botón.
+
+En una primera versión, podemos decir que React funciona así: cada vez que se modifica el atributo `state` **mediante el método `setState`**, React recalcula todo el HTML evaluando el método `render`. Después vuelca el HTML calculado al DOM de la página, haciendo los cambios necesarios (3).
+
+Acá hay que tener en cuenta que React **corre en el browser**, todo esto pasa sin ir a ningún servidor. 
+
+Comparando con cómo se actualiza una página manipulando directamente el DOM, hay dos cosas que en React no hace falta hacer: definir un id para cada elemento que tenga algo dinámico, y modificar los elementos usando `document.getElementById` cuando se reacciona a un evento.  
+Trato de contarlo con una tabla
+
+| Manipulando directamente el DOM | Usando React |
+| ------------- | ------------- | 
+| se definen `id` para los elementos dinámicos | se definen los aspectos dinámicos en JavaScript dentro del JSX, relacionándolos con el `state` |
+| se modifican los elementos accediéndolos mediante `document.getElementById` | se usa `setState` , React se encarga de modificar el DOM |
+
+Volvemos a destacar que para que React reaccione, es necesario **usar `setState`** para modificar el atributo `state` del componente. Si p.ej. codificamos el método `changeTextAndFont` así
+```
+changeTextAndFont() { 
+    this.state.texto = "Hello React"
+    this.state.tamanioFuente = "25px" 
+}
+```
+el atributo `state` va a cambiar, pero React no va a detectar el cambio, y por lo tanto la página no se va a modificar.
+
+<br/>
+ 
 ## JSX - detalles a tener en cuenta
 Destacamos varias cuestiones que en JSX se manejan distinto que si se escribiera HTML.
 
@@ -226,6 +259,13 @@ Usar `self` como nombre es una convención, se puede usar cualquier nombre y va 
 
 <br/>
 
+### Conviene poner las expresiones JSX entre paréntesis
+Fíjense en el código de arriba, en el método `render` la expresión JSX que se devuelve está entre paréntesis. Después, en las distintas variantes del `render` que presentamos, siempre que se arma una expresión JSX, se la encierra entre paréntesis.  
+Esto es porque al definir expresiones JSX sin ponerles paréntesis, a veces (no siempre) tuve problemas.  
+Por lo tanto, me acostumbré, y aconsejo que se acostumbren, a encerrar siempre (o al menos en principio) las expresiones JSX entre paréntesis.
+
+<br/>
+
 ### Comentarios en JSX
 Finalmente, cómo poner comentarios dentro de una expresión JSX. En mi (Carlos) experiencia, los comentarios HTML `<!-- ... -->` me causaron problemas. La que me anduvo siempre fue meter una expresión JavaScript que es un comentario. P.ej. 
 ```
@@ -246,3 +286,6 @@ Hay distintas formas de hacer `import` en JavaScript. Ver detalles en [la págin
 (2)
 Puede tener sentido definir un componente React sin método `render`, si en lugar de extender directamente `React.Component`, extiende uno también hecho por nosotros que ya tiene la estructura del `render()`, y la subclase solamente completa detalles.
 
+(3)
+Por favor, no nos preocupemos por la performance. Pareciera que React es muy ineficiente, porque rearma toda la página aunque el cambio sea chico. Creo que React tiene esto en cuenta, verificar en la documentación.  
+Cuando tengamos una página que reaccione en forma lenta, hablamos. Pero no antes.
