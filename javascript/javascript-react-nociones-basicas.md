@@ -97,11 +97,17 @@ Esta notación **no** es HTML, aunque lo parece. Es una sintaxis que "viene con 
 
 Se pueden escribir tags como en HTML, cualquier tag. Va a haber diferencias en la definición de los atributos de un tag, veremos algunas en lo que sigue.
 
+<br/>
+
+### Código JavaScript dentro de una expresión JSX
 Dentro de una expresión JSX se puede insertar código JavaScript (JS) poniéndolo entre llaves. En el ejemplo tenemos tres expresiones JS insertadas en el JSX:
 * el estilo del span, cuyo valor es `theStyle`,
 * el contenido del span, `this.state.texto`, y
 * la función del `onClick`.
 
+<br/>
+
+### La notación JSX construye objetos
 Es **importantísimo** entender que las expresiones JSX devuelven objetos JavaScript, la notación es una forma más cómoda de crear varios objetos relacionados. 
 El JSX de arriba es **equivalente** a lo siguiente
 ``` 
@@ -133,7 +139,10 @@ return (
 )
 ```
 
-Acá vemos que las secciones JavaScript dentro de una expresión JSX pueden ir en **cualquier lado**: en un atributo (como el style del span), en el valor de un elemento (del span), o definiendo un elemento (el botón). También podrían definir una estructura que incluya varios elementos, veamos otra variante
+<br/>
+
+### Se puede insertar código JS en distintos lugares de una expresión JSX
+Las secciones JavaScript dentro de una expresión JSX pueden ir en **cualquier lado**: en un atributo (como el style del span), en el valor de un elemento (del span), o definiendo un elemento (el botón). También podrían definir una estructura que incluya varios elementos, veamos otra variante
 ```
 const theStyle = { fontSize: this.state.tamanioFuente }
 let texto = (
@@ -152,9 +161,82 @@ return (
 
 <br/>
 
-### JSX - dos detalles a tener en cuenta
+## JSX - detalles a tener en cuenta
+Destacamos varias cuestiones que en JSX se manejan distinto que si se escribiera HTML.
 
+<br/>
 
+### Doble-llave en las definiciones de `style`
+Dos de ellas tienen que ver con el atributo `style`, o sea, con la inclusión de CSS dentro de una expresión JSX.  
+Recordemos que definimos
+```
+const theStyle = { fontSize: this.state.tamanioFuente }
+```
+y después incluimos esto
+```
+<span style={ theStyle }>
+```
+en una expresión JSX dentro del `render`. 
+Notamos que el código JavaScript que queremos insertar es un object literal, que se define entre llaves. Entonces, si queremos definir el estilo directamente dentro de JSX, evitándonos la definición de la constante, tenemos que poner **dos** llaves: la de afuera para indicar una sección de JavaScript dentro de JSX, la de adentro para definir el object literal. Queda así:
+```
+<span style={ { fontSize: this.state.tamanioFuente } }>
+```
+Si fuera un valor fijo, p.ej. `25px`, quedaría así:
+```
+<span style={ { fontSize: "25px" } }>
+```
+Esta doble-llave se ve seguido en el código JSX. Este es el primer detalle.
+
+<br/>
+
+### Nombres de propiedades CSS y de atributos HTML
+Para hablar del segundo, comparemos el `span` que abrimos recién en JSX, el de valor fijo, con cómo lo pondríamos en HTML:
+```
+<span style="font-size: 25px">
+```
+La propiedad CSS se llama `font-size`. Peeeero lo que estamos definiendo en la expresión JSX es un object literal, y las claves en un object literal en JavaScript no pueden tener guiones. Definir **en JSX** algo así
+```
+<span style={ { font-size: "25px" } }>
+```
+daría un error, porque `font-size` no puede ser key en un object literal JavaScript.
+
+Para evitar este problema, en la definición de propiedades CSS, se cambian los guiones por el camelCase. En el ejemplo,  `font-size` por `fontSize`.  
+Esto para todas las propiedades, p.ej. `background-color` hay que ponerlo como `backgroundColor`, etc..
+
+De paso, los nombres de eventos también pasan a camelCase en JSX, aunque en este caso no es por necesidad. En el `render`, vemos que en lugar de `onclick`, el evento se define como `onClick`.
+
+<br/>
+
+### Código que responde a un evento, el truco del `self`
+Respecto del evento, otra cosa. El código que responde a cada evento **no** se define como String, sino como una expresión JavaScript. En el ejemplo, se define una array function anónima:
+```
+<button onClick={ () => this.changeTextAndFont() }>...</button>
+```
+
+Notar que es válido hacer referencias a `this`, que es el componente React.
+Pero ¡OJO!, esta forma de usar `this` vale solamente porque se está definiendo una arrow function. Si se definiera una función normal, onda `function() { ... codigo ...}`, entonces el `this` dentro del código de la función es la misma función, deja de ser el componente React.   
+Para evitar este problema, se usa "el truco del `self`". Es más fácil mostrarlo que contarlo:
+```
+const self = this
+// ... y cuando se necesita ...
+<button onClick={ function() { self.changeTextAndFont() } >...</button>
+```
+Con la definición de arriba, se crea una constante `self` que apunta al componente React. Eso se mantiene dentro de la función, por lo tanto `self` es el componente.  
+Usar `self` como nombre es una convención, se puede usar cualquier nombre y va a andar. 
+
+<br/>
+
+### Comentarios en JSX
+Finalmente, cómo poner comentarios dentro de una expresión JSX. En mi (Carlos) experiencia, los comentarios HTML `<!-- ... -->` me causaron problemas. La que me anduvo siempre fue meter una expresión JavaScript que es un comentario. P.ej. 
+```
+<p>
+    {/* pongo un span dentro del párrafo */}
+    <span style={ theStyle }>
+        { this.state.texto }
+    </span>
+</p>
+```
+Las llaves son para marcar JavaScript, adentro el `/* ... */` indica comentario.
 
 
 -----------------------
