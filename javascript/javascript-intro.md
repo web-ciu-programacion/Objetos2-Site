@@ -40,9 +40,14 @@ También se sugieren algunos ejercicios.
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)  
 Tutorial de JS de w3schools, el sitio que me suele sacar de apuro con dudas de HTML y Javascript.
 
+[La consola de Román (con colaboración de Carlos)](./javascript-consola.md)  
+Un mini unit-test-library para probar el código que hacemos.
+
 [https://es6console.com/](https://es6console.com/)  
 [http://demo.borland.com/testsite/JavaScriptTestbed.htm](http://demo.borland.com/testsite/JavaScriptTestbed.htm)  
-Dos alternativas para probar código JS y ver lo que da.
+Otras dos alternativas para probar código JS y ver lo que da.  
+El `es6console` es más elegante, pero tiene fallas.
+El de Borland es muy tosco, y anda.
 
 [https://developer.mozilla.org](https://developer.mozilla.org)  
 Sitio de Mozilla con mucha info sobre herramientas que se usan para desarrollar sitios y aplicaciones Web.
