@@ -81,6 +81,11 @@ El enunciado de estas actividades se puede
 
 <hr/>
 
+### ejercicio personajes y animales
+<a href="material/documentos/ejercicios/personajes-animales.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 ### ejercicio venta masiva
 <a href="material/documentos/ejercicios/venta-masiva.pdf" target="_blank">descargar</a>
 
