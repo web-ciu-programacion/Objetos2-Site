@@ -82,11 +82,13 @@ Para esto, hay que agregar un método `nombreParaMostrar` a cada uno de los obje
 
 ### Ejercicio 3.
 Contador
+
   Un número, botones "+1", "-1", "*2", "reset" (vuelve a 0).
   El state puede tener un solo componente numero, que es el número que se está mostrando. Que arranque en 0.
 
 ### Ejercicio 4.
 Nano-ruleta
+
   Arriba de todo, el saldo del jugador, que es un número.
   Cuatro botones, "apostar 10 a negro", "apostar 50 a negro", "apostar 10 a rojo", "apostar 50 a rojo".
   Lo que se apuesta se resta del saldo y se suma a la apuesta actual. Se supone que no apuesta a rojo y negro en la misma apuesta,alcanza con acordarse a qué apostó ("rojo" o "negro") y cuánto.
