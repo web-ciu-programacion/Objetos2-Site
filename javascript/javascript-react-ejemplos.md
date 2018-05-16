@@ -137,12 +137,12 @@ Interface de Golondrina
   OJO hacerlo en este orden, primero la golondrina come, después se hace el setState.
   El botón "volar 10" lo mismo volando 10 kms.
 
-  Agregar en cada fila un botón "comer n", que abra un recuadro con un formulario de esta facha
-     Darle de comer a la golondrina XXX   (esto es un título)
-     
-     Gramos:  <acá va un campo de texto>
-
-     Confirmar  /  Cancelar  (dos botones)
+  Agregar en cada fila un botón "comer n", que abra un recuadro con un formulario. 
+  
+  Darle de comer a la golondrina XXX (título)
+  Gramos:  <acá va un campo de texto>
+  Confirmar  /  Cancelar  (dos botones)
+  
   Con "confirmar", se le da de comer a la golondrina, se hace setState de ultimaOperacion "XXX comió n gramos", y desaparece el formulario.
   Con "cancelar", solamente desaparece el formulario.
 
