@@ -79,20 +79,22 @@ Para esto, hay que agregar un método `nombreParaMostrar` a cada uno de los obje
 1. Agregar una tabla abajo que muestre información sobre las ciudades. Para cada una, la cantidad de pasajeros que salieron de la ciudad, y la cantidad que llegaron. La información ya está en el Store, ver la clase `Ciudad` y el método `ciudades()` en el VueloStore.
 1. Reemplazar el nombre del avión por un link o botón, y que elija el avión correspondiente al clickear en el nombre. Sacar los botones para elegir avión, ahora se eligen desde la tabla de vuelos.
 1. Separar la generación de la tabla de vuelos en un componente aparte, como está hecho en `aviones-vuelos-design-2.js` para la información del avión.
+
 <br/>
-<br/>
+
 ### Ejercicio 3.
-<br/>
+
 Contador
-<br/>
+
   Mostrar un número, debajo del mismo colocar los siguientes botones: "+1", "-1", "*2", "reset" (vuelve a 0).
   El state puede tener un solo componente numero, que es el número que se está mostrando. Que arranque en 0.
+
 <br/>
-<br/>
+
 ### Ejercicio 4.
-<br/>
+
 Nano-ruleta
-<br/>
+
   Arriba de todo, el saldo del jugador, que es un número.
   Cuatro botones, "apostar 10 a negro", "apostar 50 a negro", "apostar 10 a rojo", "apostar 50 a rojo".
   Lo que se apuesta se resta del saldo y se suma a la apuesta actual. Se supone que no apuesta a rojo y negro en la misma apuesta,alcanza con acordarse a qué apostó ("rojo" o "negro") y cuánto.
@@ -107,12 +109,13 @@ Nano-ruleta
   Armar la página.
 
   Chiche: que queden deshabilitados (prop isEnabled) los botones negro si está apostando a rojo, o rojo si está apostando a negro.
+  
 <br/>
-<br/>
+
 ### Ejercicio 5.
-<br/>
+
 Interface de Golondrina
-<br/>
+
   Implementar la clase Golondrina con energia(), comer(gramos), volar(kms) y estaFeliz().
   Una golondrina está feliz si su energía está entre 50 y 120.
   Agregar un atributo _nombre y un método nombre(). El constructor que tome nombre y energía inicial.
@@ -157,12 +160,13 @@ Interface de Golondrina
   - validar que la cantidad que se da a comer / volar es un número positivo (vale robárselo de ventas-aereas-power, ventana de agregar un vuelo).
   - hacer una superclase común para los componentes "volar n" y "comer n"
   - hacer que el formulario de "agregar golondrina" aparezca solito en la pantalla. Para esto hay que agregar un componente Aplicacion, que muestre o bien la lista de golondrinas o bien el formulario de agregar golondrina. Mover el state con la lista de golondrinas y la última operación a la aplicación.
+
 <br/>
-<br/>
+
 ### Ejercicio 6.
-<br/>
+
 Ciudades
-<br/>
+
 Listado de ciudades registradas, país y población. Del país, el código de 3 letras. 
   Pequeño agregado al modelo: agregar la población de una ciudad, que nazca en 0. Completar la población de cada ciudad en la inicialización del vueloStore.
   
@@ -180,10 +184,11 @@ Listado de ciudades registradas, país y población. Del país, el código de 3 
     - agregar opción en el "switch" en el método render(). Olvidarse del setUltimaAccion, no hace falta 
       y lo veremos más adelante. Que solamente devuelva un JSX que instancie la clase que crearon.
     - agregar método mostrarListaCiudades(), análogo a p.ej. mostrarListaVuelos()
+
 <br/>
-<br/>
+
 ### Ejercicio 7.
-<br/>
+
 Mover el modelo de ventas-aereas-power de browser a server, en etapas.
 1. pasar los vuelos al server, y que InfoVuelos los levante del server.
   Esto hacerlo en el componentDidMount.
