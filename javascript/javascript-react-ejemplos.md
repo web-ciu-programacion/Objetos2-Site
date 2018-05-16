@@ -82,13 +82,13 @@ Para esto, hay que agregar un método `nombreParaMostrar` a cada uno de los obje
 
 ### Ejercicio 3.
 Contador
-
-  Un número, botones "+1", "-1", "*2", "reset" (vuelve a 0).
+<br/>
+  Mostrar un número, debajo del mismo colocar los siguientes botones: "+1", "-1", "*2", "reset" (vuelve a 0).
   El state puede tener un solo componente numero, que es el número que se está mostrando. Que arranque en 0.
 
 ### Ejercicio 4.
 Nano-ruleta
-
+<br/>
   Arriba de todo, el saldo del jugador, que es un número.
   Cuatro botones, "apostar 10 a negro", "apostar 50 a negro", "apostar 10 a rojo", "apostar 50 a rojo".
   Lo que se apuesta se resta del saldo y se suma a la apuesta actual. Se supone que no apuesta a rojo y negro en la misma apuesta,alcanza con acordarse a qué apostó ("rojo" o "negro") y cuánto.
@@ -106,6 +106,7 @@ Nano-ruleta
 
 ### Ejercicio 5.
 Interface de Golondrina
+<br/>
   Implementar la clase Golondrina con energia(), comer(gramos), volar(kms) y estaFeliz().
   Una golondrina está feliz si su energía está entre 50 y 120.
   Agregar un atributo _nombre y un método nombre(). El constructor que tome nombre y energía inicial.
@@ -152,6 +153,7 @@ Interface de Golondrina
   - hacer que el formulario de "agregar golondrina" aparezca solito en la pantalla. Para esto hay que agregar un componente Aplicacion, que muestre o bien la lista de golondrinas o bien el formulario de agregar golondrina. Mover el state con la lista de golondrinas y la última operación a la aplicación.
 
 ### Ejercicio 6.
+<br/>
 Listado de ciudades registradas, país y población. Del país, el código de 3 letras. 
   Pequeño agregado al modelo: agregar la población de una ciudad, que nazca en 0. Completar la población de cada ciudad en la inicialización del vueloStore.
   
