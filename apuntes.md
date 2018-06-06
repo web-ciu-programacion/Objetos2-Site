@@ -24,7 +24,7 @@ describiéndolas a partir de ejemplos concretos tomados de ejercicios.<br/>
 
 ### links externos sobre diseño con objetos
 <a href="https://sourcemaking.com/design_patterns/" target="_blank">Source Making -- Design Patterns</a><br/>
-Material sobre los patrones de diseño que aparecen en el libro "Design Patterns" de Gamma, Helm, Johnson y Vlissides. Se describen bastante parecido al libro, e incluyen links a ejemplos en varios lenguajes. 
+Material sobre los patrones de diseño que aparecen en el libro "Design Patterns" de Gamma, Helm, Johnson y Vlissides. Se describen bastante parecido al libro, e incluyen links a ejemplos en varios lenguajes.
 
 
 <hr/>
@@ -80,5 +80,10 @@ Introducción a Models y Forms, conceptos teoricos y aplicación de introduccion
 <a href="material/projects/wicket-model-form.zip" target="_blank">descargar web application</a>
 
 <hr/>
+
+### links útiles sobre Android
+<a href="https://developer.android.com/training/constraint-layout/" target="_blank">Cómo trabajar con ConstraintLayout (en inglés)</a><br/>
+<a href="https://android-developers.googleblog.com/2017/08/understanding-performance-benefits-of.html" target="_blank">Ventajas de usar ConstraintLayout (en inglés)</a>
+
 
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
