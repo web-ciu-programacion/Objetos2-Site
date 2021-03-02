@@ -74,4 +74,4 @@ Introducción a Models y Forms, conceptos teoricos y aplicación de introduccion
 <a href="https://android-developers.googleblog.com/2017/08/understanding-performance-benefits-of.html" target="_blank">Ventajas de usar ConstraintLayout (en inglés)</a>
 -->
 
-<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-tomcat.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
+<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
