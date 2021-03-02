@@ -29,7 +29,7 @@ Ejercicio para empezar con nuestro primer proyecto en Java con el IDE IntelliJ.
 
 ### ejercicio oktubrefest
 Más largo que el anterior, pero sigue la entrada en calor. Incorporar JUnit3.
-<a href="material/documentos/ejercicios/objetos2-ejercicio-oktubrefest" target="_blank">descargar</a>
+<a href="material/documentos/ejercicios/objetos2-ejercicio-oktubrefest.pdf" target="_blank">descargar</a>
 
 <hr/>
 
