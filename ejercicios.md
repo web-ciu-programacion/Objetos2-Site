@@ -1,8 +1,10 @@
 [volver](index.md)<br/>
 ## ejercicios
 Todos los ejercicios a continuaci&oacute;n son de entrega obligatoria en un repositorio Git que ustedes deseen.
+
 <br/>
 <br/>
+
 <!--
 ### ejercicios preliminares
 se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br>
