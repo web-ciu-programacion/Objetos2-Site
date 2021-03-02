@@ -23,33 +23,19 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 <hr/>
 
 ### Sitio github con ejemplos
-Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo público GitHub creado para esto.  
+Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo público Bitbucket creado para esto.  
 
 El link es: 
-<a href="http://www.pagina12.com.ar" target="_blank">Colocar URL repo</a> <br/> <br/>
+<a href="https://bitbucket.org/acelay/objetos-2-ejemplos-resoluciones/src/master/">Link repositorio</a>. Dicho repositorio contiene dos carpetas: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
 
-Al 17/11/2017 tenemos:
-  - Un proyecto de nivel inicial en Java usando las ideas de la Programación Orientada a Objetos. <br/>
-    ``remiseria-inicial``.
-  - Tres proyectos que muestran el uso de patrones e ideas de diseño para construir un modelo de objetos. </br>
-    ``examenes-tradicional``, ``examenes-generics``, ``carService``.
-  - Un proyecto con UI Web construida usando Apache Wicket. Incluye una pequeña interfaz API REST. <br/>
-    ``monsters-wicket-to-see``.
-  - Un proyecto compuesto que incluye un modelo extensible de objetos, y una UI Web construida usando Apache Wicket.   
-    ``toxitaxi``.  
-    <b>Atención</b>: este repositorio incluye tres proyectos Eclipse, que se corresponden con las tres carpetas principales, ``toxitaxi``, ``toxitaxi-interface`` y ``toxitaxi-wicket``. Hay que importar los tres proyectos, que tienen referencias entre ellos.
-  - Un proyecto de una aplicación Android que muestra información accesible en Internet<br/>
-    ``geography_android``.
-  - Una aplicación Android que muestra la información que publica la API REST del proyecto ``monsters-wicket-to-see``.<br/>
-    ``monsters_android``.
+Al 19/03/2021 tenemos:
+  - Un proyecto de nivel inicial en Java ``ejemplos`` con ejemplos que detallaremos en la cursada. <br/>
 
 <hr/>
 
 ### Notas sobre la cursada
 Algunos consejos para aprovechar mejor las cursadas. <br/>
 <a href="material/documentos/otros/Ideas-para-una-cursada-feliz.pdf" target="_blank">descargar</a>
-
-
 
 <hr/>
 
