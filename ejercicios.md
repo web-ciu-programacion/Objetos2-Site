@@ -1,6 +1,8 @@
 [volver](index.md)<br/>
 ## ejercicios
+Todos los ejercicios a continuaci&oacute;n son de entrega obligatoria en un repositorio Git que ustedes deseen.
 
+<!--
 ### ejercicios preliminares
 se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br>
  * guía 9:<br/>
@@ -8,20 +10,31 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
      ejercicio 5 - emisoras de radio<br/>
      ejercicio 7 - oktubrefest<br/>
      ejercicio 9 - faceless<br/>
- <!--
  * guía 10:<br/>
      ejercicio 2 - fútbol virtual<br/>
      ejercicio 3 - datos de ciudades<br/>
      ejercicio 6 - búsqueda de aspirantes&nbsp;<a href="material/documentos/ejercicios/examen.zip" target="_blank">examen</a><br/>
      ejercicio 7 - pepero<br/>
 -->
+<!--
 <a href="https://objetos1wollokunq.gitlab.io/material/#guides" target="_blank">Ir a gu&iacute;as de objetos 1</a><br/>
+-->
 
 ### ejercicio viajeros
 Ejercicio para empezar con nuestro primer proyecto en Java con el IDE IntelliJ.
 <a href="material/documentos/ejercicios/objetos2-ejercicio-viajeros.pdf" target="_blank">descargar</a>
 
 <hr/>
+
+### ejercicio oktubrefest
+Más largo que el anterior, pero sigue la entrada en calor. Incorporar JUnit3.
+<a href="material/documentos/ejercicios/objetos2-ejercicio-viajeros.pdf" target="_blank">descargar</a>
+
+<hr/>
+
+### ejercicio remiseria
+A partir de aqu&aiacute; comienzan a entrar en juego los patrones de diseño.
+<a href="material/documentos/ejercicios/objetos2-ejercicio-viajeros.pdf" target="_blank">descargar</a>
 
 <!--
 ### ejercicio mercaderia
@@ -32,10 +45,10 @@ Ejercicio para empezar con nuestro primer proyecto en Java con el IDE IntelliJ.
 <hr/>
 -->
 
+<hr/>
+
 ### ejercicio civilization
 <a href="material/documentos/ejercicios/civilization.pdf" target="_blank">descargar</a>
-
-<hr/>
 
 <!--
 ### ejercicio monster of rock
