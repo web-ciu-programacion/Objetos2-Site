@@ -26,7 +26,7 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo público Bitbucket creado para esto.  
 
 El link es: 
-<a href="https://bitbucket.org/acelay/objetos-2-ejemplos-resoluciones/src/master/">Link repositorio</a>. Dicho repositorio contiene dos carpetas: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
+<a href="https://bitbucket.org/acelay/objetos-2-ejemplos-resoluciones/src/master/" target="_blank">Link repositorio</a>. Dicho repositorio contiene dos carpetas: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
 
 Al 19/03/2021 tenemos:
   - Un proyecto de nivel inicial en Java ``ejemplos`` con ejemplos que detallaremos en la cursada. <br/>
@@ -41,7 +41,7 @@ Algunos consejos para aprovechar mejor las cursadas. <br/>
 
 ### Objetos 1
 Link página web de la materia Objetos 1<br/>
-[ir a web](http://objetos1wollokunq.gitlab.io)<br/>
+<a href="http://objetos1wollokunq.gitlab.io" target="_blank">Ir a web</a><br/>
 
 <hr/>
 
