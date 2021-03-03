@@ -35,7 +35,7 @@ Más largo que el anterior, pero sigue la entrada en calor. Incorporar JUnit3.
 <hr/>
 
 ### ejercicio remiseria
-A partir de aqu&aiacute; comienzan a entrar en juego los patrones de diseño.
+A partir de aquí comienzan a entrar en juego los patrones de diseño.
 <a href="material/documentos/ejercicios/objetos2-ejercicio-remiseria.pdf" target="_blank">descargar</a>
 
 <!--
