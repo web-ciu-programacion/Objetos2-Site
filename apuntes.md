@@ -40,6 +40,13 @@ Pequeño tutorial de cómo resolver conflictos de Git con la ayuda de una interf
 <a href="material/documentos/apuntes/Git - resolver conflictos usando Meld.pdf" target="_blank">descargar</a>
 
 <hr/>
+
+### Generics
+Autor: Ariel Celay<br/>
+Explicación nivel inicial y un poco más de como comprender Generics y sus ventajas al utilizarlo, con ejemplos.<br/>
+<a href="material/documentos/apuntes/objetos2-apunte-generics.pdf" target="_blank">descargar</a>
+
+<hr/>
 <!--
 ### arena
 Autor: Carlos Lombardi<br/>
