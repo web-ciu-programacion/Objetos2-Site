@@ -24,6 +24,12 @@ describiéndolas a partir de ejemplos concretos tomados de ejercicios.<br/>
 <a href="https://sourcemaking.com/design_patterns/" target="_blank">Source Making -- Design Patterns</a><br/>
 Material sobre los patrones de diseño que aparecen en el libro "Design Patterns" de Gamma, Helm, Johnson y Vlissides. Se describen bastante parecido al libro, e incluyen links a ejemplos en varios lenguajes.
 
+<hr/>
+
+### apunte collections stream lambda
+Autor: Ariel Celay / Luz Cuello<br/>
+Este apunte nos da un pantallazo inicial para comprender las Collection: List y Set (básicas); y a su vez inicialmente comprender como funcionan los stream y las expresiones lambda básicas.<br/>
+<a href="material/documentos/apuntes/objetos2-apunte-collection-stream-lambda.pdf" target="_blank">descargar</a>
 
 <hr/>
 
