@@ -52,6 +52,10 @@ A partir de aquí comienzan a entrar en juego los patrones de diseño.
 ### ejercicio civilization
 <a href="material/documentos/ejercicios/objetos2-ejercicio-civilization.pdf" target="_blank">descargar</a>
 
+### ejercicio exámenes (búsqueda de aspirante)
+El enunciado se descarga aquí <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes.pdf" target="_blank">descargar</a><br/>
+A continuación un ejemplo de un modelo de <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes-ejemplo-examen.pdf" target="_blank">examen</a>, con un ejemplo de <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes-ejemplo-examen-aprobado.pdf" target="_blank">resolución correcta</a> y otro ejemplo de <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes-ejemplo-examen-desaprobado.pdf" target="_blank">resolución incorrecta</a>.
+
 <!--
 ### ejercicio monster of rock
 <a href="material/documentos/ejercicios/monsters-of-rock.pdf" target="_blank">descargar</a><br/>
