@@ -50,7 +50,9 @@ A partir de aquí comienzan a entrar en juego los patrones de diseño.
 <hr/>
 
 ### ejercicio civilization
-<a href="material/documentos/ejercicios/objetos2-ejercicio-civilization.pdf" target="_blank">descargar</a>
+Primero hacer el ejercicio realizando los requisitos, sin contemplar la sección de <b>Refinamientos</b>, luego clonar el proyecto y resolver mediante un refactor lo solicitado en los <b>Refinamientos</b> <a href="material/documentos/ejercicios/objetos2-ejercicio-civilization.pdf" target="_blank">descargar</a>
+
+<hr/>
 
 ### ejercicio exámenes (búsqueda de aspirante)
 El enunciado se descarga aquí <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes.pdf" target="_blank">descargar</a><br/>
