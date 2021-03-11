@@ -1,6 +1,7 @@
 [volver](index.md)<br/>
 ## ejercicios
-Todos los ejercicios a continuaci&oacute;n son de entrega obligatoria en un repositorio Git que ustedes deseen.
+Todos los ejercicios a continuaci&oacute;n son de entrega obligatoria en un repositorio Git que ustedes deseen. <br/> ¿Olvidamos lo aprendido en introducción a la programación y objetos 1?....NOOO!!!. Antes de comenzar a escribir código basado en intuiciones, leemos y comprendemos el enunciado, el contexto, y luego analizamos los requerimientos; identificamos los candidatos a objetos, comenzamos a realizar el Diagrama de Clases, sea en papél y lápiz, o con alguna herramienta de software (Dia por ejemplo), y una vez que tenemos nuestras clases y como se enviarán mensajes entre sí a fin de resolver los requerimientos, estamos en condiciones de abrir el IntelliJ y crear el proyecto para comenzar a codificar, documentando clases y métodos, y pensando la estratégia antes de comenzar a codificar cada método.<br/>
+Estas pautas, que parecen aburridas, tontas y de viejo cho.., son el abc para el día de mañana ser buenos desarrolladores, analíticos, con buenas prácticas, identificando de ante mano los puntos críticos a resolver, y nos ahorraran mucho tiempo de codificar líneas que parecen "útiles" al corto plazo, pero debido a la carencia de análisis, tarde o temprano tendremos que rediseñar una y otra vez nuestra solución rápida.
 
 <br/>
 
@@ -57,6 +58,12 @@ Primero hacer el ejercicio realizando los requisitos, sin contemplar la sección
 ### ejercicio exámenes (búsqueda de aspirante)
 El enunciado se descarga aquí <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes.pdf" target="_blank">descargar</a><br/>
 A continuación un ejemplo de un modelo de <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes-ejemplo-examen.pdf" target="_blank">examen</a>, con un ejemplo de <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes-ejemplo-examen-aprobado.pdf" target="_blank">resolución correcta</a> y otro ejemplo de <a href="material/documentos/ejercicios/objetos2-ejercicio-examenes-ejemplo-examen-desaprobado.pdf" target="_blank">resolución incorrecta</a>.
+
+<hr/>
+
+### ejercicio toxi-taxi
+El enunciado se descarga aquí <a href="material/documentos/ejercicios/objetos2-ejercicio-toxitaxi.pdf" target="_blank">descargar</a><br/>
+Es un ejercicio extenso, conviene realizarlo en partes, parte 1, parte 2 y así hasta la parte 5.
 
 <!--
 ### ejercicio monster of rock
