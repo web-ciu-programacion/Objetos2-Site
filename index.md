@@ -28,8 +28,10 @@ Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo
 El link es: 
 <a href="https://bitbucket.org/acelay/objetos-2-ejemplos-resoluciones/src/master/" target="_blank">Link repositorio</a>. Dicho repositorio contiene dos carpetas: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
 
-Al 19/03/2021 tenemos:
-  - Un proyecto de nivel inicial en Java ``ejemplos`` con ejemplos que detallaremos en la cursada. <br/>
+Al 15/03/2021 tenemos:
+  - Guía de instalación de entorno de trabajo (sección apuntes).<br/>
+  - Apuntes iniciales para ir leyendo: notas sobre diseño con objetos, introducción a patrones de diesño y git introducción (sección apuntes).<br/>
+  - Un proyecto (en GitHub) de nivel inicial en Java ``ejemplos`` con ejemplos que detallaremos en la cursada. <br/>
 
 <hr/>
 
