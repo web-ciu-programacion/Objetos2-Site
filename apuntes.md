@@ -12,11 +12,25 @@ Este resumen es un conjunto de recetas para “traducir” mensajes de coleccion
 <hr/>
 -->
 
+### guía de instalación de entorno
+Autora: Luz Cuello<br/>
+En este documento es una guía que detalla paso a paso la instalación del entorno que utilizaremos en la materia.<br/>
+<a href="material/documentos/apuntes/objetos2-apunte-guia-instalacion-del-entorno.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 ### notas sobre diseño con objetos
 Autor: Carlos Lombardi<br/>
 En este documento pasamos en limpio algunas de las cuestiones que hablamos en clase,
 describiéndolas a partir de ejemplos concretos tomados de ejercicios.<br/>
 <a href="material/documentos/apuntes/Diseño de software con objetos - estudio de casos.pdf" target="_blank">descargar</a>
+
+<hr/>
+
+### introducción a patrones de diseño
+Autor: Ariel Celay<br/>
+Este documento explica brevemente el por qué de los patrones de diseño, como surgieron y con qué propósito, entre otras cosas.<br/>
+<a href="material/documentos/apuntes/objetos2-apunte-introduccion-patrones-de-disenio.pdf" target="_blank">descargar</a>
 
 <hr/>
 
@@ -27,7 +41,7 @@ Material sobre los patrones de diseño que aparecen en el libro "Design Patterns
 <hr/>
 
 ### apunte collections stream lambda
-Autor: Ariel Celay / Luz Cuello<br/>
+Autores: Ariel Celay / Luz Cuello<br/>
 Este apunte nos da un pantallazo inicial para comprender las Collection: List y Set (básicas); y a su vez inicialmente comprender como funcionan los stream y las expresiones lambda básicas.<br/>
 <a href="material/documentos/apuntes/objetos2-apunte-collection-stream-lambda.pdf" target="_blank">descargar</a>
 
