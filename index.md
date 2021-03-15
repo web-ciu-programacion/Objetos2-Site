@@ -30,7 +30,7 @@ El link es:
 
 Al 15/03/2021 tenemos:
   - Guía de instalación de entorno de trabajo (sección apuntes).<br/>
-  - Apuntes iniciales para ir leyendo: notas sobre diseño con objetos, introducción a patrones de diesño y git introducción (sección apuntes).<br/>
+  - Apuntes iniciales para ir leyendo: ``notas sobre diseño con objetos``, ``introducción a patrones de diesño`` y ``git introducción`` (sección apuntes).<br/>
   - Un proyecto (en GitHub) de nivel inicial en Java ``ejemplos`` con ejemplos que detallaremos en la cursada. <br/>
 
 <hr/>
