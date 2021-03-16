@@ -48,7 +48,7 @@ En <span style="color: orange">`browser`</span> tenemos tres ejemplos.
 
 ### Listas y Strings
 
-#### Ejercicio 1. 
+#### Ejercicio 1.
   
 Consideremos una lista de palabras, p.ej.  
 
@@ -113,8 +113,12 @@ Construir una función que, dados una lista de números `ln` y un número `x`, d
 
 Construir una función que, dados una lista `lln` donde cada elemento es, a su vez, una lista de números, y un número `x`, devuelva una lista con las listas en `lln` donde está `x`.
   P.ej. `listasDondeEsta([[1,2,3],[4,8,13],[71,4,5,9],[2,5,6,1]],4)` debe devolver `[[4,8,13],[71,4,5,9]]`.
-  <br/>
-4. Construir la función `repetir(str,n)` que devuelve un String consistente en `n` copias del String `str`.
+
+<br/>
+
+#### Ejercicio 4
+
+Construir la función `repetir(str,n)` que devuelve un String consistente en `n` copias del String `str`.
   P.ej. `repetir("pepo", 4)` debe devolver `"pepopepopepopepo"`.
 
 <br/>
