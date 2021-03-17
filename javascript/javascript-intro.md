@@ -40,8 +40,10 @@ También se sugieren algunos ejercicios.
 [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)  
 Tutorial de JS de w3schools, el sitio que me suele sacar de apuro con dudas de HTML y Javascript.
 
+<!--
 [La consola de Román (con colaboración de Carlos)](./javascript-consola.md)  
 Un mini unit-test-library para probar el código que hacemos.
+-->
 
 [https://es6console.com/](https://es6console.com/)  
 [http://demo.borland.com/testsite/JavaScriptTestbed.htm](http://demo.borland.com/testsite/JavaScriptTestbed.htm)  
@@ -62,7 +64,10 @@ Explicación de diferencias entre Ecmascript 5 y Ecmascript 6 = 2015
 Especificación de Ecmascript 6 = 2015
 
 [https://code.visualstudio.com/](https://code.visualstudio.com/)  
-**Visual Studio Code**, un IDE que puede resultar bastante cómodo para editar código JavaScript.
+**Visual Studio Code**, un IDE (Imperialista de Microsoft) que puede resultar bastante cómodo para editar código JavaScript.
+
+[https://atom.io/](https://atom.io/)  
+**Atom**, un IDE Open ´´Source que puede´´ resultar bastante cómodo para editar código JavaScript, con la ayuda de unos pluggins.
 
 <br/>
 
