@@ -69,5 +69,7 @@ Especificación de Ecmascript 6 = 2015
 [https://atom.io/](https://atom.io/)  
 **Atom**, un IDE `Open Source` que puede resultar bastante cómodo para editar código JavaScript, con la ayuda de unos pluggins.
 
-<br/>
+<hr/>
+
+<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
 
