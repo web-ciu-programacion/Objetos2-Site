@@ -67,7 +67,7 @@ Especificación de Ecmascript 6 = 2015
 **Visual Studio Code**, un IDE (Imperialista de Microsoft) que puede resultar bastante cómodo para editar código JavaScript.
 
 [https://atom.io/](https://atom.io/)  
-**Atom**, un IDE Open ´´Source que puede´´ resultar bastante cómodo para editar código JavaScript, con la ayuda de unos pluggins.
+**Atom**, un IDE `Open Source` que puede resultar bastante cómodo para editar código JavaScript, con la ayuda de unos pluggins.
 
 <br/>
 
