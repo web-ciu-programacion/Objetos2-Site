@@ -22,11 +22,13 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 
 <hr/>
 
-### Sitio github con ejemplos
+### Sitio bitbucket con ejemplos
 Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo público Bitbucket creado para esto.  
 
 El link es: 
 <a href="https://bitbucket.org/acelay/objetos-2-ejemplos-resoluciones/src/master/" target="_blank">Link repositorio</a>. Dicho repositorio contiene dos carpetas: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
+
+> 31/03/2021: Se agregó ejemplo de Stream y lambda en proyecto ``ejemplos``. 
 
 <hr/>
 
