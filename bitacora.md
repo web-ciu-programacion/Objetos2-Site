@@ -17,4 +17,18 @@ Tarea: Finalizar para la próxima clase ejercicio viajeros.
 
 <hr/>
 
+### 31/03/2021
+Realizamos:<br/>
+Repasamos Stream y lambda.<br/>
+Sumamos a la página el ejemplo de Stream.
+Arrancamos con viajeros.
+
+<hr/>
+
+### 07/04/2021
+Realizamos:<br/>
+Práctica viajeros.<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
