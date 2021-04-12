@@ -37,6 +37,7 @@ Práctica viajeros.<br/>
 Variable de instancia y variable de clase en Java; también constante..<br/>
 Clase abstracta en Java.<br/>
 JUnit3. Agregar librería y primer test de ejemplo.<br/>
+Tipos de datos primitivos vs. Objetos, ejemplo: int e Integer.
 Comienzo oktubrefest.<br/>
 
 <hr/>
