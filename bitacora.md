@@ -31,4 +31,14 @@ Práctica viajeros.<br/>
 
 <hr/>
 
+### 09/04/2021
+Realizamos:<br/>
+Práctica viajeros.<br/>
+Variable de instancia y variable de clase en Java; también constante..<br/>
+Clase abstracta en Java.<br/>
+JUnit3. Agregar librería y primer test de ejemplo.<br/>
+Comienzo oktubrefest.<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
