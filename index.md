@@ -30,7 +30,8 @@ El link es:
 
 👍 31/03/2021: Se agregó ejemplo de Stream y lambda en proyecto ``ejemplos``. <br/>
 👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio. <br/>
-👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio. 
+👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio.
+👍 23/04/2021: Se agregó proyecto ``singleton-pattern`` al repositorio.
 
 <hr/>
 
