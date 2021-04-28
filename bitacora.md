@@ -42,4 +42,30 @@ Comienzo oktubrefest.<br/>
 
 <hr/>
 
+### 14/04/2021
+Realizamos:<br/>
+Práctica viajeros.<br/>
+Práctica oktubrefest.<br/>
+
+<hr/>
+
+### 16/04/2021
+Realizamos:<br/>
+Interfaces en Java.<br/>
+Práctica oktubrefest.<br/>
+
+### 21/04/2021
+Realizamos:<br/>
+Práctica oktubrefest. Introducción a Remisería.<br/>
+
+<hr/>
+
+### 23/04/2021
+Realizamos:<br/>
+Introducción a Patrones de Diseño.<br/>
+Patrón Singleton.<br/>
+Remisería y oktubrefest (rezagados).<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
