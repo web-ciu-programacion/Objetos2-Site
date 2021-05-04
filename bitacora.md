@@ -68,4 +68,13 @@ Remisería y oktubrefest (rezagados).<br/>
 
 <hr/>
 
+### 30/04/2021
+Realizamos:<br/>
+Patrón Template Method.<br/>
+Argumentos tipo: ... [ejemplo: String...].<br/>
+Agregar librerías (.jar) a un proyecto, mediante una carpeta /lib en el proyecto.
+Se explicó lo pedido en Civilization.<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
