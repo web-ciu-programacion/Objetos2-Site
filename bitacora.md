@@ -77,4 +77,11 @@ Se explicó lo pedido en Civilization.<br/>
 
 <hr/>
 
+### 05/05/2021
+Realizamos:<br/>
+Patrón State.<br/>
+Ejercitación.<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
