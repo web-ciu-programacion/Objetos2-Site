@@ -34,7 +34,7 @@ El link es:
 👍 23/04/2021: Se agregó proyecto ``singleton-pattern`` al repositorio. <br/>
 👍 30/04/2021: Se agregó proyecto ``template-method-pattern`` al repositorio. <br/>
 👍 04/05/2021: Se agregó proyecto ``state-pattern`` al repositorio. <br/>
-:open_mouth: 05/05/2021: Se agregó ejercicio ``imperio`` a sección ejercicios. <br/>
+😮 05/05/2021: Se agregó ejercicio ``imperio`` a sección ejercicios. <br/>
 👍 06/05/2021: Se agregó proyecto ``oktubrefest`` al repositorio. <br/>
 
 <hr/>
