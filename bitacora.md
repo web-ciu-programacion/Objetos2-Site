@@ -84,4 +84,14 @@ Ejercitación.<br/>
 
 <hr/>
 
+### 07/05/2021
+Realizamos:<br/>
+Patrón Composite (y recursión).<br/>
+Enum.<br/>
+Repaso State.<br/>
+Otra vez agregar la misma librería a otro proyecto.<br/>
+Ejercitación.<br/>
+
+<hr/>
+
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
