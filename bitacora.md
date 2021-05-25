@@ -1,6 +1,15 @@
 [volver](index.md)<br/>
 ## bitácora
 
+### 21/05/2021
+Realizamos:<br/>
+Patrón Observer.<br/>
+Manejo de Excepciones.<br/>
+<hr/>
+### 19/05/2021
+Realizamos:<br/>
+Ejercitación.<br/>
+<hr/>
 ### 14/05/2021
 Realizamos:<br/>
 Patrón Factory Method.<br/>
