@@ -48,6 +48,7 @@ El link es:
 👍 09/07/2021: Se agregó proyecto ``Enunciado del parcial`` al repositorio.<br/>
 👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Plan de Contingencia del Parcial`` al repositorio.<br/>
 👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Sábados de Ascenso del Parcial`` al repositorio.<br/>
+😮 21/07/2021: RECUPERATORIO PARCIAL.<br/>
 
 <hr/>
 
