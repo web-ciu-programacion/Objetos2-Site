@@ -40,6 +40,14 @@ El link es:
 👍 15/05/2021: Se agregó proyecto ``remiseria`` al repositorio.<br/>
 👍 15/05/2021: Se agregó proyecto ``imperio`` al repositorio.<br/>
 👍 15/05/2021: Se agregó proyecto ``factory-method-pattern`` al repositorio.<br/>
+👍 21/05/2021: Se agregó proyecto ``observer-pattern`` al repositorio.<br/>
+👍 25/06/2021: Se agregó proyecto ``civilization`` al repositorio.<br/>
+👍 25/06/2021: Se agregó proyecto ``civilization-refinamiento`` al repositorio.<br/>
+👍 25/06/2021: Se agregó proyecto ``examenes`` al repositorio.<br/>
+👍 09/07/2021: Se agregó proyecto ``examenes-generics`` al repositorio.<br/>
+👍 09/07/2021: Se agregó proyecto ``Enunciado del parcial`` al repositorio.<br/>
+👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Plan de Contingencia del Parcial`` al repositorio.<br/>
+👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Sábados de Ascenso del Parcial`` al repositorio.<br/>
 
 <hr/>
 
