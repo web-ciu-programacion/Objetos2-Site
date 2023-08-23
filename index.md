@@ -1,6 +1,6 @@
 [ejercicios](ejercicios.md)&nbsp;-&nbsp;[apuntes](apuntes.md)&nbsp;-&nbsp;[JavaScript](javascript/javascript-intro.md)&nbsp;-&nbsp;[bitácora](bitacora.md)
 
-### Cursada 2021 (maldita pandemia)
+### Cursada 2023
 
 ### Introducción
 Este sitio tiene material relacionado con el diseño con objetos.
@@ -14,7 +14,7 @@ De eso se trata el diseño.
 <br/>
 <br/>
 El material de esta página habla de estos principios, y también va a cubrir varias variantes.
-Nos proponemos incluir el modelado de aplicación basada en Java y ojalá de el tiempo (también depende de ustedes) de un inicio a objetos en Javascript.
+Nos proponemos incluir el modelado de aplicación basada en Java y dar un inicio a objetos en Javascript.
 <br/>
 <br/>
 Comentarios bienvenidos, a web.ciu.programacion@gmail.com
@@ -22,14 +22,14 @@ Comentarios bienvenidos, a web.ciu.programacion@gmail.com
 
 <hr/>
 
-### Sitio bitbucket con ejemplos
-Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo público Bitbucket creado para esto.  
+### Sitio GitHub con ejemplos
+Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo público GitHub creado para esto.  
 
 El link es: 
-<a href="https://bitbucket.org/acelay/objetos-2-ejemplos-resoluciones/src/master/" target="_blank">Link repositorio</a>. Dicho repositorio contiene dos carpetas: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
+<a href="https://github.com/web-ciu-programacion/Objetos2-2023-Compartido" target="_blank">Link repositorio</a>. Dicho repositorio contiene: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
 
-👍 31/03/2021: Se agregó ejemplo de Stream y lambda en proyecto ``ejemplos``.<br/>
-👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio.<br/>
+👍 23/08/2023: Se agregó ejemplo de Stream y lambda en proyecto ``ejemplos``.<br/>
+<!-- 👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio.<br/> 
 👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio.<br/>
 👍 23/04/2021: Se agregó proyecto ``singleton-pattern`` al repositorio.<br/>
 👍 30/04/2021: Se agregó proyecto ``template-method-pattern`` al repositorio.<br/>
@@ -49,7 +49,7 @@ El link es:
 👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Plan de Contingencia del Parcial`` al repositorio.<br/>
 👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Sábados de Ascenso del Parcial`` al repositorio.<br/>
 😮 21/07/2021: RECUPERATORIO PARCIAL.<br/>
-
+-->
 <hr/>
 
 ### Notas sobre la cursada
