@@ -12,12 +12,14 @@ Este resumen es un conjunto de recetas para “traducir” mensajes de coleccion
 <hr/>
 -->
 
+<!--
 ### guía de instalación de entorno
 Autora: Luz Cuello<br/>
 En este documento es una guía que detalla paso a paso la instalación del entorno que utilizaremos en la materia.<br/>
 <a href="material/documentos/apuntes/objetos2-apunte-guia-instalacion-del-entorno.pdf" target="_blank">descargar</a>
 
 <hr/>
+-->
 
 ### notas sobre diseño con objetos
 Autor: Carlos Lombardi<br/>
