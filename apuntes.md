@@ -1,10 +1,11 @@
 [volver](index.md)<br/>
 ## apuntes
 
-<!-- ### shortcuts eclipse
+### shortcuts eclipse
 Combinación de teclas para accesos rápidos en eclipse.<br/>
 [ver](shortcuts.md)<br/> 
 <hr/>
+<!--
 ### wollok a java
 Autor: Román G.<br/>
 Este resumen es un conjunto de recetas para “traducir” mensajes de colecciones de Wollok a Java.<br/>
