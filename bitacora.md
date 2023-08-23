@@ -9,5 +9,4 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
 ### 21/08/2023
 Feriado (San Martín).<br/>
 <hr/>
-<hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
