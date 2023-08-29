@@ -16,11 +16,17 @@ Proyecto: ejemplos_stream<br/>
 Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
 <hr/>
 ### 28/08/2023
+Métodos equals y hashCode. Casteo.
+Diferencias programación funcional e Imperativa. 
+Proyecto: teoria_stream_lambda<br/>
+Agregar JAR (Apache Commons Lang) a Proyecto mediante build path.
+Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
+<hr/>
+### 30/08/2023
 Ver: 
   Proyecto: teoria_interface<br/>
-  Proyecto: teoria_stream_lambda<br/>
-  Agregar JAR a Proyecto.
   Agregar JUnit a Proyecto.
   Introducción a Maven.
+  Ejercicio: Objetos 1, guía 9, ejercicio.
 <hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
