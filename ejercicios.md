@@ -24,17 +24,17 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 -->
 
 ### ejercicio preliminar: La Familia
-Guía 8, ejercicio 7 de Objetos 1.</br>
-Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.
-<a href="material/documentos/ejercicios/objetos1-guia8-integradores.pdf" target="_blank">descargar</a></br>
-<a href="https://commons.apache.org/proper/commons-lang/download_lang.cgi" target="_blank">descargar Apache commons-lang-3.13.0</a>
+Guía 8, ejercicio 7 de Objetos 1.<br/>
+Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.<br/>
+<a href="material/documentos/ejercicios/objetos1-guia8-integradores.pdf" target="_blank">descargar</a><br/>
+<a href="https://commons.apache.org/proper/commons-lang/download_lang.cgi" target="_blank">descargar Apache commons-lang-3.13.0</a><br/>
 <a href="https://mvnrepository.com/artifact/junit/junit/4.3.1" target="_blank">descargar JUnit 4.3.1</a>
 
 <hr/>
 
 ### ejercicio preliminar: Vendedores
-Guía 9, ejercicio 4 de Objetos 1.</br>
-Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.
+Guía 9, ejercicio 4 de Objetos 1.<br/>
+Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.<br/>
 <a href="material/documentos/ejercicios/objetos1-guia9-extras.pdf" target="_blank">descargar</a>
 
 <hr/>
