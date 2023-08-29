@@ -52,12 +52,13 @@ Ejercicio para empezar con Java Maven con el IDE Eclipse.<br/>
 <hr/>
 
 ### ejercicio imperio
-Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!! <a href="material/documentos/ejercicios/objetos2-ejercicio-imperio.pdf" target="_blank">descargar</a>
+Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!!<br/>
+<a href="material/documentos/ejercicios/objetos2-ejercicio-imperio.pdf" target="_blank">descargar</a>
 
 <hr/>
 
 ### ejercicio remiseria
-A partir de aquí comienzan a entrar en juego los patrones de diseño.
+A partir de aquí comienzan a entrar en juego los patrones de diseño.<br/>
 <a href="material/documentos/ejercicios/objetos2-ejercicio-remiseria.pdf" target="_blank">descargar</a>
 
 <!--
@@ -72,7 +73,8 @@ A partir de aquí comienzan a entrar en juego los patrones de diseño.
 <hr/>
 
 ### ejercicio civilization
-Primero hacer el ejercicio realizando los requisitos, sin contemplar la sección de <b>Refinamientos</b>, luego clonar el proyecto y resolver mediante un refactor lo solicitado en los <b>Refinamientos</b> <a href="material/documentos/ejercicios/objetos2-ejercicio-civilization.pdf" target="_blank">descargar</a>
+Primero hacer el ejercicio realizando los requisitos, sin contemplar la sección de <b>Refinamientos</b>, luego clonar el proyecto y resolver mediante un refactor lo solicitado en los <b>Refinamientos</b><br/>
+<a href="material/documentos/ejercicios/objetos2-ejercicio-civilization.pdf" target="_blank">descargar</a>
 
 <hr/>
 
