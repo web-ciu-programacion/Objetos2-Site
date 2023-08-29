@@ -35,7 +35,7 @@ Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con 
 ### ejercicio preliminar: Vendedores
 Guía 9, ejercicio 4 de Objetos 1.</br>
 Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.
-<a href="material/documentos/ejercicios/objetos1-guia8-integradores.pdf" target="_blank">descargar</a>
+<a href="material/documentos/ejercicios/objetos1-guia9-extras.pdf" target="_blank">descargar</a>
 
 <hr/>
 
