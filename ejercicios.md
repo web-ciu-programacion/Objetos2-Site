@@ -1,6 +1,6 @@
 [volver](index.md)<br/>
 ## ejercicios
-Todos los ejercicios a continuaci&oacute;n son de entrega obligatoria en un repositorio Git que ustedes deseen. <br/> ¿Olvidamos lo aprendido en introducción a la programación y objetos 1?....NOOO!!!. Antes de comenzar a escribir código basado en intuiciones, leemos y comprendemos el enunciado, el contexto, y luego analizamos los requerimientos; identificamos los candidatos a objetos, comenzamos a realizar el Diagrama de Clases, sea en papél y lápiz, o con alguna herramienta de software (Dia por ejemplo), y una vez que tenemos nuestras clases y como se enviarán mensajes entre sí a fin de resolver los requerimientos, estamos en condiciones de abrir el IntelliJ y crear el proyecto para comenzar a codificar, documentando clases y métodos, y pensando la estratégia antes de comenzar a codificar cada método.<br/>
+Todos los ejercicios a continuaci&oacute;n son de entrega obligatoria en un repositorio Git que ustedes deseen. <br/> ¿Olvidamos lo aprendido en introducción a la programación y objetos 1?....NOOO!!!. Antes de comenzar a escribir código basado en intuiciones, leemos y comprendemos el enunciado, el contexto, y luego analizamos los requerimientos; identificamos los candidatos a objetos, comenzamos a realizar el Diagrama de Clases, sea en papél y lápiz, o con alguna herramienta de software (Dia por ejemplo), y una vez que tenemos nuestras clases y como se enviarán mensajes entre sí a fin de resolver los requerimientos, estamos en condiciones de abrir el Eclipse y crear el proyecto para comenzar a codificar, documentando clases y métodos, y pensando la estratégia antes de comenzar a codificar cada método.<br/>
 Estas pautas, que parecen aburridas, tontas y de viejo cho.., son el abc para el día de mañana ser buenos desarrolladores, analíticos, con buenas prácticas, identificando de ante mano los puntos críticos a resolver, y nos ahorraran mucho tiempo de codificar líneas que parecen "útiles" al corto plazo, pero debido a la carencia de análisis, tarde o temprano tendremos que rediseñar una y otra vez nuestra solución rápida.
 
 <br/>
@@ -23,15 +23,36 @@ se sugiere hacer en java los siguientes ejercicios de las guías de objetos 1<br
 <a href="https://objetos1wollokunq.gitlab.io/material/#guides" target="_blank">Ir a gu&iacute;as de objetos 1</a><br/>
 -->
 
+### ejercicio preliminar: La Familia
+Guía 8, ejercicio 7 de Objetos 1.</br>
+Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.
+<a href="material/documentos/ejercicios/objetos1-guia8-integradores.pdf" target="_blank">descargar</a></br>
+<a href="https://commons.apache.org/proper/commons-lang/download_lang.cgi" target="_blank">descargar Apache commons-lang-3.13.0</a>
+<a href="https://mvnrepository.com/artifact/junit/junit/4.3.1" target="_blank">descargar JUnit 4.3.1</a>
+
+<hr/>
+
+### ejercicio preliminar: Vendedores
+Guía 9, ejercicio 4 de Objetos 1.</br>
+Ejercicio para empezar con Java, y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.
+<a href="material/documentos/ejercicios/objetos1-guia8-integradores.pdf" target="_blank">descargar</a>
+
+<hr/>
+
+### ejercicio preliminar: Oktubrefest
+Sigue la entrada en calor.
+<a href="material/documentos/ejercicios/objetos2-ejercicio-oktubrefest.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 ### ejercicio viajeros
-Ejercicio para empezar con nuestro primer proyecto en Java con el IDE IntelliJ.
+Sigue la entrada en calor.
 <a href="material/documentos/ejercicios/objetos2-ejercicio-viajeros.pdf" target="_blank">descargar</a>
 
 <hr/>
 
-### ejercicio oktubrefest
-Más largo que el anterior, pero sigue la entrada en calor. Incorporar JUnit3.
-<a href="material/documentos/ejercicios/objetos2-ejercicio-oktubrefest.pdf" target="_blank">descargar</a>
+### ejercicio imperio
+Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!! <a href="material/documentos/ejercicios/objetos2-ejercicio-imperio.pdf" target="_blank">descargar</a>
 
 <hr/>
 
@@ -47,11 +68,6 @@ A partir de aquí comienzan a entrar en juego los patrones de diseño.
 <a href="material/documentos/ejercicios/minions-modificado.pdf" target="_blank">descargar</a>
 <hr/>
 -->
-
-<hr/>
-
-### ejercicio imperio
-Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!! <a href="material/documentos/ejercicios/objetos2-ejercicio-imperio.pdf" target="_blank">descargar</a>
 
 <hr/>
 
