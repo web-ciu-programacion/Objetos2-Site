@@ -40,7 +40,7 @@ Ejercicio para empezar con Java y librerías: Apache Commons-lang y JUnit4 con e
 <hr/>
 
 ### ejercicio preliminar: Oktubrefest
-Ejercicio para empezar con Java y Maven con el IDE Eclipse.<br/>
+Ejercicio para empezar con Java y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.<br/>
 <a href="material/documentos/ejercicios/objetos2-ejercicio-oktubrefest.pdf" target="_blank">descargar</a>
 
 <hr/>
