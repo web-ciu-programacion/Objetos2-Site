@@ -28,8 +28,9 @@ Algunos de los ejemplos con los que trabajamos en clase están subidos a un repo
 El link es: 
 <a href="https://github.com/web-ciu-programacion/Objetos2-2023-Compartido" target="_blank">Link repositorio</a>. Dicho repositorio contiene: ``ejemplos`` (ejemplos dados en clase) y ``resoluciones`` (resolución de ejercicios, una vez que los finalicen ustedes!) <br/> <br/>
 
-👍 23/08/2023: Se agregó ejemplo de Collection, Stream y lambda en proyecto ``ejemplos``.<br/>
-👍 29/08/2023: Se agregó ejemplo de teoria-interface en proyecto ``ejemplos``.<br/>
+👍 23/08/2023: Se agregó ejemplo de Collection, Stream y lambda en repositorio ``ejemplos``.<br/>
+👍 29/08/2023: Se agregó ejemplo de teoria-interface en repositorio ``ejemplos``.<br/>
+👍 30/08/2023: Se agregó resolución de ejercicio: La Familia en repositorio ``ejemplos``.<br/>
 <!-- 👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio.<br/> 
 👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio.<br/>
 👍 23/04/2021: Se agregó proyecto ``singleton-pattern`` al repositorio.<br/>
