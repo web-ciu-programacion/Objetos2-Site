@@ -31,9 +31,9 @@ El link es:
 👍 23/08/2023: Se agregó ejemplo de Collection, Stream y lambda en repositorio ``ejemplos``.<br/>
 👍 29/08/2023: Se agregó ejemplo de teoria-interface en repositorio ``ejemplos``.<br/>
 👍 30/08/2023: Se agregó resolución de ejercicio: La Familia en repositorio ``ejemplos``.<br/>
+👍 30/08/2023: Se agregó proyecto ``singleton-pattern`` al repositorio.<br/>
 <!-- 👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio.<br/> 
 👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio.<br/>
-👍 23/04/2021: Se agregó proyecto ``singleton-pattern`` al repositorio.<br/>
 👍 30/04/2021: Se agregó proyecto ``template-method-pattern`` al repositorio.<br/>
 👍 04/05/2021: Se agregó proyecto ``state-pattern`` al repositorio.<br/>
 😮 05/05/2021: Se agregó ejercicio ``imperio`` a sección ejercicios.<br/>
