@@ -24,8 +24,9 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
 <hr/>
 ### 30/08/2023
   Proyecto: teoria_interface<br/>
-  Agregar JUnit a Proyecto.
-  Método/atributo de clase/instancia.
+  Agregar JUnit a Proyecto.<br/>
+  Método/atributo de clase/instancia.<br/>
+  Singleton Pattern.<br/>
   Ejercicio: Objetos 1, guía 9, ejercicio.
 <hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
