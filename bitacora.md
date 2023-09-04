@@ -34,6 +34,7 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
   Proyecto: template_method_pattern<br/>
   Resolver ejercicio<br/>
   Dar resolución<br/>
-  Introducción a Maven.
+  Manejo de Excepciones.
+  Proyecto: exception_managing
 <hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
