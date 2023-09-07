@@ -61,6 +61,10 @@ Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!!<
 A partir de aquí comienzan a entrar en juego los patrones de diseño.<br/>
 <a href="material/documentos/ejercicios/objetos2-ejercicio-remiseria.pdf" target="_blank">descargar</a>
 
+### ejercicio Servicio de Salud
+Ejercicio para resolver con patrones de diseño.<br/>
+<a href="material/documentos/ejercicios/servicioDeSalud.pdf" target="_blank">descargar</a>
+
 <!--
 ### ejercicio mercaderia
 <a href="material/documentos/ejercicios/mercaderia.pdf" target="_blank">descargar</a>
