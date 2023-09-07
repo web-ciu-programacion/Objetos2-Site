@@ -29,12 +29,13 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
   Singleton Pattern.<br/>
   Ejercicio: Objetos 1, guía 9, ejercicio.
 <hr/>
-### 30/08/2023
-  Template Method Pattern
+### 04/09/2023
+  Maven<br/>
+  Template Method Pattern<br/>
   Proyecto: template_method_pattern<br/>
-  Resolver ejercicio<br/>
-  Dar resolución<br/>
-  Manejo de Excepciones.
+  Manejo de Excepciones.<br/>
   Proyecto: exception_managing
+### 06/09/2023
+  Ejercicio Vendedores en clase.
 <hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
