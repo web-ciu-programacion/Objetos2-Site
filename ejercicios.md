@@ -38,12 +38,11 @@ Ejercicio para empezar con Java y librerías: Apache Commons-lang y JUnit4 con e
 <a href="material/documentos/ejercicios/objetos1-guia9-extras.pdf" target="_blank">descargar</a>
 
 <hr/>
-
+<!--
 ### ejercicio preliminar: Oktubrefest
 Ejercicio para empezar con Java y librerías: Apache Commons-lang y JUnit4 con el IDE Eclipse.<br/>
 <a href="material/documentos/ejercicios/objetos2-ejercicio-oktubrefest.pdf" target="_blank">descargar</a>
-
-<hr/>
+-->
 
 ### ejercicio viajeros
 Ejercicio para empezar con Java Maven con el IDE Eclipse.<br/>
@@ -57,13 +56,19 @@ Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!!<
 
 <hr/>
 
+### ejercicio monster of rock
+Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!!<br/>
+<a href="material/documentos/ejercicios/objetos2-ejercicio-monsters-of-rock.pdf" target="_blank">descargar</a>
+<a href="objetos2-ejercicio-monsters-of-rock-comentarios" target="_blank">descargar</a>
+
+<hr/>
+<!--
 ### ejercicio remiseria
 A partir de aquí comienzan a entrar en juego los patrones de diseño.<br/>
 <a href="material/documentos/ejercicios/objetos2-ejercicio-remiseria.pdf" target="_blank">descargar</a>
+-->
 
-<hr/>
-
-### ejercicio Servicio de emergencia
+### ejercicio Servicio de emergencia (Modelo Parcial)
 Ejercicio para resolver con patrones de diseño.<br/>
 <a href="material/documentos/ejercicios/servicioDeSalud.pdf" target="_blank">descargar</a>
 
@@ -95,10 +100,6 @@ El enunciado se descarga aquí <a href="material/documentos/ejercicios/objetos2-
 Es un ejercicio extenso, conviene realizarlo en partes, parte 1, parte 2 y así hasta la parte 5.
 
 <!--
-### ejercicio monster of rock
-<a href="material/documentos/ejercicios/monsters-of-rock.pdf" target="_blank">descargar</a><br/>
-<a href="material/documentos/ejercicios/monsters-of-rock-comentarios.pdf" target="_blank">descargar comentarios</a>
-<hr/>
 ### ejercicio webserver
 <a href="material/documentos/ejercicios/webserver.pdf" target="_blank">descargar</a>
 <hr/>
