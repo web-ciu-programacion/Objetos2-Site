@@ -33,6 +33,7 @@ El link es:
 👍 30/08/2023: Se agregó resolución de ejercicio: La Familia en repositorio ``ejemplos``.<br/>
 👍 30/08/2023: Se agregó proyecto ``singleton-pattern`` al repositorio.<br/>
 👍 04/09/2023: Se agregó proyecto ``template-method-pattern`` al repositorio.<br/>
+👍 11/09/2021: Se agregó proyecto ``state-pattern`` al repositorio.<br/>
 😮 02/10/2023: Primer parcial.<br/>
 😮 18/10/2023: Recuperatorio primer parcial.<br/>
 😮 22/11/2023: Segundo parcial parcial.<br/>
@@ -40,7 +41,6 @@ El link es:
 😮 13/12/2023: Integrador.<br/>
 <!-- 👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio.<br/> 
 👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio.<br/>
-👍 04/05/2021: Se agregó proyecto ``state-pattern`` al repositorio.<br/>
 😮 05/05/2021: Se agregó ejercicio ``imperio`` a sección ejercicios.<br/>
 👍 06/05/2021: Se agregó proyecto ``oktubrefest`` al repositorio.<br/>
 👍 07/05/2021: Se agregó proyecto ``composite-pattern`` al repositorio.<br/>
