@@ -58,8 +58,8 @@ Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!!<
 
 ### ejercicio monster of rock
 Ejercicio para pensar el modelado!, no ponerse a escribir porque si, piensen!!!<br/>
-<a href="material/documentos/ejercicios/objetos2-ejercicio-monsters-of-rock.pdf" target="_blank">descargar</a>
-<a href="objetos2-ejercicio-monsters-of-rock-comentarios" target="_blank">descargar</a>
+<a href="material/documentos/ejercicios/monsters-of-rock.pdf" target="_blank">descargar</a>
+<a href="material/documentos/ejercicios/monsters-of-rock-comentarios.pdf" target="_blank">descargar</a>
 
 <hr/>
 <!--
