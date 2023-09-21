@@ -95,6 +95,12 @@ A continuación un ejemplo de un modelo de <a href="material/documentos/ejercici
 
 <hr/>
 
+### ejercicio Cuenta Bancaria (Modelo Segundo Parcial)
+Ejercicio para resolver con patrones de diseño.<br/>
+<a href="material/documentos/ejercicios/objetos2-ejercicio-cuentas_bancarias.pdf" target="_blank">descargar</a>
+
+<hr/>
+
 ### ejercicio toxi-taxi
 El enunciado se descarga aquí <a href="material/documentos/ejercicios/objetos2-ejercicio-toxitaxi.pdf" target="_blank">descargar</a><br/>
 Es un ejercicio extenso, conviene realizarlo en partes, parte 1, parte 2 y así hasta la parte 5.
