@@ -36,6 +36,8 @@ El link es:
 👍 11/09/2023: Se agregó proyecto ``state-pattern`` al repositorio.<br/>
 👍 13/09/2023: Se agregó resolución de ejercicio: Vendedores en repositorio.<br/>
 👍 13/09/2023: Se agregó proyecto ``composite-pattern`` al repositorio.<br/>
+👍 20/09/2023: Se agregó proyecto ``prototype-pattern`` al repositorio.<br/>
+😮 21/09/2021: Se agregó resolución de ejercicio ``imperio`` al reposiroio.<br/>
 😮 02/10/2023: Primer parcial.<br/>
 😮 18/10/2023: Recuperatorio primer parcial.<br/>
 😮 22/11/2023: Segundo parcial parcial.<br/>
@@ -43,11 +45,8 @@ El link es:
 😮 13/12/2023: Integrador.<br/>
 <!-- 👍 13/04/2021: Se agregó proyecto ``teoria-interface`` al repositorio.<br/> 
 👍 14/04/2021: Se agregó proyecto ``viajeros`` al repositorio.<br/>
-😮 05/05/2021: Se agregó ejercicio ``imperio`` a sección ejercicios.<br/>
 👍 06/05/2021: Se agregó proyecto ``oktubrefest`` al repositorio.<br/>
-👍 07/05/2021: Se agregó proyecto ``composite-pattern`` al repositorio.<br/>
 👍 15/05/2021: Se agregó proyecto ``remiseria`` al repositorio.<br/>
-👍 15/05/2021: Se agregó proyecto ``imperio`` al repositorio.<br/>
 👍 15/05/2021: Se agregó proyecto ``factory-method-pattern`` al repositorio.<br/>
 👍 21/05/2021: Se agregó proyecto ``observer-pattern`` al repositorio.<br/>
 👍 25/06/2021: Se agregó proyecto ``civilization`` al repositorio.<br/>
