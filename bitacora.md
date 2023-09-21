@@ -43,7 +43,7 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
   Ejercicio Vendedores en clase.
 <hr/>
 ### 20/09/2023
-  Prototyé Pattern<br/>
+  Prototype Pattern<br/>
   Ejercicio Imperio en clase.
 <hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
