@@ -73,4 +73,4 @@ Link página web de la materia Objetos 1<br/>
 
 <hr/>
 
-<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
+<center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" />&nbsp;<img src="imagenes/maven.png" />&nbsp;<img src="imagenes/spring_boot.png" /></center>
