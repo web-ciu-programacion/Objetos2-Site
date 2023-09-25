@@ -46,4 +46,9 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
   Prototype Pattern<br/>
   Ejercicio Imperio en clase.
 <hr/>
+### 25/09/2023
+  Strategy Pattern<br/>
+  Ejercicio Viajeros en clase, consultas en clase.
+  Ejercicio Servicios de Salud, consultas en clase.
+<hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
