@@ -51,4 +51,11 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
   Ejercicio Viajeros en clase, consultas en clase.<br/>
   Ejercicio Servicios de Salud, consultas en clase.
 <hr/>
+### 27/09/2023
+  Consultas en clase previo al primer parcial.
+<hr/>
+### 02/10/2023
+  Primer Parcial<br/>
+  Ejercicio: Botánica.
+<hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
