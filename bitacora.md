@@ -58,4 +58,38 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
   Primer Parcial<br/>
   Ejercicio: Botánica.
 <hr/>
+### 04/10/2023
+  MVC Pattern<br/>
+  Spring<br/>
+  Práctica y Consultas.
+<hr/>
+### 09/10/2023
+  MVC REST<br/>
+  Spring, Postman, JSON<br/>
+  Definición TP<br/>
+  Práctica y Consultas.
+<hr/>
+### 11/10/2023
+  MVC REST<br/>
+  Spring, Git<br/>
+  Práctica y Consultas.
+<hr/>
+### 18/10/2023
+  MVC REST<br/>
+  Spring<br/>
+  Práctica y Consultas.
+<hr/>
+### 16/10/2023
+  Feriado.
+### 18/10/2023
+  Builder Pattern<br/>
+  Axios<br/>
+  Práctica y Consultas.
+<hr/>
+### 23/10/2023
+  Visitor Pattern
+<hr/>
+### 30/10/2023
+  Recuperatorio 1er. Parcial
+<hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
