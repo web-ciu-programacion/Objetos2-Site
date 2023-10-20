@@ -41,7 +41,11 @@ El link es:
 👍 25/09/2021: Se agregó proyecto ``strategy-pattern`` al repositorio.<br/>
 👍 25/09/2021: Se agregó resolución de ejercicio ``viajeros`` al repositorio.<br/>
 😮 02/10/2023: Primer parcial.<br/>
-😮 18/10/2023: Recuperatorio primer parcial.<br/>
+👍 04/10/2021: Se agregó resolución de parcial ``botanica`` al repositorio.<br/>
+👍 09/10/2023: Se agregó proyecto ``mvc-pattern`` al repositorio.<br/>
+👍 11/10/2023: Se agregó proyecto ``mvc-rest-pattern`` al repositorio.<br/>
+👍 23/10/2021: Se agregó proyecto ``visitor-pattern`` al repositorio.<br/>
+😮 30/10/2023: Recuperatorio primer parcial.<br/>
 😮 22/11/2023: Segundo parcial parcial.<br/>
 😮 04/12/2023: Recuperatorio segundo parcial.<br/>
 😮 13/12/2023: Integrador.<br/>
@@ -57,7 +61,7 @@ El link es:
 👍 09/07/2021: Se agregó proyecto ``Enunciado del parcial`` al repositorio.<br/>
 👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Plan de Contingencia del Parcial`` al repositorio.<br/>
 👍 09/07/2021: Se agregó proyecto ``Resolución ejercicio Sábados de Ascenso del Parcial`` al repositorio.<br/>
-😮 21/07/2021: RECUPERATORIO PARCIAL.<br/>
+😮 30/07/2021: RECUPERATORIO PARCIAL.<br/>
 -->
 <hr/>
 
