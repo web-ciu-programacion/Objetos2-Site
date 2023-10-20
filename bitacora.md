@@ -76,7 +76,7 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
 <hr/>
 ### 18/10/2023
   MVC REST<br/>
-  Spring<br/>
+  Javascript, DOM<br/>
   Práctica y Consultas.
 <hr/>
 ### 16/10/2023
