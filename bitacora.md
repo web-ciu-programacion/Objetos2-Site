@@ -89,7 +89,19 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
 ### 23/10/2023
   Visitor Pattern
 <hr/>
+### 25/10/2023
+  Observer Pattern
+<hr/>
 ### 30/10/2023
   Recuperatorio 1er. Parcial
+<hr/>
+### 01/11/2023
+  Observer Bis Pattern
+<hr/>
+### 06/11/2023
+  Decorator Pattern
+<hr/>
+### 08/11/2023
+  No hay clases. Día del empleado Municipal.
 <hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
