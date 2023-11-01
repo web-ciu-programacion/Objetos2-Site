@@ -47,7 +47,8 @@ El link es:
 👍 23/10/2023: Se agregó proyecto ``visitor-pattern`` al repositorio.<br/>
 👍 25/10/2023: Se agregó proyecto ``observer-pattern`` al repositorio.<br/>
 😮 30/10/2023: Recuperatorio primer parcial.<br/>
-👍 01/11/2023: Se agregó proyecto ``observer-pattern`` al repositorio.<br/>
+👍 31/10/2023: Se agregó resolución de recuperatorio 1er. parcial ``juego del paquete`` al repositorio.<br/>
+👍 01/11/2023: Se agregó proyecto ``observer-bis-pattern`` al repositorio.<br/>
 😮 22/11/2023: Segundo parcial parcial.<br/>
 😮 04/12/2023: Recuperatorio segundo parcial.<br/>
 😮 13/12/2023: Integrador.<br/>
