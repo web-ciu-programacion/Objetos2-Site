@@ -104,4 +104,16 @@ Ejercicio: Objetos 1, guía 8, ejercicio 7 La Familia.
 ### 08/11/2023
   No hay clases. Día del empleado Municipal.
 <hr/>
+### 13/11/2023
+  Clase repaso y consultas TP.
+<hr/>
+### 15/11/2023
+  Clase repaso y consultas TP.
+<hr/>
+### 20/11/2023
+  Feriado Nacional, día de la Soberanía.
+<hr/>
+### 22/11/2023
+  Segundo parcial. Sábados de Ascenso.
+<hr/>
 <center><img src="imagenes/logo-java-1.png" />&nbsp;<img src="imagenes/logo-linux-1.png" />&nbsp;<img src="imagenes/logo-java-2.png" />&nbsp;<img src="imagenes/logo-lamadrid-1.png" /></center>
